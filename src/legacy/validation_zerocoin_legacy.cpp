@@ -5,8 +5,8 @@
 
 #include "libzerocoin/CoinSpend.h"
 #include "wallet/wallet.h"
-#include "zpivchain.h"
-#include "zpiv/zpivmodule.h"
+#include "zomegachain.h"
+#include "zomega/zomegamodule.h"
 
 bool DisconnectZerocoinTx(const CTransaction& tx, CZerocoinDB* zerocoinDB)
 {

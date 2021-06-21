@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zpiv/zpivmodule.h"
+#include "zomega/zomegamodule.h"
 
 #include "hash.h"
 #include "libzerocoin/Commitment.h"
 #include "libzerocoin/Coin.h"
 #include "validation.h"
-#include "zpivchain.h"
+#include "zomegachain.h"
 
 template <typename Stream>
 PublicCoinSpend::PublicCoinSpend(libzerocoin::ZerocoinParams* params, Stream& strm): pubCoin(params) {
@@ -154,7 +154,7 @@ namespace ZPIVModule {
         }
         if (!ZPIVModule::parseCoinSpend(txIn, tx, prevOut, publicSpend)) {
             return state.Invalid(error("%s: invalid public coin spend parse %s\n", __func__,
-                                       tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zpiv");
+                                       tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zomega");
         }
         return true;
     }

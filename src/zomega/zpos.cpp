@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zpiv/zpos.h"
+#include "zomega/zpos.h"
 
 #include "validation.h"
-#include "zpivchain.h"
+#include "zomegachain.h"
 
 
 /*
@@ -36,7 +36,7 @@ bool CLegacyZPivStake::InitFromTxIn(const CTxIn& txin)
 
     // Find the pindex with the accumulator checksum
     if (!GetIndexFrom())
-        return error("%s : Failed to find the block index for zpiv stake origin", __func__);
+        return error("%s : Failed to find the block index for zomega stake origin", __func__);
 
     // All good
     return true;

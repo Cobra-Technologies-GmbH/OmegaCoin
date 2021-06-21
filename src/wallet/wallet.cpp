@@ -21,7 +21,7 @@
 #include "util/system.h"
 #include "utilmoneystr.h"
 #include "wallet/fees.h"
-#include "zpivchain.h"
+#include "zomegachain.h"
 
 #include  <init.h>    // for StartShutdown/ShutdownRequested
 

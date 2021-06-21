@@ -15,7 +15,7 @@
 #include "upgrades.h"            // for IsActivationHeight
 #include "utilmoneystr.h"        // for FormatMoney
 #include "../validation.h"
-#include "zpiv/zpivmodule.h"
+#include "zomega/zomegamodule.h"
 
 
 static bool CheckZerocoinSpend(const CTransactionRef _tx, CValidationState& state)

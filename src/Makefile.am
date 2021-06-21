@@ -301,10 +301,10 @@ BITCOIN_CORE_H = \
   wallet/wallet.h \
   wallet/walletdb.h \
   warnings.h \
-  zpivchain.h \
-  zpiv/mintpool.h \
-  zpiv/zerocoin.h \
-  zpiv/zpos.h \
+  zomegachain.h \
+  zomega/mintpool.h \
+  zomega/zerocoin.h \
+  zomega/zpos.h \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
@@ -370,7 +370,7 @@ libbitcoin_server_a_SOURCES = \
   txmempool.cpp \
   validation.cpp \
   validationinterface.cpp \
-  zpivchain.cpp \
+  zomegachain.cpp \
   $(BITCOIN_CORE_H) \
   $(LIBSAPLING_H)
 
@@ -405,10 +405,10 @@ libbitcoin_wallet_a_SOURCES = \
   destination_io.cpp \
   wallet/wallet.cpp \
   wallet/walletdb.cpp \
-  zpiv/zerocoin.cpp \
-  zpiv/mintpool.cpp \
+  zomega/zerocoin.cpp \
+  zomega/mintpool.cpp \
   stakeinput.cpp \
-  zpiv/zpos.cpp \
+  zomega/zpos.cpp \
   $(BITCOIN_CORE_H) \
   $(LIBSAPLING_H)
 
@@ -466,7 +466,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.h \
   libzerocoin/SpendType.h \
   libzerocoin/ZerocoinDefines.h \
-  zpiv/zpivmodule.h \
+  zomega/zomegamodule.h \
   libzerocoin/bignum.cpp \
   libzerocoin/Coin.cpp \
   libzerocoin/CoinRandomnessSchnorrSignature.cpp \
@@ -474,7 +474,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Denominations.cpp \
   libzerocoin/ParamGeneration.cpp \
   libzerocoin/Params.cpp \
-  zpiv/zpivmodule.cpp
+  zomega/zomegamodule.cpp
 
 # common: shared between omegacoind, and omegacoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
@@ -496,7 +496,7 @@ libbitcoin_common_a_SOURCES = \
   consensus/merkle.cpp \
   primitives/block.cpp \
   primitives/transaction.cpp \
-  zpiv/zerocoin.cpp \
+  zomega/zerocoin.cpp \
   core_read.cpp \
   core_write.cpp \
   hash.cpp \
@@ -729,7 +729,7 @@ CLEANFILES += util/*.gcda util/*.gcno
 CLEANFILES += wallet/*.gcda wallet/*.gcno
 CLEANFILES += wallet/test/*.gcda wallet/test/*.gcno
 CLEANFILES += zmq/*.gcda zmq/*.gcno
-CLEANFILES += zpiv/*.gcda zpiv/*.gcno
+CLEANFILES += zomega/*.gcda zomega/*.gcno
 CLEANFILES += obj/build.h
 
 CTAES_DIST =  crypto/ctaes/bench.c

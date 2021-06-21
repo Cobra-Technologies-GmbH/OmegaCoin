@@ -684,11 +684,11 @@ The table below details RPC commands that have now been fully removed. These com
 | `exportzerocoins` | Export zerocoin mints that are held in the wallet DB | Zerocoin deprecation |
 | `importzerocoins` | Import zerocoin mints | Zerocoin deprecation |
 | `reconsiderzerocoins` | Check archived zPIVs to see if any mints were added to the chain | Zerocoin deprecation |
-| `setzpivseed` | Set the wallet's deterministic zPIV seed to a specific value | Zerocoin deprecation |
-| `getzpivseed` | Return the current deterministic zPIV seed | Zerocoin deprecation |
+| `setzomegaseed` | Set the wallet's deterministic zPIV seed to a specific value | Zerocoin deprecation |
+| `getzomegaseed` | Return the current deterministic zPIV seed | Zerocoin deprecation |
 | `generatemintlist` | Show mints that are derived from the deterministic zPIV seed | Zerocoin deprecation |
-| `dzpivstate` | Show the current state of the mintpool of the wallet | Zerocoin deprecation |
-| `searchdzpiv` | Do a search for deterministically generated zPIV that have not yet added to the wallet | Zerocoin deprecation |
+| `dzomegastate` | Show the current state of the mintpool of the wallet | Zerocoin deprecation |
+| `searchdzomega` | Do a search for deterministically generated zPIV that have not yet added to the wallet | Zerocoin deprecation |
 | `spendrawzerocoin` | Create and broadcast a TX spending the provided zericoin | Zerocoin deprecation |
 
 

@@ -379,11 +379,11 @@ RES_ICONS = \
   qt/pivx/res/img/ic-receive-off.svg \
   qt/pivx/res/img/img-empty-staking-on.svg \
   qt/pivx/res/img/ic-arrow-drop-up-white.svg \
-  qt/pivx/res/img/ic-coin-zpiv.png \
+  qt/pivx/res/img/ic-coin-zomega.png \
   qt/pivx/res/img/ic-receive-on.svg \
   qt/pivx/res/img/img-empty-transactions.svg \
   qt/pivx/res/img/ic-arrow-drop-up.svg \
-  qt/pivx/res/img/ic-coin-zpiv.svg \
+  qt/pivx/res/img/ic-coin-zomega.svg \
   qt/pivx/res/img/ic-received.svg \
   qt/pivx/res/img/img-logo-pivx.png \
   qt/pivx/res/img/ic-arrow-drop-white-down.svg \

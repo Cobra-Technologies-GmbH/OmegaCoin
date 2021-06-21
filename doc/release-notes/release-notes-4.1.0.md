@@ -147,9 +147,9 @@ Functional Changes
 ### zPIV Backup Removed
 
 Automatic zPIV backup has been disabled. Thus, the following configuration options have been removed  (either as entries in the pivx.conf file or as startup flags):
-- `autozpivbackup`
-- `backupzpiv`
-- `zpivbackuppath`
+- `autozomegabackup`
+- `backupzomega`
+- `zomegabackuppath`
 
 ### Stake-Split threshold
 
@@ -177,7 +177,7 @@ RPC Changes
 
 - "CoinStake" JSON object in `getblock` output is removed, and replaced with the strings "stakeModifier" and "hashProofOfStake"
 - "obfcompat" JSON field in `getmasternodecount` output is removed as it is/was redundant with the `enabled` field.
-- "moneysupply" and "zpivSupply" attributes in `getblock` output are removed.
+- "moneysupply" and "zomegaSupply" attributes in `getblock` output are removed.
 - "isPublicSpend" boolean (optional) input parameter is removed from the following commands:
   - `createrawzerocoinspend`
   - `spendzerocoin`
@@ -344,7 +344,7 @@ Detailed release notes follow. For convenience in locating the code changes and 
  - #1356 `d6298c5fa0` [Wallet][GUI] Set default stake-split threshold to 500 (random-zebra)
  - #1369 `bb9b762bb1` [Wallet] Fix staking balance calculation (random-zebra)
  - #1373 `5d004d514c` [Wallet] Remove reserve balance (random-zebra)
- - #1382 `df2db0d5c6` [Wallet] Don't initialize zpivwallet on first run (Fuzzbawls)
+ - #1382 `df2db0d5c6` [Wallet] Don't initialize zomegawallet on first run (Fuzzbawls)
  - #1401 `e1585f7609` [Wallet][Bug] Fix ScriptPubKeyMan::CanGetAddresses (random-zebra)
  - #1411 `3c34c34fd1` [Wallet][Bug] Fix ScriptPubKeyMan::CanGenerateKeys (random-zebra)
  - #1458 `8d8050fa6d` [Wallet][Bug] Fix min depth requirement for stake inputs in AvailableCoins (random-zebra)

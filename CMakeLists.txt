@@ -225,7 +225,7 @@ set(SERVER_SOURCES
         ./src/txmempool.cpp
         ./src/validation.cpp
         ./src/validationinterface.cpp
-        ./src/zpivchain.cpp
+        ./src/zomegachain.cpp
         )
 add_library(SERVER_A STATIC ${BitcoinHeaders} ${SERVER_SOURCES})
 if(MINIUPNP_FOUND)
@@ -255,10 +255,10 @@ set(WALLET_SOURCES
         ./src/wallet/db.cpp
         ./src/addressbook.cpp
         ./src/crypter.cpp
-        ./src/zpiv/mintpool.cpp
+        ./src/zomega/mintpool.cpp
         ./src/wallet/hdchain.cpp
         ./src/wallet/rpcdump.cpp
-        ./src/zpiv/zerocoin.cpp
+        ./src/zomega/zerocoin.cpp
         ./src/wallet/fees.cpp
         ./src/wallet/init.cpp
         ./src/wallet/scriptpubkeyman.cpp
@@ -267,8 +267,8 @@ set(WALLET_SOURCES
         ./src/legacy/stakemodifier.cpp
         ./src/wallet/wallet.cpp
         ./src/wallet/walletdb.cpp
-        ./src/zpiv/zpivmodule.cpp
-        ./src/zpiv/zpos.cpp
+        ./src/zomega/zomegamodule.cpp
+        ./src/zomega/zpos.cpp
         ./src/stakeinput.cpp
         )
 add_library(WALLET_A STATIC ${BitcoinHeaders} ${WALLET_SOURCES})
@@ -365,7 +365,7 @@ set(COMMON_SOURCES
         ./src/consensus/zerocoin_verify.cpp
         ./src/primitives/block.cpp
         ./src/primitives/transaction.cpp
-        ./src/zpiv/zerocoin.cpp
+        ./src/zomega/zerocoin.cpp
         ./src/core_read.cpp
         ./src/core_write.cpp
         ./src/hash.cpp

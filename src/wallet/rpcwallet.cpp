@@ -27,7 +27,7 @@
 #include "utilmoneystr.h"
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
-#include "zpivchain.h"
+#include "zomegachain.h"
 
 #include  <init.h>    // for StartShutdown
 
