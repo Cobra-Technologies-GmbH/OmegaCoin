@@ -68,6 +68,7 @@ share/qt/Info.plist
 contrib/devtools/split-debug.sh
 
 src/univalue/gen
+!src/univalue/gen/gen.cpp
 
 src/qt/*.moc
 src/qt/moc_*.cpp
@@ -96,11 +97,13 @@ src/qt/test/moc*.cpp
 *.dmg
 
 *.json.h
+!src/invalid_outpoints.json.h
 *.raw.h
 
 # Only ignore unexpected patches
 *.patch
 !depends/patches/**/*.patch
+!build-aux/snap/local/patches/**/*.patch
 
 #libtool object files
 *.lo
@@ -109,6 +112,7 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
+!depends/Makefile
 pivx-qt
 PIVX-Qt.app
 background.tiff*
@@ -160,7 +164,6 @@ cache/*
 /nbproject/
 libbitcoinconsensus.pc
 .idea
-CMakeLists.txt
 cmake-build-debug
 
 moc_*
