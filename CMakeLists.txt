@@ -92,7 +92,7 @@ else()
 endif()
 
 # run configure if pivx_config.h doesn't exist
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/pivx-config.h")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/omegacoin-config.h")
 else()
     execute_process(
         COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure ${CONFIGSITE} ${BDB_CONFIGURE_FLAGS} ${BIGNUM_CONFIGURE_FLAGS}
@@ -101,7 +101,7 @@ else()
 endif()
 
 # error out if configure fails
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/pivx-config.h")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/config/omegacoin-config.h")
 else()
     execute_process(COMMAND cat config.log WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
     message(FATAL_ERROR "configure script didn't finish properly see config.log output above")
