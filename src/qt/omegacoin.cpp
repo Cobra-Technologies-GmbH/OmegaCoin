@@ -242,7 +242,7 @@ private:
     void startThread();
 };
 
-#include "pivx.moc"
+#include "omegacoin.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
