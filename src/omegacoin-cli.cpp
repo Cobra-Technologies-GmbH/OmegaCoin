@@ -43,7 +43,7 @@ std::string HelpMessageCli()
     strUsage += HelpMessageOpt("-rpcuser=<user>", _("Username for JSON-RPC connections"));
     strUsage += HelpMessageOpt("-rpcpassword=<pw>", _("Password for JSON-RPC connections"));
     strUsage += HelpMessageOpt("-rpcclienttimeout=<n>", strprintf(_("Timeout in seconds during HTTP requests, or 0 for no timeout. (default: %d)"), DEFAULT_HTTP_CLIENT_TIMEOUT));
-    strUsage += HelpMessageOpt("-rpcwallet=<walletname>", _("Send RPC for non-default wallet on RPC server (argument is wallet filename in pivxd directory, required if pivxd/-Qt runs with multiple wallets)"));
+    strUsage += HelpMessageOpt("-rpcwallet=<walletname>", _("Send RPC for non-default wallet on RPC server (argument is wallet filename in omegacoind directory, required if omegacoind/-Qt runs with multiple wallets)"));
 
     return strUsage;
 }
@@ -75,10 +75,10 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("PIVX Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!gArgs.IsArgSet("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  pivx-cli [options] <command> [params]  " + _("Send command to PIVX Core") + "\n" +
-                        "  pivx-cli [options] -named <command> [name=value] ... " + _("Send command to PIVX Core (with named arguments)") + "\n" +
-                        "  pivx-cli [options] help                " + _("List commands") + "\n" +
-                        "  pivx-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  omegacoin-cli [options] <command> [params]  " + _("Send command to PIVX Core") + "\n" +
+                        "  omegacoin-cli [options] -named <command> [name=value] ... " + _("Send command to PIVX Core (with named arguments)") + "\n" +
+                        "  omegacoin-cli [options] help                " + _("List commands") + "\n" +
+                        "  omegacoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }
@@ -285,7 +285,7 @@ int CommandLineRPC(int argc, char* argv[])
                             strPrint += "error message:\n"+errMsg.get_str();
 
                         if (errCode.isNum() && errCode.get_int() == RPC_WALLET_NOT_SPECIFIED) {
-                            strPrint += "\nTry adding \"-rpcwallet=<filename>\" option to pivx-cli command line.";
+                            strPrint += "\nTry adding \"-rpcwallet=<filename>\" option to omegacoin-cli command line.";
                         }
                     }
                 } else {

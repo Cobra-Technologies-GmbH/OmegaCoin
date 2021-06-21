@@ -84,7 +84,7 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-PIVX Core is now available at `./src/pivxd`
+PIVX Core is now available at `./src/omegacoind`
 
 Before running, you may create an empty configuration file:
 
@@ -94,7 +94,7 @@ Before running, you may create an empty configuration file:
 
     chmod 600 "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
 
-The first time you run pivxd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run omegacoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -103,9 +103,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/pivxd -daemon # Starts the pivx daemon.
-    ./src/pivx-cli --help # Outputs a list of command-line options.
-    ./src/pivx-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/omegacoind -daemon # Starts the pivx daemon.
+    ./src/omegacoin-cli --help # Outputs a list of command-line options.
+    ./src/omegacoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

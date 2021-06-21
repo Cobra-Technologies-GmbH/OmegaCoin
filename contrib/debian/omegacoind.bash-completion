@@ -1,2 +1,2 @@
-contrib/pivxd.bash-completion	pivxd
-contrib/pivx-cli.bash-completion pivx-cli
+contrib/omegacoind.bash-completion	omegacoind
+contrib/omegacoin-cli.bash-completion omegacoin-cli

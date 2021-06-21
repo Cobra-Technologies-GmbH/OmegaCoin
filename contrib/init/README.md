@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
-macOS:    org.pivx.pivxd.plist
+SystemD: omegacoind.service
+Upstart: omegacoind.conf
+OpenRC:  omegacoind.openrc
+         omegacoind.openrcconf
+CentOS:  omegacoind.init
+macOS:    org.pivx.omegacoind.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

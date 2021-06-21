@@ -12,12 +12,12 @@ Description=PIVX daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/pivxd -daemon -conf=/etc/pivx/pivx.conf -pid=/run/pivxd/pivxd.pid
-# Creates /run/pivxd owned by pivx
-RuntimeDirectory=pivxd
+ExecStart=/usr/bin/omegacoind -daemon -conf=/etc/pivx/pivx.conf -pid=/run/omegacoind/omegacoind.pid
+# Creates /run/omegacoind owned by pivx
+RuntimeDirectory=omegacoind
 User=pivx
 Type=forking
-PIDFile=/run/pivxd/pivxd.pid
+PIDFile=/run/omegacoind/omegacoind.pid
 Restart=on-failure
 
 # Hardening measures
