@@ -8,7 +8,7 @@ RAW_TEST_FILES = \
 GENERATED_TEST_FILES = $(RAW_TEST_FILES:.raw=.raw.h)
 
 bench_bench_pivx_SOURCES = \
-  bench/bench_pivx.cpp \
+  bench/bench_omegacoin.cpp \
   bench/bench.cpp \
   bench/bench.h \
   bench/Examples.cpp \
