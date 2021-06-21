@@ -6,7 +6,7 @@
 
 #include "net.h"    // validateMasternodeIP
 #include "netbase.h"
-#include "test/test_pivx.h"
+#include "test/test_omegacoin.h"
 
 #include <string>
 

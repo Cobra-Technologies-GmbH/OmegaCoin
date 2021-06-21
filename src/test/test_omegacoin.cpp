@@ -5,7 +5,7 @@
 
 #define BOOST_TEST_MODULE Pivx Test Suite
 
-#include "test/test_pivx.h"
+#include "test/test_omegacoin.h"
 
 #include "blockassembler.h"
 #include "guiinterface.h"

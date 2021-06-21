@@ -71,7 +71,7 @@ FUZZ_SUITE = \
 # test_pivx binary #
 BITCOIN_TEST_SUITE = \
   test/test_pivx.h \
-  test/test_pivx.cpp \
+  test/test_omegacoin.cpp \
   test/librust/json_test_vectors.h \
   test/librust/sapling_test_fixture.h \
   test/librust/sapling_test_fixture.cpp \

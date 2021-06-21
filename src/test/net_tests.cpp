@@ -11,7 +11,7 @@
 #include "streams.h"
 #include "util/memory.h"
 
-#include "test/test_pivx.h"
+#include "test/test_omegacoin.h"
 
 #include <string>
 
