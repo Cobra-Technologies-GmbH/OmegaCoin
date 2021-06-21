@@ -14,17 +14,17 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/pivx/navmenuwidget.h"
-#include "qt/pivx/topbar.h"
-#include "qt/pivx/dashboardwidget.h"
-#include "qt/pivx/send.h"
-#include "qt/pivx/receivewidget.h"
-#include "qt/pivx/addresseswidget.h"
-#include "qt/pivx/coldstakingwidget.h"
-#include "qt/pivx/masternodeswidget.h"
-#include "qt/pivx/snackbar.h"
-#include "qt/pivx/settings/settingswidget.h"
-#include "qt/pivx/settings/settingsfaqwidget.h"
+#include "qt/omegacoin/navmenuwidget.h"
+#include "qt/omegacoin/topbar.h"
+#include "qt/omegacoin/dashboardwidget.h"
+#include "qt/omegacoin/send.h"
+#include "qt/omegacoin/receivewidget.h"
+#include "qt/omegacoin/addresseswidget.h"
+#include "qt/omegacoin/coldstakingwidget.h"
+#include "qt/omegacoin/masternodeswidget.h"
+#include "qt/omegacoin/snackbar.h"
+#include "qt/omegacoin/settings/settingswidget.h"
+#include "qt/omegacoin/settings/settingsfaqwidget.h"
 #include "qt/rpcconsole.h"
 
 namespace interfaces {

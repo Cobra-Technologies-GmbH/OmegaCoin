@@ -14,7 +14,7 @@
 #include "init.h"
 #include "intro.h"
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/qtutils.h"
 #include "util/system.h"
 
 #include <stdio.h>

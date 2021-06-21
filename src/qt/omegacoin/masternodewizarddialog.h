@@ -6,10 +6,10 @@
 #define MASTERNODEWIZARDDIALOG_H
 
 #include "walletmodel.h"
-#include "qt/pivx/focuseddialog.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/omegacoin/focuseddialog.h"
+#include "qt/omegacoin/snackbar.h"
 #include "masternodeconfig.h"
-#include "qt/pivx/pwidget.h"
+#include "qt/omegacoin/pwidget.h"
 
 class WalletModel;
 

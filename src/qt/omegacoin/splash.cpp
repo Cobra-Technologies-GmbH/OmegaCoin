@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/splash.h"
-#include "qt/pivx/forms/ui_splash.h"
+#include "qt/omegacoin/splash.h"
+#include "qt/omegacoin/forms/ui_splash.h"
 #include "QFile"
 
 #include "interfaces/handler.h"

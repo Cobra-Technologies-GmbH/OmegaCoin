@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/snackbar.h"
-#include "qt/pivx/forms/ui_snackbar.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/snackbar.h"
+#include "qt/omegacoin/forms/ui_snackbar.h"
+#include "qt/omegacoin/qtutils.h"
 #include <QTimer>
 
 

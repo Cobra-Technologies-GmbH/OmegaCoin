@@ -2,13 +2,13 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/masternodeswidget.h"
-#include "qt/pivx/forms/ui_masternodeswidget.h"
+#include "qt/omegacoin/masternodeswidget.h"
+#include "qt/omegacoin/forms/ui_masternodeswidget.h"
 
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/mnrow.h"
-#include "qt/pivx/mninfodialog.h"
-#include "qt/pivx/masternodewizarddialog.h"
+#include "qt/omegacoin/qtutils.h"
+#include "qt/omegacoin/mnrow.h"
+#include "qt/omegacoin/mninfodialog.h"
+#include "qt/omegacoin/masternodewizarddialog.h"
 
 #include "activemasternode.h"
 #include "clientmodel.h"
@@ -22,7 +22,7 @@
 #include "wallet/wallet.h"
 #include "askpassphrasedialog.h"
 #include "util/system.h"
-#include "qt/pivx/optionbutton.h"
+#include "qt/omegacoin/optionbutton.h"
 #include <iostream>
 #include <fstream>
 

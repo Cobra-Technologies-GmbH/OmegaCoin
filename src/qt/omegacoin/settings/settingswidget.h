@@ -6,17 +6,17 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/settings/settingsbackupwallet.h"
-#include "qt/pivx/settings/settingsexportcsv.h"
-#include "qt/pivx/settings/settingsbittoolwidget.h"
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
-#include "qt/pivx/settings/settingswalletrepairwidget.h"
-#include "qt/pivx/settings/settingswalletoptionswidget.h"
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivx/settings/settingsinformationwidget.h"
-#include "qt/pivx/settings/settingsconsolewidget.h"
+#include "qt/omegacoin/pwidget.h"
+#include "qt/omegacoin/settings/settingsbackupwallet.h"
+#include "qt/omegacoin/settings/settingsexportcsv.h"
+#include "qt/omegacoin/settings/settingsbittoolwidget.h"
+#include "qt/omegacoin/settings/settingssignmessagewidgets.h"
+#include "qt/omegacoin/settings/settingswalletrepairwidget.h"
+#include "qt/omegacoin/settings/settingswalletoptionswidget.h"
+#include "qt/omegacoin/settings/settingsmainoptionswidget.h"
+#include "qt/omegacoin/settings/settingsdisplayoptionswidget.h"
+#include "qt/omegacoin/settings/settingsinformationwidget.h"
+#include "qt/omegacoin/settings/settingsconsolewidget.h"
 
 class PIVXGUI;
 

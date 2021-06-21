@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/addnewcontactdialog.h"
-#include "qt/pivx/forms/ui_addnewcontactdialog.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/addnewcontactdialog.h"
+#include "qt/omegacoin/forms/ui_addnewcontactdialog.h"
+#include "qt/omegacoin/qtutils.h"
 
 AddNewContactDialog::AddNewContactDialog(QWidget *parent) :
     FocusedDialog(parent),

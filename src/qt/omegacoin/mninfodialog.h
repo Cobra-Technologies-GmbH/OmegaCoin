@@ -5,8 +5,8 @@
 #ifndef MNINFODIALOG_H
 #define MNINFODIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/omegacoin/focuseddialog.h"
+#include "qt/omegacoin/snackbar.h"
 
 class WalletModel;
 

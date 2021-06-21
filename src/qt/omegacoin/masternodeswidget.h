@@ -5,10 +5,10 @@
 #ifndef MASTERNODESWIDGET_H
 #define MASTERNODESWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/tooltipmenu.h"
+#include "qt/omegacoin/pwidget.h"
+#include "qt/omegacoin/furabstractlistitemdelegate.h"
+#include "qt/omegacoin/mnmodel.h"
+#include "qt/omegacoin/tooltipmenu.h"
 #include "walletmodel.h"
 
 #include <atomic>

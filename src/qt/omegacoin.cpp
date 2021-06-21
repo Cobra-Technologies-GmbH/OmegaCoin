@@ -8,7 +8,7 @@
 #include "config/omegacoin-config.h"
 #endif
 
-#include "qt/pivx/pivxgui.h"
+#include "qt/omegacoin/omegacoingui.h"
 
 #include "clientmodel.h"
 #include "guiconstants.h"
@@ -17,8 +17,8 @@
 #include "net.h"
 #include "networkstyle.h"
 #include "optionsmodel.h"
-#include "qt/pivx/splash.h"
-#include "qt/pivx/welcomecontentwidget.h"
+#include "qt/omegacoin/splash.h"
+#include "qt/omegacoin/welcomecontentwidget.h"
 #include "utilitydialog.h"
 #include "winshutdownmonitor.h"
 

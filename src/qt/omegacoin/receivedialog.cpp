@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/receivedialog.h"
-#include "qt/pivx/forms/ui_receivedialog.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/receivedialog.h"
+#include "qt/omegacoin/forms/ui_receivedialog.h"
+#include "qt/omegacoin/qtutils.h"
 #include "walletmodel.h"
 #include <QFile>
 

@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/masternodewizarddialog.h"
-#include "qt/pivx/forms/ui_masternodewizarddialog.h"
+#include "qt/omegacoin/masternodewizarddialog.h"
+#include "qt/omegacoin/forms/ui_masternodewizarddialog.h"
 
 #include "activemasternode.h"
 #include "optionsmodel.h"
 #include "pairresult.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/guitransactionsutils.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/mnmodel.h"
+#include "qt/omegacoin/guitransactionsutils.h"
+#include "qt/omegacoin/qtutils.h"
 #include "qt/walletmodeltransaction.h"
 
 #include <QFile>

@@ -5,11 +5,11 @@
 #ifndef DASHBOARDWIDGET_H
 #define DASHBOARDWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/furlistrow.h"
+#include "qt/omegacoin/pwidget.h"
+#include "qt/omegacoin/furabstractlistitemdelegate.h"
+#include "qt/omegacoin/furlistrow.h"
 #include "transactiontablemodel.h"
-#include "qt/pivx/txviewholder.h"
+#include "qt/omegacoin/txviewholder.h"
 #include "transactionfilterproxy.h"
 
 #include <atomic>

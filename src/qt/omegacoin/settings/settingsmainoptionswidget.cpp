@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/forms/ui_settingsmainoptionswidget.h"
+#include "qt/omegacoin/settings/settingsmainoptionswidget.h"
+#include "qt/omegacoin/settings/forms/ui_settingsmainoptionswidget.h"
 #include "QListView"
 
 #if defined(HAVE_CONFIG_H)
@@ -14,7 +14,7 @@
 #include "guiutil.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/qtutils.h"
 
 #include "netbase.h"
 #include "txdb.h" // for -dbcache defaults

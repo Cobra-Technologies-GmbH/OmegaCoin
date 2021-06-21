@@ -2,22 +2,22 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/coldstakingwidget.h"
-#include "qt/pivx/forms/ui_coldstakingwidget.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/coldstakingwidget.h"
+#include "qt/omegacoin/forms/ui_coldstakingwidget.h"
+#include "qt/omegacoin/qtutils.h"
 #include "amount.h"
 #include "guiutil.h"
-#include "qt/pivx/requestdialog.h"
-#include "qt/pivx/tooltipmenu.h"
-#include "qt/pivx/furlistrow.h"
-#include "qt/pivx/sendconfirmdialog.h"
-#include "qt/pivx/addnewcontactdialog.h"
-#include "qt/pivx/guitransactionsutils.h"
+#include "qt/omegacoin/requestdialog.h"
+#include "qt/omegacoin/tooltipmenu.h"
+#include "qt/omegacoin/furlistrow.h"
+#include "qt/omegacoin/sendconfirmdialog.h"
+#include "qt/omegacoin/addnewcontactdialog.h"
+#include "qt/omegacoin/guitransactionsutils.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "coincontroldialog.h"
 #include "coincontrol.h"
-#include "qt/pivx/csrow.h"
+#include "qt/omegacoin/csrow.h"
 
 #define DECORATION_SIZE 70
 #define NUM_ITEMS 3

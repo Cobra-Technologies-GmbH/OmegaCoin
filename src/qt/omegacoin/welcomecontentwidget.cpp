@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/welcomecontentwidget.h"
-#include "qt/pivx/forms/ui_welcomecontentwidget.h"
+#include "qt/omegacoin/welcomecontentwidget.h"
+#include "qt/omegacoin/forms/ui_welcomecontentwidget.h"
 
 #include "guiutil.h"
 

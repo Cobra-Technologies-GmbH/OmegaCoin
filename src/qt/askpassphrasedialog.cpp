@@ -11,10 +11,10 @@
 #include "guiconstants.h"
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/loadingdialog.h"
-#include "qt/pivx/defaultdialog.h"
-#include "qt/pivx/pivxgui.h"
+#include "qt/omegacoin/qtutils.h"
+#include "qt/omegacoin/loadingdialog.h"
+#include "qt/omegacoin/defaultdialog.h"
+#include "qt/omegacoin/omegacoingui.h"
 #include <QDebug>
 
 #include <QKeyEvent>

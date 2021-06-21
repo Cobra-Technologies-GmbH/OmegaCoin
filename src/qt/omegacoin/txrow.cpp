@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/txrow.h"
-#include "qt/pivx/forms/ui_txrow.h"
+#include "qt/omegacoin/txrow.h"
+#include "qt/omegacoin/forms/ui_txrow.h"
 
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/qtutils.h"
 
 TxRow::TxRow(QWidget *parent) :
     QWidget(parent),

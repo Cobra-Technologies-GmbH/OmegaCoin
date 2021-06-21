@@ -2,16 +2,16 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/addresseswidget.h"
-#include "qt/pivx/forms/ui_addresseswidget.h"
-#include "qt/pivx/addresslabelrow.h"
-#include "qt/pivx/addnewaddressdialog.h"
-#include "qt/pivx/tooltipmenu.h"
+#include "qt/omegacoin/addresseswidget.h"
+#include "qt/omegacoin/forms/ui_addresseswidget.h"
+#include "qt/omegacoin/addresslabelrow.h"
+#include "qt/omegacoin/addnewaddressdialog.h"
+#include "qt/omegacoin/tooltipmenu.h"
 
-#include "qt/pivx/addnewcontactdialog.h"
-#include "qt/pivx/pivxgui.h"
+#include "qt/omegacoin/addnewcontactdialog.h"
+#include "qt/omegacoin/omegacoingui.h"
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/omegacoin/qtutils.h"
 #include "walletmodel.h"
 
 #include <QModelIndex>

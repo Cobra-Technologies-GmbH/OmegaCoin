@@ -2,16 +2,16 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/topbar.h"
-#include "qt/pivx/forms/ui_topbar.h"
-#include "qt/pivx/lockunlock.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/receivedialog.h"
-#include "qt/pivx/loadingdialog.h"
+#include "qt/omegacoin/topbar.h"
+#include "qt/omegacoin/forms/ui_topbar.h"
+#include "qt/omegacoin/lockunlock.h"
+#include "qt/omegacoin/qtutils.h"
+#include "qt/omegacoin/receivedialog.h"
+#include "qt/omegacoin/loadingdialog.h"
 #include "askpassphrasedialog.h"
 
 #include "bitcoinunits.h"
-#include "qt/pivx/balancebubble.h"
+#include "qt/omegacoin/balancebubble.h"
 #include "clientmodel.h"
 #include "qt/guiutil.h"
 #include "optionsmodel.h"

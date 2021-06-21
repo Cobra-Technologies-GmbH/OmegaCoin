@@ -7,7 +7,7 @@
 
 #include <QWidget>
 #include <QDataWidgetMapper>
-#include "qt/pivx/pwidget.h"
+#include "qt/omegacoin/pwidget.h"
 
 namespace Ui {
 class SettingsDisplayOptionsWidget;
