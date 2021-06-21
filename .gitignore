@@ -1,4 +1,3 @@
-.gitignore
 *.sublime-project
 *.sublime-workspace
 todo.txt
@@ -167,7 +166,7 @@ cmake-build-debug
 moc_*
 *.tmp
 ui_*
-build*
 pivxd.*
 pivxd-new-gui.*
 /cov-int/
+null.d
