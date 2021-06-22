@@ -6,11 +6,11 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/pivx
+src/omegacoin
 src/omegacoind
 src/omegacoin-cli
 src/omegacoin-tx
-src/bench/bench_pivx
+src/bench/bench_omegacoin
 src/test/test_omegacoin
 src/test/test_omegacoin_fuzzy
 src/qt/test/test_omegacoin-qt
@@ -87,7 +87,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.pivx
+.omegacoin
 *.a
 *.pb.cc
 *.pb.h
@@ -114,7 +114,7 @@ src/qt/test/moc*.cpp
 Makefile
 !depends/Makefile
 omegacoin-qt
-PIVX-Qt.app
+OMEGACOIN-Qt.app
 background.tiff*
 
 # Rust
