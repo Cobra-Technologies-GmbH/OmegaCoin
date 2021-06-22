@@ -72,11 +72,11 @@ static bool AppInitRPC(int argc, char* argv[])
     //
     gArgs.ParseParameters(argc, argv);
     if (argc < 2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help") || gArgs.IsArgSet("-version")) {
-        std::string strUsage = _("PIVX Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("OMEGACOIN Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!gArgs.IsArgSet("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  omegacoin-cli [options] <command> [params]  " + _("Send command to PIVX Core") + "\n" +
-                        "  omegacoin-cli [options] -named <command> [name=value] ... " + _("Send command to PIVX Core (with named arguments)") + "\n" +
+                        "  omegacoin-cli [options] <command> [params]  " + _("Send command to OMEGACOIN Core") + "\n" +
+                        "  omegacoin-cli [options] -named <command> [name=value] ... " + _("Send command to OMEGACOIN Core (with named arguments)") + "\n" +
                         "  omegacoin-cli [options] help                " + _("List commands") + "\n" +
                         "  omegacoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

@@ -43,10 +43,10 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build PIVX Core
+Build OMEGACOIN Core
 ------------------------
 
-1. Clone the PIVX Core source code:
+1. Clone the OMEGACOIN Core source code:
 
         git clone https://github.com/pivx-project/pivx
         cd pivx
@@ -56,7 +56,7 @@ Build PIVX Core
         export LDFLAGS+=-L/usr/local/opt/openssl/lib
         export CPPFLAGS+=-I/usr/local/opt/openssl/include
 
-3.  Build PIVX Core:
+3.  Build OMEGACOIN Core:
 
         ./autogen.sh
         ./configure
@@ -74,7 +74,7 @@ Disable-wallet mode
 --------------------
 **Note:** This functionality is not yet completely implemented, and compilation using the below option will currently fail.
 
-When the intention is to run only a P2P node without a wallet, PIVX Core may be compiled in
+When the intention is to run only a P2P node without a wallet, OMEGACOIN Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -84,7 +84,7 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-PIVX Core is now available at `./src/omegacoind`
+OMEGACOIN Core is now available at `./src/omegacoind`
 
 Before running, you may create an empty configuration file:
 

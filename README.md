@@ -1,4 +1,4 @@
-PIVX Core integration/staging repository
+OMEGACOIN Core integration/staging repository
 =====================================
 
 [![master Actions Status](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/workflows/CI%20Actions%20for%20PIVX/badge.svg)](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/actions)
@@ -22,11 +22,11 @@ PIVX is an open source community-driven cryptocurrency, focused on five main asp
 A lot more information and specs at [PIVX.org](https://www.pivx.org/). Join the community at [PIVX Discord](https://discordapp.com/invite/jzqVsJd).
 
 ## License
-PIVX Core is released under the terms of the MIT license. See [COPYING](https://github.com/PIVX-Project/PIVX/blob/master/COPYING) for more information or see https://opensource.org/licenses/MIT.
+OMEGACOIN Core is released under the terms of the MIT license. See [COPYING](https://github.com/PIVX-Project/PIVX/blob/master/COPYING) for more information or see https://opensource.org/licenses/MIT.
 
 ## Development Process
 
-The master branch is regularly built (see doc/build-*.md for instructions) and tested, but it is not guaranteed to be completely stable. [Tags](https://github.com/PIVX-Project/PIVX/tags) are created regularly from release branches to indicate new official, stable release versions of PIVX Core.
+The master branch is regularly built (see doc/build-*.md for instructions) and tested, but it is not guaranteed to be completely stable. [Tags](https://github.com/PIVX-Project/PIVX/tags) are created regularly from release branches to indicate new official, stable release versions of OMEGACOIN Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](https://github.com/PIVX-Project/PIVX/blob/master/CONTRIBUTING.md) and useful hints for developers can be found in [doc/developer-notes.md](https://github.com/PIVX-Project/PIVX/blob/master/doc/developer-notes.md).
 
@@ -48,7 +48,7 @@ Changes should be tested by somebody other than the developer who wrote the code
 
 ## Translations
 
-Changes to translations as well as new translations can be submitted to PIVX Core's Transifex page.
+Changes to translations as well as new translations can be submitted to OMEGACOIN Core's Transifex page.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the [translation process](https://github.com/PIVX-Project/PIVX/blob/master/doc/translation_process.md) for details on how this works.
 

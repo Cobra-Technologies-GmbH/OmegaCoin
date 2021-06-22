@@ -15,7 +15,7 @@ If you are running an older version, shut it down. Wait until it has completely 
 Sapling Parameters
 ==================
 
-In order to run, PIVX Core now requires two files, `sapling-output.params` and `sapling-spend.params` (with total size ~50 MB), to be saved in a specific location.
+In order to run, OMEGACOIN Core now requires two files, `sapling-output.params` and `sapling-spend.params` (with total size ~50 MB), to be saved in a specific location.
 
 For the following packages, no action is required by the user:
 - macOS release `dmg` binaries will use the params that are bundled into the .app bundle.
@@ -34,7 +34,7 @@ PIVX Core is extensively tested on multiple operating systems using the Linux ke
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
-From PIVX Core 6.0 onwards, macOS versions earlier than 10.12 are no longer supported.
+From OMEGACOIN Core 6.0 onwards, macOS versions earlier than 10.12 are no longer supported.
 
 PIVX Core should also work on most other Unix-like systems but is not frequently tested on them.
 
@@ -69,9 +69,9 @@ Multi-wallet is enabled by using more than one `-wallet` argument when starting 
 
 PIVX Core 6.0.0 contains the following changes to the RPC interface and omegacoin-cli for multi-wallet:
 
-* When running PIVX Core with a single wallet, there are **no** changes to the RPC interface or `omegacoin-cli`. All RPC calls and `omegacoin-cli` commands continue to work as before.
-* When running PIVX Core with multi-wallet, all *node-level* RPC methods continue to work as before. HTTP RPC requests should be send to the normal `<RPC IP address>:<RPC port>` endpoint, and `omegacoin-cli` commands should be run as before. A *node-level* RPC method is any method which does not require access to the wallet.
-* When running PIVX Core with multi-wallet, *wallet-level* RPC methods must specify the wallet for which they're intended in every request. HTTP RPC requests should be send to the `<RPC IP address>:<RPC port>/wallet/<wallet name>` endpoint, for example `127.0.0.1:8332/wallet/wallet1.dat`. `omegacoin-cli` commands should be run with a `-rpcwallet` option, for example `omegacoin-cli -rpcwallet=wallet1.dat getbalance`.
+* When running OMEGACOIN Core with a single wallet, there are **no** changes to the RPC interface or `omegacoin-cli`. All RPC calls and `omegacoin-cli` commands continue to work as before.
+* When running OMEGACOIN Core with multi-wallet, all *node-level* RPC methods continue to work as before. HTTP RPC requests should be send to the normal `<RPC IP address>:<RPC port>` endpoint, and `omegacoin-cli` commands should be run as before. A *node-level* RPC method is any method which does not require access to the wallet.
+* When running OMEGACOIN Core with multi-wallet, *wallet-level* RPC methods must specify the wallet for which they're intended in every request. HTTP RPC requests should be send to the `<RPC IP address>:<RPC port>/wallet/<wallet name>` endpoint, for example `127.0.0.1:8332/wallet/wallet1.dat`. `omegacoin-cli` commands should be run with a `-rpcwallet` option, for example `omegacoin-cli -rpcwallet=wallet1.dat getbalance`.
 
 * A new *node-level* `listwallets` RPC method is added to display which wallets are currently loaded. The names returned by this method are the same as those used in the HTTP endpoint and for the `rpcwallet` argument.
 
@@ -218,7 +218,7 @@ Build system changes
 
 The minimum supported miniUPnPc API version is set to 10. This keeps compatibility with Ubuntu 16.04 LTS and Debian 8 `libminiupnpc-dev` packages. Please note, on Debian this package is still vulnerable to [CVE-2017-8798](https://security-tracker.debian.org/tracker/CVE-2017-8798) (in jessie only) and [CVE-2017-1000494](https://security-tracker.debian.org/tracker/CVE-2017-1000494) (both in jessie and in stretch).
 
-OpenSSL is no longer used by PIVX Core
+OpenSSL is no longer used by OMEGACOIN Core
 
 
 Configuration changes
