@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  omegacoind The PIVX core server.
+#  omegacoind The OMEGACOIN core server.
 #
 #
 # chkconfig: 345 80 20

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # Copyright (c) 2020 The PIVX developers
+# Copyright (c) 2021 The OMEGACOIN developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-from test_framework.test_framework import PivxTier2TestFramework
+from test_framework.test_framework import OmegacoinTier2TestFramework
 from test_framework.messages import COutPoint
 from test_framework.util import (
     assert_equal,
@@ -22,7 +23,7 @@ Test checking:
  5) Proposal and vote sync.
 """
 
-class MasternodeGovernanceBasicTest(PivxTier2TestFramework):
+class MasternodeGovernanceBasicTest(OmegacoinTier2TestFramework):
 
     def check_mns_status_legacy(self, node, txhash):
         status = node.getmasternodestatus()
@@ -132,7 +133,7 @@ class MasternodeGovernanceBasicTest(PivxTier2TestFramework):
         # Prepare the proposal
         self.log.info("preparing budget proposal..")
         firstProposalName = "super-cool"
-        firstProposalLink = "https://forum.pivx.org/t/test-proposal"
+        firstProposalLink = "https://forum.omega.eco/t/test-proposal"
         firstProposalCycles = 2
         firstProposalAddress = self.miner.getnewaddress()
         firstProposalAmountPerCycle = 300

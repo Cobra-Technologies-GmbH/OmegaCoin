@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_NETADDRESS_H
-#define PIVX_NETADDRESS_H
+#ifndef OMEGACOIN_NETADDRESS_H
+#define OMEGACOIN_NETADDRESS_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/omegacoin-config.h"
@@ -178,4 +178,4 @@ public:
     }
 };
 
-#endif // PIVX_NETADDRESS_H
+#endif // OMEGACOIN_NETADDRESS_H

@@ -19,10 +19,10 @@ from test_framework.script import (
     CScript,
     OP_TRUE,
 )
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import OmegacoinTestFramework
 from test_framework.util import assert_equal
 
-class InvalidBlockRequestTest(PivxTestFramework):
+class InvalidBlockRequestTest(OmegacoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 1
         self.setup_clean_chain = True

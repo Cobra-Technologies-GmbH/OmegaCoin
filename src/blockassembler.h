@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_BLOCKASSEMBLER_H
-#define PIVX_BLOCKASSEMBLER_H
+#ifndef OMEGACOIN_BLOCKASSEMBLER_H
+#define OMEGACOIN_BLOCKASSEMBLER_H
 
 #include "primitives/block.h"
 #include "txmempool.h"
@@ -106,4 +106,4 @@ CMutableTransaction CreateCoinbaseTx(const CScript& scriptPubKeyIn, CBlockIndex*
 // Visible for testing purposes only
 uint256 CalculateSaplingTreeRoot(CBlock* pblock, int nHeight, const CChainParams& chainparams);
 
-#endif // PIVX_BLOCKASSEMBLER_H
+#endif // OMEGACOIN_BLOCKASSEMBLER_H

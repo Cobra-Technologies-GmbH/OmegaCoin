@@ -122,12 +122,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy PIVX do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
+        <source>These are your OMEGACOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy OMEGACOIN do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy PIVX do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
+        <source>These are your OMEGACOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy OMEGACOIN do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -365,8 +365,8 @@ do stakingu</translation>
         <translation>ANULUJ</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich PIV przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
+        <source>OMEGACOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OMEGAs from being stolen by malware infecting your computer.</source>
+        <translation>OMEGACOIN zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich OMEGA przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -458,8 +458,8 @@ do stakingu</translation>
         <translation>Oszczędności</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 OMEGA</source>
+        <translation>0,00 OMEGA</translation>
     </message>
     <message>
         <source>address</source>
@@ -500,8 +500,8 @@ do stakingu</translation>
         <translation>Wybór monet</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>Wybierz adres wyjściowy PIV do wydania</translation>
+        <source>Select OMEGA Outputs to Spend</source>
+        <translation>Wybierz adres wyjściowy OMEGA do wydania</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -528,8 +528,8 @@ do stakingu</translation>
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 OMEGA</source>
+        <translation>0.00 OMEGA</translation>
     </message>
     <message>
         <source>0</source>
@@ -723,9 +723,9 @@ do stakingu</translation>
         <translation>Błąd ładowania delegacji: %1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your OMEGAs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Możesz delegować swoje PIV, używając gorącego węzła (węzeł online 24/7)
+        <translation>Możesz delegować swoje OMEGA, używając gorącego węzła (węzeł online 24/7)
 stake w Twoim imieniu, podczas gdy klucze są bezpiecznie offline.</translation>
     </message>
     <message>
@@ -733,8 +733,8 @@ stake w Twoim imieniu, podczas gdy klucze są bezpiecznie offline.</translation>
         <translation>Wpisz adres właściciela</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>Zaakceptuj delegację PIV / Deleguj PIV</translation>
+        <source>Accept OMEGA delegation / Delegate OMEGA</source>
+        <translation>Zaakceptuj delegację OMEGA / Deleguj OMEGA</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -939,8 +939,8 @@ adres</translation>
         <translation>Wyświetl historię swojego konta</translation>
     </message>
     <message>
-        <source>How to get PIV</source>
-        <translation>Jak zdobyć PIV</translation>
+        <source>How to get OMEGA</source>
+        <translation>Jak zdobyć OMEGA</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -963,8 +963,8 @@ adres</translation>
         <translation>Filtruj według</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Ilość PIV i zPIV staked.</translation>
+        <source>Amount of OMEGA and zOmega staked.</source>
+        <translation>Ilość OMEGA i zOmega staked.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1060,8 +1060,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Edytuj adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem PIVX.</translation>
+        <source>The entered address "%1" is not a valid OMEGACOIN address.</source>
+        <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem OMEGACOIN.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,8 +1184,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Ponieważ program jest uruchamiany po raz pierwszy, możesz wybrać miejsce, w którym OMEGACOIN Core będzie przechowywać swoje dane.</translation>
     </message>
     <message>
-        <source>OMEGACOIN Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>OMEGACOIN Core pobierze i zapisze kopię łańcucha bloków PIVX. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
+        <source>OMEGACOIN Core will download and store a copy of the OMEGACOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>OMEGACOIN Core pobierze i zapisze kopię łańcucha bloków OMEGACOIN. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1312,8 +1312,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Utwórz nowy kontroler Masternode</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PIVX Masternode you must dedicate 10,000 PIV (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aby utworzyć Masternode PIVX, musisz przeznaczyć 10.000 PIV (jednostkę PIVX) na sieć (jednak monety te są nadal twoje i nigdy nie zmienią swojego właściciela).&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Możesz dezaktywować węzeł i odblokować monety w dowolnym momencie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a OMEGACOIN Masternode you must dedicate 10,000 OMEGA (the unit of OMEGACOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aby utworzyć Masternode OMEGACOIN, musisz przeznaczyć 10.000 OMEGA (jednostkę OMEGACOIN) na sieć (jednak monety te są nadal twoje i nigdy nie zmienią swojego właściciela).&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Możesz dezaktywować węzeł i odblokować monety w dowolnym momencie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1332,8 +1332,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Upewnij się, że masz taką liczbę monet.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dokonana zostanie transakcja 10 000 PIV&lt;/p&gt;&lt;p&gt;na nowy pusty adres w portfelu.&lt;/p&gt;&lt;p&gt;Adres jest oznaczony pod nazwą węzła głównego.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 OMEGA will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dokonana zostanie transakcja 10 000 OMEGA&lt;/p&gt;&lt;p&gt;na nowy pusty adres w portfelu.&lt;/p&gt;&lt;p&gt;Adres jest oznaczony pod nazwą węzła głównego.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1525,7 +1525,7 @@ i głosuj na system skarbu otrzymujący okresową nagrodę.</translation>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the omegacoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1533,7 +1533,7 @@ this controller wallet (select the Masternode in the list and press "start").
 na zdalnym serwerze do twojego schowka.
 
 
-Wystarczy wkleić dane do pliku pivx.conf
+Wystarczy wkleić dane do pliku omegacoin.conf
 zdalnego serwera i uruchom go, a następnie uruchom Masternode przy użyciu
 portfela kontrolujacego (wybierz Masternode z listy i naciśnij „start”).
 </translation>
@@ -1707,8 +1707,8 @@ Jesteś pewny?</translation>
         <translation>Przetwarzane dane są za duże</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivx" prefix</source>
-        <translation>Nieprawidłowy identyfikator URI, nie zaczynający się od prefiksu „pivx”</translation>
+        <source>Invalid URI, not starting with "omegacoin" prefix</source>
+        <translation>Nieprawidłowy identyfikator URI, nie zaczynający się od prefiksu „omegacoin”</translation>
     </message>
 </context>
 <context>
@@ -1753,8 +1753,8 @@ Jesteś pewny?</translation>
         <translation>Jeśli wyłączysz wydawanie niepotwierdzonych reszt, reszta z transakcji nie może być użyta, dopóki transakcja nie uzyska co najmniej jednego potwierdzenia. Ma to również wpływ na sposób obliczania salda.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwórz port klienta PIVX na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
+        <source>Automatically open the OMEGACOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatycznie otwórz port klienta OMEGACOIN na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1773,12 +1773,12 @@ Jesteś pewny?</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Automatycznie uruchom PIVX po zalogowaniu do systemu</translation>
+        <source>Automatically start OMEGACOIN after logging in to the system.</source>
+        <translation>Automatycznie uruchom OMEGACOIN po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Uruchom PIVX podczas logowania do systemu</translation>
+        <source>&amp;Start OMEGACOIN on system login</source>
+        <translation>&amp;Uruchom OMEGACOIN podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1805,58 +1805,58 @@ Jesteś pewny?</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie PIVX</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OMEGACOIN.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie OMEGACOIN</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/omegacoin-project/omegacoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/pivx-project/pivx-project-translations </translation>
+https://www.transifex.com/omegacoin-project/omegacoin-project-translations </translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapuj port za pomocą &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Włącz automatyczny minting PIV do zPIV</translation>
+        <source>Enable automatic minting of OMEGA units to zOmega</source>
+        <translation>Włącz automatyczny minting OMEGA do zOmega</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Włącz zPIV Automint</translation>
+        <source>Enable zOmega Automint</source>
+        <translation>Włącz zOmega Automint</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Włącz automatyczne wybijanie zPIV-ów z określonych adresów</translation>
+        <source>Enable automatic zOmega minting from specific addresses</source>
+        <translation>Włącz automatyczne wybijanie zOmega-ów z określonych adresów</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Włącz adresy Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent PIV, które są automatycznie konwertowane na zPIV za pomocą protokołu Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming OMEGA which get automatically converted to zOmega via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent OMEGA, które są automatycznie konwertowane na zOmega za pomocą protokołu Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procent automint zPIV</translation>
+        <source>Percentage of autominted zOmega</source>
+        <translation>Procent automint zOmega</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość PIV dla tego nominału</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough OMEGA for this denomination is available</source>
+        <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość OMEGA dla tego nominału</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferowane nominały Automint zPIV</translation>
+        <source>Preferred Automint zOmega Denomination</source>
+        <translation>Preferowane nominały Automint zOmega</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Próg podziału stawki 'stake' :</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią PIVX poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the OMEGACOIN network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią OMEGACOIN poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2000,7 +2000,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations </translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>OMEGACOINGUI</name>
     <message>
         <source>OMEGACOIN Core</source>
         <translation>OMEGACOIN Core</translation>
@@ -2097,12 +2097,12 @@ Adres: %4
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>Nie można uruchomić pivx: click-to-pay handler</translation>
+        <source>Cannot start omegacoin: click-to-pay handler</source>
+        <translation>Nie można uruchomić omegacoin: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem PIVX lub nieprawidłowymi parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid OMEGACOIN address or malformed URI parameters.</source>
+        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem OMEGACOIN lub nieprawidłowymi parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2187,8 +2187,8 @@ Adres: %4
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>Wpisz adres PIVX (np. %1)</translation>
+        <source>Enter OMEGACOIN address (e.g. %1)</source>
+        <translation>Wpisz adres OMEGACOIN (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2231,8 +2231,8 @@ Adres: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Wystąpił błąd krytyczny. PIVX nie może już działać bezpiecznie i zakończy działanie.</translation>
+        <source>A fatal error occurred. OMEGACOIN can no longer continue safely and will quit.</source>
+        <translation>Wystąpił błąd krytyczny. OMEGACOIN nie może już działać bezpiecznie i zakończy działanie.</translation>
     </message>
     <message>
         <source>OMEGACOIN Core</source>
@@ -2446,8 +2446,8 @@ Adres: %4
         <translation>Łańcuch bloków</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania PIVX z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
+        <source>Open the OMEGACOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otwórz plik dziennika debugowania OMEGACOIN z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2590,8 +2590,8 @@ Adres: %4
         <translation>Standardowa ścieżka kopii zapasowej:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>standardowa ścieżka kopii zapasowej zPIV:</translation>
+        <source>Custom zOmega Backup Path:</source>
+        <translation>standardowa ścieżka kopii zapasowej zOmega:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2670,8 +2670,8 @@ Adres: %4
         <translation>Z</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Witamy w konsoli PIVX RPC.</translation>
+        <source>Welcome to the OMEGACOIN RPC console.</source>
+        <translation>Witamy w konsoli OMEGACOIN RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2808,8 +2808,8 @@ Adres: %4
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV</source>
-        <translation>Zeskanuj kod QR lub skopiuj adres, aby otrzymać PIV</translation>
+        <source>Scan the QR code or copy the address to receive OMEGA</source>
+        <translation>Zeskanuj kod QR lub skopiuj adres, aby otrzymać OMEGA</translation>
     </message>
     <message>
         <source>Add Label</source>
@@ -2934,8 +2934,8 @@ Adres: %4
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>OMEGA</source>
+        <translation>OMEGA</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3025,7 +3025,7 @@ Adres: %4
         <translation>Niestandardowa adresu reszty</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" OMEGACOIN address</source>
         <translation>Pozostała wartość wynikająca z wpłat i wypłat trafia na adresu „reszty”</translation>
     </message>
     <message>
@@ -3052,8 +3052,8 @@ Adres: %4
         <translation>Zalecane</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/kilobyte</translation>
+        <source>OMEGA/kilobyte</source>
+        <translation>OMEGA/kilobyte</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3363,8 +3363,8 @@ Monety te nie będą już cold-staked.</translation>
         <translation>KLUCZ DESZYFRUJĄCY</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>Adres PIVX</translation>
+        <source>OMEGACOIN address</source>
+        <translation>Adres OMEGACOIN</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3496,8 +3496,8 @@ Verify that you have installed a predetermined text editor.</source>
 Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Witamy w konsoli PIVX RPC.</translation>
+        <source>Welcome to the OMEGACOIN RPC console.</source>
+        <translation>Witamy w konsoli OMEGACOIN RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3606,12 +3606,12 @@ Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
         <translation>Eksportuj listę adresów</translation>
     </message>
     <message>
-        <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <source>OMEGACOIN_tx_csv_export(*.csv)</source>
+        <translation>OMEGACOIN_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>OMEGACOIN_addresses_csv_export(*.csv)</source>
+        <translation>OMEGACOIN_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3681,40 +3681,40 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1) Co to jest PIVX?</translation>
+        <source>1) What is OMEGACOIN?</source>
+        <translation>1) Co to jest OMEGACOIN?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) Dlaczego mojego PIV nie można wydać?</translation>
+        <source>2) Why are my OMEGA unspendable?</source>
+        <translation>2) Dlaczego mojego OMEGA nie można wydać?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://coin.omega.eco/</source>
+        <translation>https://coin.omega.eco/</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>Co to jest PIVX?</translation>
+        <source>What is OMEGACOIN?</source>
+        <translation>Co to jest OMEGACOIN?</translation>
     </message>
     <message>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>Dlaczego mojego PIV nie można wydać?</translation>
+        <source>Why are my OMEGA unspendable?</source>
+        <translation>Dlaczego mojego OMEGA nie można wydać?</translation>
     </message>
     <message>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <source>How do I stake PIV?</source>
-        <translation>Jak stake-ować PIV?</translation>
+        <source>How do I stake OMEGA?</source>
+        <translation>Jak stake-ować OMEGA?</translation>
     </message>
     <message>
         <source>4</source>
@@ -3848,8 +3848,8 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>Nie można otworzyć folderu kopii zapasowych</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>Nie można otworzyć pliku pivx.conf w domyślnej aplikacji</translation>
+        <source>Unable to open omegacoin.conf with default application</source>
+        <translation>Nie można otworzyć pliku omegacoin.conf w domyślnej aplikacji</translation>
     </message>
     <message>
         <source>In:</source>
@@ -3903,8 +3903,8 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>Liczba wątków weryfikujących skrypt</translation>
     </message>
     <message>
-        <source>Start PIVX on system login</source>
-        <translation>Uruchom PIVX przy logowaniu do systemu</translation>
+        <source>Start OMEGACOIN on system login</source>
+        <translation>Uruchom OMEGACOIN przy logowaniu do systemu</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3991,8 +3991,8 @@ Jesteś pewny?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.</source>
-        <translation>MultiSend pozwala automatycznie wysyłać do 100% stake lub nagrody masternode na listę innych adresów PIVX po ich dojrzaniu.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other OMEGACOIN addresses after it matures.</source>
+        <translation>MultiSend pozwala automatycznie wysyłać do 100% stake lub nagrody masternode na listę innych adresów OMEGACOIN po ich dojrzaniu.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4118,8 +4118,8 @@ Zaznacz jedno lub oba pola wyboru, aby wysłać stake i / lub nagrode masternode
         <translation>Wiadomość</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>Adres PIVX lub etykieta kontaktowa</translation>
+        <source>OMEGACOIN address or contact label</source>
+        <translation>Adres OMEGACOIN lub etykieta kontaktowa</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4407,8 +4407,8 @@ Zaznacz jedno lub oba pola wyboru, aby wysłać stake i / lub nagrode masternode
         <translation>FAQ</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>o PIVX</translation>
+        <source>About OMEGACOIN</source>
+        <translation>o OMEGACOIN</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4945,8 +4945,8 @@ kopia zapasowa zostanie utworzona.
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 OMEGA</source>
+        <translation>+0.000585 OMEGA</translation>
     </message>
     </context>
 <context>
@@ -5008,21 +5008,21 @@ Wybierz mniej nominałów kontrolą monet.</translation>
     </message>
     <message>
         <source>Welcome to
-PIVX Core Wallet</source>
+OMEGACOIN Core Wallet</source>
         <translation>Witamy
 Portfel OMEGACOIN Core</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX to najbardziej innowacyjna na świecie technologia oparta na blockchain Proof of Stake. Opracowany przez zespół wysoce doświadczonych programistów i kryptografów.</translation>
+        <source>OMEGACOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>OMEGACOIN to najbardziej innowacyjna na świecie technologia oparta na blockchain Proof of Stake. Opracowany przez zespół wysoce doświadczonych programistów i kryptografów.</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Sieć masternode jest siecią drugiej warstwy PIVX na szczycie blockchain, która umożliwia naszemu DAO zapewnienie zdecentralizowanego zarządzania i skarbca.</translation>
+        <source>The masternode network is OMEGACOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Sieć masternode jest siecią drugiej warstwy OMEGACOIN na szczycie blockchain, która umożliwia naszemu DAO zapewnienie zdecentralizowanego zarządzania i skarbca.</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>Jak PIVX szanuje twoją prywatność?</translation>
+        <source>How OMEGACOIN respects your privacy?</source>
+        <translation>Jak OMEGACOIN szanuje twoją prywatność?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5034,7 +5034,7 @@ Portfel OMEGACOIN Core</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>omegacoin-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Zezwalaj na połączenia JSON-RPC z określonego źródła. Ważny dla &lt;ip&gt; są pojedynczym IP (na przykład 1.2.3.4), siecią / maską sieci (np. 1.2.3.4/255.255.255.0) lub siecią / CIDR (na przykład 1.2.3.4/24). Ta opcja może być określona wiele razy</translation>
@@ -6005,8 +6005,8 @@ Portfel OMEGACOIN Core</translation>
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>Adres PIVX lub etykieta kontaktowa</translation>
+        <source>OMEGACOIN address or contact label</source>
+        <translation>Adres OMEGACOIN lub etykieta kontaktowa</translation>
     </message>
     <message>
         <source>Amount</source>

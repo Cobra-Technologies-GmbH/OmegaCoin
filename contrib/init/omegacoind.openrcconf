@@ -1,7 +1,7 @@
 # /etc/conf.d/omegacoind: config file for /etc/init.d/omegacoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/pivx/pivx.conf"
+#BITCOIND_CONFIGFILE="/etc/omegacoin/omegacoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/omegacoind"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/omegacoind"
 
 # User and group to own omegacoind process
-#BITCOIND_USER="pivx"
-#BITCOIND_GROUP="pivx"
+#BITCOIND_USER="omegacoin"
+#BITCOIND_GROUP="omegacoin"
 
 # Path to omegacoind executable
 #BITCOIND_BIN="/usr/bin/omegacoind"

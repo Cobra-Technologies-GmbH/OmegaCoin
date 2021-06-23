@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.pivx.omegacoind</string>
+	<string>org.omegacoin.omegacoind</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/omegacoind</string>

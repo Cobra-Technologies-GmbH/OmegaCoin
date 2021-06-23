@@ -2,8 +2,8 @@
 // Copyright (c) 2021 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef PIVX_WALLET_RPCWALLET_H
-#define PIVX_WALLET_RPCWALLET_H
+#ifndef OMEGACOIN_WALLET_RPCWALLET_H
+#define OMEGACOIN_WALLET_RPCWALLET_H
 
 #include <string>
 
@@ -25,4 +25,4 @@ std::string HelpRequiringPassphrase(CWallet* const pwallet);
 bool EnsureWalletIsAvailable(CWallet* const pwallet, bool avoidException);
 void EnsureWalletIsUnlocked(CWallet* const pwallet, bool fAllowAnonOnly = false);
 
-#endif //PIVX_WALLET_RPCWALLET_H
+#endif //OMEGACOIN_WALLET_RPCWALLET_H

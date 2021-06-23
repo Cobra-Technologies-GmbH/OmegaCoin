@@ -13,6 +13,7 @@
 #include <librustzcash.h>
 #include <sodium.h>
 
+//TODO: Change Hash
 const unsigned char PIVX_HD_SEED_FP_PERSONAL[crypto_generichash_blake2b_PERSONALBYTES] =
     {'P', 'I', 'V', 'X', '_', '_', 'H', 'D', '_', 'S', 'e', 'e', 'd', '_', 'F', 'P'};
 
@@ -44,7 +45,7 @@ uint256 ovkForShieldingFromTaddr(HDSeed& seed) {
             NULL, 0, // No key.
             64,
             NULL,    // No salt.
-            PIVX_TADDR_OVK_PERSONAL) == 0);
+            OMEGACOIN_TADDR_OVK_PERSONAL) == 0);
     crypto_generichash_blake2b_update(&state, rawSeed.data(), rawSeed.size());
     auto intermediate = std::array<unsigned char, 64>();
     crypto_generichash_blake2b_final(&state, intermediate.data(), 64);

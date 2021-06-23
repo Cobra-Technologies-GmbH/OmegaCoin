@@ -142,7 +142,7 @@ public:
 };
 
 /**
- * PIVX RPC command dispatcher.
+ * OMEGACOIN RPC command dispatcher.
  */
 class CRPCTable
 {

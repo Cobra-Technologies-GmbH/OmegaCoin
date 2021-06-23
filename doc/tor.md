@@ -1,4 +1,4 @@
-# TOR SUPPORT IN PIVX
+# TOR SUPPORT IN OMEGACOIN
 
 It is possible to run OMEGACOIN Core as a Tor hidden service, and connect to such services.
 
@@ -9,7 +9,7 @@ configure Tor.
 ## 1. Run OMEGACOIN Core behind a Tor proxy
 ----------------------------------
 
-The first step is running PIVX behind a Tor proxy. This will already anonymize all
+The first step is running OMEGACOIN behind a Tor proxy. This will already anonymize all
 outgoing connections, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -45,7 +45,7 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. For newer
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
-	HiddenServiceDir /var/lib/tor/pivx-service/
+	HiddenServiceDir /var/lib/tor/omegacoin-service/
 	HiddenServiceVersion 2
 	HiddenServicePort 51472 127.0.0.1:51472
 	HiddenServicePort 61472 127.0.0.1:61472
@@ -53,11 +53,11 @@ versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 The directory can be different of course, but (both) port numbers should be equal to
 your omegacoind's P2P listen port (51472 by default).
 
-	-externalip=X   You can tell pivx about its publicly reachable address using
+	-externalip=X   You can tell omegacoin about its publicly reachable address using
 	                this option, and this can be a v2 .onion address (v3 .onion
-	                addresses are not supported by the PIVX network). Given the above
+	                addresses are not supported by the OMEGACOIN network). Given the above
 	                configuration, you can find your .onion address in
-	                /var/lib/tor/pivx-service/hostname. For connections
+	                /var/lib/tor/omegacoin-service/hostname. For connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs), .onion addresses are given
 	                preference for your node to advertise itself with.
@@ -74,7 +74,7 @@ your omegacoind's P2P listen port (51472 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-	./omegacoind -proxy=127.0.0.1:9050 -externalip=pivxzj6l4cvo2fxy.onion -listen
+	./omegacoind -proxy=127.0.0.1:9050 -externalip=omegacoinzj6l4cvo2fxy.onion -listen
 
 (obviously, replace the .onion address with your own). It should be noted that you still
 listen on all devices and another node could establish a clearnet connection, when knowing
@@ -92,16 +92,16 @@ and open port 51472 on your firewall (or use -upnp).
 If you only want to use Tor to reach .onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-	./omegacoind -onion=127.0.0.1:9050 -externalip=pivxzj6l4cvo2fxy.onion -discover
+	./omegacoind -onion=127.0.0.1:9050 -externalip=omegacoinzj6l4cvo2fxy.onion -discover
 
 ## 3. Automatically listen on Tor
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-PIVX Core has been updated to make use of this.
+OMEGACOIN Core has been updated to make use of this.
 
 This means that if Tor is running (and proper authentication has been configured),
-PIVX Core automatically creates a hidden service to listen on. This will positively
+OMEGACOIN Core automatically creates a hidden service to listen on. This will positively
 affect the number of available .onion nodes.
 
 This new feature is enabled by default if OMEGACOIN Core is listening (`-listen`), and

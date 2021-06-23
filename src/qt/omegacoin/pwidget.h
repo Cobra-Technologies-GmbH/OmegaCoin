@@ -11,7 +11,7 @@
 #include "qt/omegacoin/prunnable.h"
 #include "walletmodel.h"
 
-class PIVXGUI;
+class OMEGACOINGUI;
 class ClientModel;
 class WalletModel;
 class WorkerTask;
@@ -30,13 +30,13 @@ class PWidget : public QWidget, public Runnable, public Translator
 {
     Q_OBJECT
 public:
-    explicit PWidget(PIVXGUI* _window = nullptr, QWidget *parent = nullptr);
+    explicit PWidget(OMEGACOINGUI* _window = nullptr, QWidget *parent = nullptr);
     explicit PWidget(PWidget *parent = nullptr);
 
     void setClientModel(ClientModel* model);
     void setWalletModel(WalletModel* model);
 
-    PIVXGUI* getWindow() { return this->window; }
+    OMEGACOINGUI* getWindow() { return this->window; }
 
     void run(int type) override;
     void onError(QString error, int type) override;
@@ -56,7 +56,7 @@ protected Q_SLOTS:
     void onChangeTheme(bool isLightTheme, QString &theme);
 
 protected:
-    PIVXGUI* window = nullptr;
+    OMEGACOINGUI* window = nullptr;
     ClientModel* clientModel = nullptr;
     WalletModel* walletModel = nullptr;
 

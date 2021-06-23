@@ -23,7 +23,7 @@
 #define REQUEST_LOAD_TASK 1
 #define CHART_LOAD_MIN_TIME_INTERVAL 15
 
-DashboardWidget::DashboardWidget(PIVXGUI* parent) :
+DashboardWidget::DashboardWidget(OMEGACOINGUI* parent) :
     PWidget(parent),
     ui(new Ui::DashboardWidget)
 {
@@ -52,18 +52,18 @@ DashboardWidget::DashboardWidget(PIVXGUI* parent) :
 
     // Staking Information
     setCssSubtitleScreen(ui->labelMessage);
-    setCssProperty(ui->labelSquarePiv, "square-chart-piv");
-    setCssProperty(ui->labelSquarezPiv, "square-chart-zomega");
-    setCssProperty(ui->labelPiv, "text-chart-piv");
-    setCssProperty(ui->labelZpiv, "text-chart-zomega");
+    setCssProperty(ui->labelSquareOmega, "square-chart-omega");
+    setCssProperty(ui->labelSquarezOmega, "square-chart-zomega");
+    setCssProperty(ui->labelOmega, "text-chart-omega");
+    setCssProperty(ui->labelZOmega, "text-chart-zomega");
 
     // Staking Amount
     QFont fontBold;
     fontBold.setWeight(QFont::Bold);
 
     setCssProperty(ui->labelChart, "legend-chart");
-    setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
-    setCssProperty(ui->labelAmountZpiv, "text-stake-zomega-disable");
+    setCssProperty(ui->labelAmountOmega, "text-stake-omega-disable");
+    setCssProperty(ui->labelAmountZOmega, "text-stake-zomega-disable");
 
     setCssProperty({ui->pushButtonAll,  ui->pushButtonMonth, ui->pushButtonYear}, "btn-check-time");
     setCssProperty({ui->comboBoxMonths,  ui->comboBoxYears}, "btn-combo-chart-selected");
@@ -144,7 +144,7 @@ bool hasCharts = false;
     connect(ui->pushButtonMonth, &QPushButton::clicked, [this](){setChartShow(MONTH);});
     connect(ui->pushButtonAll, &QPushButton::clicked, [this](){setChartShow(ALL);});
     if (window)
-        connect(window, &PIVXGUI::windowResizeEvent, this, &DashboardWidget::windowResizeEvent);
+        connect(window, &OMEGACOINGUI::windowResizeEvent, this, &DashboardWidget::windowResizeEvent);
 #endif
 
     if (hasCharts) {
@@ -216,7 +216,7 @@ void DashboardWidget::loadWalletModel()
                 &DashboardWidget::onHideChartsChanged);
 #endif
     }
-    // update the display unit, to not use the default ("PIV")
+    // update the display unit, to not use the default ("OMEGA")
     updateDisplayUnit();
 }
 
@@ -518,7 +518,7 @@ void DashboardWidget::updateStakeFilter()
     }
 }
 
-// pair PIV, zPIV
+// pair OMEGA, zOmega
 const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
 {
     if (filterUpdateNeeded) {
@@ -532,7 +532,7 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
         QModelIndex modelIndex = stakesFilter->index(i, TransactionTableModel::ToAddress);
         qint64 amount = llabs(modelIndex.data(TransactionTableModel::AmountRole).toLongLong());
         QDate date = modelIndex.data(TransactionTableModel::DateRole).toDateTime().date();
-        bool isPiv = modelIndex.data(TransactionTableModel::TypeRole).toInt() != TransactionRecord::StakeZPIV;
+        bool isOmega = modelIndex.data(TransactionTableModel::TypeRole).toInt() != TransactionRecord::StakeZOmega;
 
         int time = 0;
         switch (chartShow) {
@@ -553,16 +553,16 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
                 return amountBy;
         }
         if (amountBy.contains(time)) {
-            if (isPiv) {
+            if (isOmega) {
                 amountBy[time].first += amount;
             } else
                 amountBy[time].second += amount;
         } else {
-            if (isPiv) {
+            if (isOmega) {
                 amountBy[time] = std::make_pair(amount, 0);
             } else {
                 amountBy[time] = std::make_pair(0, amount);
-                hasZpivStakes = true;
+                hasZOmegaStakes = true;
             }
         }
     }
@@ -577,7 +577,7 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
     }
 
     chartData = new ChartData();
-    chartData->amountsByCache = getAmountBy(); // pair PIV, zPIV
+    chartData->amountsByCache = getAmountBy(); // pair OMEGA, zOmega
 
     std::pair<int,int> range = getChartRange(chartData->amountsByCache);
     if (range.first == 0 && range.second == 0) {
@@ -590,22 +590,22 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
 
     for (int j = range.first; j < range.second; j++) {
         int num = (isOrderedByMonth && j > daysInMonth) ? (j % daysInMonth) : j;
-        qreal piv = 0;
+        qreal omega = 0;
         qreal zomega = 0;
         if (chartData->amountsByCache.contains(num)) {
             std::pair <qint64, qint64> pair = chartData->amountsByCache[num];
-            piv = (pair.first != 0) ? pair.first / 100000000 : 0;
+            omega = (pair.first != 0) ? pair.first / 100000000 : 0;
             zomega = (pair.second != 0) ? pair.second / 100000000 : 0;
-            chartData->totalPiv += pair.first;
-            chartData->totalZpiv += pair.second;
+            chartData->totalOmega += pair.first;
+            chartData->totalZOmega += pair.second;
         }
 
         chartData->xLabels << ((withMonthNames) ? monthsNames[num - 1] : QString::number(num));
 
-        chartData->valuesPiv.append(piv);
-        chartData->valueszPiv.append(zomega);
+        chartData->valuesOmega.append(omega);
+        chartData->valueszOmega.append(zomega);
 
-        int max = std::max(piv, zomega);
+        int max = std::max(omega, zomega);
         if (max > chartData->maxValue) {
             chartData->maxValue = max;
         }
@@ -676,24 +676,24 @@ void DashboardWidget::onChartRefreshed()
     series->attachAxis(axisX);
     series->attachAxis(axisY);
 
-    set0->append(chartData->valuesPiv);
-    set1->append(chartData->valueszPiv);
+    set0->append(chartData->valuesOmega);
+    set1->append(chartData->valueszOmega);
 
     // Total
     nDisplayUnit = walletModel->getOptionsModel()->getDisplayUnit();
-    if (chartData->totalPiv > 0 || chartData->totalZpiv > 0) {
-        setCssProperty(ui->labelAmountPiv, "text-stake-piv");
-        setCssProperty(ui->labelAmountZpiv, "text-stake-zomega");
+    if (chartData->totalOmega > 0 || chartData->totalZOmega > 0) {
+        setCssProperty(ui->labelAmountOmega, "text-stake-omega");
+        setCssProperty(ui->labelAmountZOmega, "text-stake-zomega");
     } else {
-        setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
-        setCssProperty(ui->labelAmountZpiv, "text-stake-zomega-disable");
+        setCssProperty(ui->labelAmountOmega, "text-stake-omega-disable");
+        setCssProperty(ui->labelAmountZOmega, "text-stake-zomega-disable");
     }
-    forceUpdateStyle({ui->labelAmountPiv, ui->labelAmountZpiv});
-    ui->labelAmountPiv->setText(GUIUtil::formatBalance(chartData->totalPiv, nDisplayUnit));
-    ui->labelAmountZpiv->setText(GUIUtil::formatBalance(chartData->totalZpiv, nDisplayUnit, true));
+    forceUpdateStyle({ui->labelAmountOmega, ui->labelAmountZOmega});
+    ui->labelAmountOmega->setText(GUIUtil::formatBalance(chartData->totalOmega, nDisplayUnit));
+    ui->labelAmountZOmega->setText(GUIUtil::formatBalance(chartData->totalZOmega, nDisplayUnit, true));
 
     series->append(set0);
-    if (hasZpivStakes)
+    if (hasZOmegaStakes)
         series->append(set1);
 
     // bar width

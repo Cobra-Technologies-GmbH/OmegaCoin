@@ -4,12 +4,12 @@
 Encoding=UTF-8
 Name=OMEGACOIN Core Daemon SNAP
 Comment=testnet
-GenericName=PIVX Digital Currency Daemon Client testnet network
-Exec=pivx-core.daemon-testnet %u
+GenericName=OMEGACOIN Digital Currency Daemon Client testnet network
+Exec=omegacoin-core.daemon-testnet %u
 Terminal=true
 Type=Application
-Icon=${SNAP}/share/pixmaps/pivx_testnet.png
-MimeType=x-scheme-handler/piv;
+Icon=${SNAP}/share/pixmaps/omegacoin_testnet.png
+MimeType=x-scheme-handler/omega;
 Categories=X-Office;X-Finance;
-Keywords=internet;pivx;zomega;core;wallet;daemon;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Keywords=internet;omegacoin;zomega;core;wallet;daemon;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
 Version=1.0

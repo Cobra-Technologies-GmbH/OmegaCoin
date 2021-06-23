@@ -37,7 +37,7 @@ using namespace QtCharts;
 
 #endif
 
-class PIVXGUI;
+class OMEGACOINGUI;
 class WalletModel;
 
 namespace Ui {
@@ -80,10 +80,10 @@ public:
 
     QMap<int, std::pair<qint64, qint64>> amountsByCache;
     qreal maxValue = 0;
-    qint64 totalPiv = 0;
-    qint64 totalZpiv = 0;
-    QList<qreal> valuesPiv;
-    QList<qreal> valueszPiv;
+    qint64 totalOmega = 0;
+    qint64 totalZOmega = 0;
+    QList<qreal> valuesOmega;
+    QList<qreal> valueszOmega;
     QStringList xLabels;
 };
 
@@ -96,7 +96,7 @@ class DashboardWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit DashboardWidget(PIVXGUI* _window);
+    explicit DashboardWidget(OMEGACOINGUI* _window);
     ~DashboardWidget();
 
     void loadWalletModel() override;
@@ -165,7 +165,7 @@ private:
     int yearFilter{0};
     int monthFilter{0};
     int dayStart{1};
-    bool hasZpivStakes{false};
+    bool hasZOmegaStakes{false};
 
     ChartData* chartData{nullptr};
     bool hasStakes{false};

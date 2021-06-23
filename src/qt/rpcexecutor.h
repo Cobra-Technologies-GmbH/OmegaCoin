@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_QT_RPCEXECUTOR_H
-#define PIVX_QT_RPCEXECUTOR_H
+#ifndef OMEGACOIN_QT_RPCEXECUTOR_H
+#define OMEGACOIN_QT_RPCEXECUTOR_H
 
 #include "rpc/server.h"
 
@@ -75,4 +75,4 @@ public:
 };
 
 
-#endif // PIVX_QT_RPCEXECUTOR_H
+#endif // OMEGACOIN_QT_RPCEXECUTOR_H

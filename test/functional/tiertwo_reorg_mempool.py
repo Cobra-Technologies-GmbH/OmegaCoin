@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2021 The PIVX Core developers
+# Copyright (c) 2021 The OMEGACOIN developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +14,7 @@ Test deterministic masternodes conflicts and reorgs.
 import random
 import time
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import OmegacoinTestFramework
 
 from test_framework.util import (
     assert_equal,
@@ -23,7 +24,7 @@ from test_framework.util import (
     disconnect_nodes,
 )
 
-class TiertwoReorgMempoolTest(PivxTestFramework):
+class TiertwoReorgMempoolTest(OmegacoinTestFramework):
 
     def set_test_params(self):
         # two nodes mining on separate chains

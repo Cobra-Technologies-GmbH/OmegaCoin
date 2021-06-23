@@ -13,7 +13,7 @@
 #include "bitcoinunits.h"
 #include "qt/omegacoin/qtutils.h"
 
-SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(PIVXGUI* _window, QWidget *parent) :
+SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(OMEGACOINGUI* _window, QWidget *parent) :
     PWidget(_window,parent),
     ui(new Ui::SettingsDisplayOptionsWidget)
 {

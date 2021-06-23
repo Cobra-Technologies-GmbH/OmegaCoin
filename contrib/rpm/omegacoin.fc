@@ -1,8 +1,8 @@
-/usr/bin/omegacoin-cli		--	gen_context(system_u:object_r:pivx_exec_t,s0)
-/usr/sbin/omegacoind		--	gen_context(system_u:object_r:pivx_exec_t,s0)
-/usr/lib(64)?/pivx/omegacoind		--	gen_context(system_u:object_r:pivx_exec_t,s0)
+/usr/bin/omegacoin-cli		--	gen_context(system_u:object_r:omegacoin_exec_t,s0)
+/usr/sbin/omegacoind		--	gen_context(system_u:object_r:omegacoin_exec_t,s0)
+/usr/lib(64)?/omegacoin/omegacoind		--	gen_context(system_u:object_r:omegacoin_exec_t,s0)
 
-/etc/pivx(/.*)?		gen_context(system_u:object_r:pivx_conf_t,s0)
-/var/lib/pivx(/.*)?		gen_context(system_u:object_r:pivx_var_lib_t,s0)
+/etc/omegacoin(/.*)?		gen_context(system_u:object_r:omegacoin_conf_t,s0)
+/var/lib/omegacoin(/.*)?		gen_context(system_u:object_r:omegacoin_var_lib_t,s0)
 
-(/var)?/run/omegacoind(/.*)?   gen_context(system_u:object_r:pivx_var_run_t,s0)
+(/var)?/run/omegacoind(/.*)?   gen_context(system_u:object_r:omegacoin_var_run_t,s0)

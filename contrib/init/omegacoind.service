@@ -5,17 +5,17 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/pivx/pivx.conf
+# /etc/omegacoin/omegacoin.conf
 
 [Unit]
-Description=PIVX daemon
+Description=OMEGACOIN daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/omegacoind -daemon -conf=/etc/pivx/pivx.conf -pid=/run/omegacoind/omegacoind.pid
-# Creates /run/omegacoind owned by pivx
+ExecStart=/usr/bin/omegacoind -daemon -conf=/etc/omegacoin/omegacoin.conf -pid=/run/omegacoind/omegacoind.pid
+# Creates /run/omegacoind owned by omegacoin
 RuntimeDirectory=omegacoind
-User=pivx
+User=omegacoin
 Type=forking
 PIDFile=/run/omegacoind/omegacoind.pid
 Restart=on-failure

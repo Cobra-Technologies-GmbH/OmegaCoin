@@ -2,11 +2,12 @@
 // Copyright (c) 2009-2021 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2021 The PIVX developers
+// Copyright (c) 2021 The OMEGACOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_WALLET_H
-#define PIVX_WALLET_H
+#ifndef OMEGACOIN_WALLET_H
+#define OMEGACOIN_WALLET_H
 
 #include "addressbook.h"
 #include "amount.h"
@@ -108,7 +109,7 @@ enum WalletFeature {
     FEATURE_WALLETCRYPT = 40000, // wallet encryption
     FEATURE_COMPRPUBKEY = 60000, // compressed public keys
 
-    FEATURE_PRE_PIVX = 61000, // inherited version..
+    FEATURE_PRE_OMEGACOIN = 61000, // inherited version..
 
     // The following features were implemented in BTC but not in our wallet, we can simply skip them.
     // FEATURE_HD = 130000,  Hierarchical key derivation after BIP32 (HD Wallet)
@@ -715,7 +716,7 @@ public:
     // Staker status (last hashed block and time)
     CStakerStatus* pStakerStatus = nullptr;
 
-    // User-defined fee PIV/kb
+    // User-defined fee OMEGA/kb
     bool fUseCustomFee;
     CAmount nCustomFee;
 
@@ -822,7 +823,7 @@ public:
 
     /**
      * Return list of available coins and locked coins grouped by non-change output address.
-     * PIVX: group coins by pair <CTxDestination, Optional<CTxDestination>>. The optional destination
+     * OMEGACOIN: group coins by pair <CTxDestination, Optional<CTxDestination>>. The optional destination
      * is reserved for the staker address in case of P2CS.
      */
     std::map<std::pair<CTxDestination, Optional<CTxDestination>>, std::vector<COutput>> ListCoins() const;
@@ -831,7 +832,7 @@ public:
      */
     std::map<libzcash::SaplingPaymentAddress, std::vector<SaplingNoteEntry>> ListNotes() const;
 
-    /// Get 10000 PIV output and keys which can be used for the Masternode
+    /// Get 10000 OMEGA output and keys which can be used for the Masternode
     bool GetMasternodeVinAndKeys(CTxIn& txinRet, CPubKey& pubKeyRet,
             CKey& keyRet, std::string strTxHash, std::string strOutputIndex, std::string& strError);
     /// Extract txin information and keys from output
@@ -1308,4 +1309,4 @@ public:
     }
 };
 
-#endif // PIVX_WALLET_H
+#endif // OMEGACOIN_WALLET_H

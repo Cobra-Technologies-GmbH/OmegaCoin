@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2021 The PIVX Core developers
+# Copyright (c) 2021 The OMEGACOIN developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +12,7 @@ from decimal import Decimal
 from random import randrange
 import time
 
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import OmegacoinTestFramework
 from test_framework.blocktools import (
     create_block,
     create_coinbase,
@@ -30,7 +31,7 @@ from test_framework.util import (
 )
 
 
-class DIP3Test(PivxTestFramework):
+class DIP3Test(OmegacoinTestFramework):
 
     def set_test_params(self):
         # 1 miner, 1 controller, 6 remote mns
@@ -246,7 +247,7 @@ class DIP3Test(PivxTestFramework):
         # Test payments.
         # Mine 12 blocks and check that each masternode has been paid exactly twice.
         # Save last paid masternode. Check that it's the last paid also after the 12 blocks.
-        # Note: dmn2 sends (2 * 0.3 PIV) to the operator, and (2 * 2.7 PIV) to the owner
+        # Note: dmn2 sends (2 * 0.3 OMEGA) to the operator, and (2 * 2.7 OMEGA) to the owner
         self.log.info("Testing masternode payments...")
         last_paid_mn = self.get_last_paid_mn()
         starting_balances = {"operator": self.get_addr_balance(self.nodes[dmn2c.idx], op_rew["address"])}

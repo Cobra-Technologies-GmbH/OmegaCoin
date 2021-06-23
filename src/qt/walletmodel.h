@@ -4,8 +4,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_QT_WALLETMODEL_H
-#define PIVX_QT_WALLETMODEL_H
+#ifndef OMEGACOIN_QT_WALLETMODEL_H
+#define OMEGACOIN_QT_WALLETMODEL_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/omegacoin-config.h"
@@ -111,7 +111,7 @@ public:
     }
 };
 
-/** Interface to PIVX wallet from Qt view code. */
+/** Interface to OMEGACOIN wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT
@@ -457,4 +457,4 @@ public Q_SLOTS:
     bool updateAddressBookLabels(const CWDestination& address, const std::string& strName, const std::string& strPurpose);
 };
 
-#endif // PIVX_QT_WALLETMODEL_H
+#endif // OMEGACOIN_QT_WALLETMODEL_H

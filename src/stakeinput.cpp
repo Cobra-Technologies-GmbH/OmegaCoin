@@ -8,10 +8,10 @@
 #include "txdb.h"
 #include "wallet/wallet.h"
 
-CPivStake* CPivStake::NewPivStake(const CTxIn& txin)
+COmegaStake* COmegaStake::NewOmegaStake(const CTxIn& txin)
 {
     if (txin.IsZerocoinSpend()) {
-        error("%s: unable to initialize CPivStake from zerocoin spend", __func__);
+        error("%s: unable to initialize COmegaStake from zerocoin spend", __func__);
         return nullptr;
     }
 
@@ -35,28 +35,28 @@ CPivStake* CPivStake::NewPivStake(const CTxIn& txin)
         return nullptr;
     }
 
-    return new CPivStake(txPrev->vout[txin.prevout.n],
+    return new COmegaStake(txPrev->vout[txin.prevout.n],
                          txin.prevout,
                          pindexFrom);
 }
 
-bool CPivStake::GetTxOutFrom(CTxOut& out) const
+bool COmegaStake::GetTxOutFrom(CTxOut& out) const
 {
     out = outputFrom;
     return true;
 }
 
-CTxIn CPivStake::GetTxIn() const
+CTxIn COmegaStake::GetTxIn() const
 {
     return CTxIn(outpointFrom.hash, outpointFrom.n);
 }
 
-CAmount CPivStake::GetValue() const
+CAmount COmegaStake::GetValue() const
 {
     return outputFrom.nValue;
 }
 
-bool CPivStake::CreateTxOuts(const CWallet* pwallet, std::vector<CTxOut>& vout, CAmount nTotal) const
+bool COmegaStake::CreateTxOuts(const CWallet* pwallet, std::vector<CTxOut>& vout, CAmount nTotal) const
 {
     std::vector<valtype> vSolutions;
     txnouttype whichType;
@@ -94,24 +94,24 @@ bool CPivStake::CreateTxOuts(const CWallet* pwallet, std::vector<CTxOut>& vout, 
     return true;
 }
 
-CDataStream CPivStake::GetUniqueness() const
+CDataStream COmegaStake::GetUniqueness() const
 {
-    //The unique identifier for a PIV stake is the outpoint
+    //The unique identifier for a OMEGA stake is the outpoint
     CDataStream ss(SER_NETWORK, 0);
     ss << outpointFrom.n << outpointFrom.hash;
     return ss;
 }
 
 //The block that the UTXO was added to the chain
-const CBlockIndex* CPivStake::GetIndexFrom() const
+const CBlockIndex* COmegaStake::GetIndexFrom() const
 {
     // Sanity check, pindexFrom is set on the constructor.
-    if (!pindexFrom) throw std::runtime_error("CPivStake: uninitialized pindexFrom");
+    if (!pindexFrom) throw std::runtime_error("COmegaStake: uninitialized pindexFrom");
     return pindexFrom;
 }
 
 // Verify stake contextual checks
-bool CPivStake::ContextCheck(int nHeight, uint32_t nTime)
+bool COmegaStake::ContextCheck(int nHeight, uint32_t nTime)
 {
     const Consensus::Params& consensus = Params().GetConsensus();
     // Get Stake input block time/height

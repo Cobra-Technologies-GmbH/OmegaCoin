@@ -7,7 +7,7 @@
 
 #include <QDialog>
 
-class PIVXGUI;
+class OMEGACOINGUI;
 
 namespace Ui {
 class SettingsFaqWidget;
@@ -26,7 +26,7 @@ public:
         MNCONTROLLER
     };
 
-    explicit SettingsFaqWidget(PIVXGUI *parent = nullptr);
+    explicit SettingsFaqWidget(OMEGACOINGUI *parent = nullptr);
     ~SettingsFaqWidget();
 
     void showEvent(QShowEvent *event) override;

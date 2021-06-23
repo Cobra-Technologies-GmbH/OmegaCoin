@@ -22,8 +22,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called PIVX (http://www.pivx.org),
- * which enables instant payments to anyone, anywhere in the world. PIVX uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called OMEGACOIN (https://coin.omega.eco),
+ * which enables instant payments to anyone, anywhere in the world. OMEGACOIN uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -56,18 +56,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/pivx.conf are parsed in qt/omegacoin.cpp's main()
+    // If Qt is used, parameters/omegacoin.conf are parsed in qt/omegacoin.cpp's main()
     gArgs.ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help") || gArgs.IsArgSet("-version")) {
-        std::string strUsage = _("Pivx Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Omegacoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (gArgs.IsArgSet("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  omegacoind [options]                     " + _("Start Pivx Core Daemon") + "\n";
+                        "  omegacoind [options]                     " + _("Start Omegacoin Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -82,7 +82,7 @@ bool AppInit(int argc, char* argv[])
             return false;
         }
         try {
-            gArgs.ReadConfigFile(gArgs.GetArg("-conf", PIVX_CONF_FILENAME));
+            gArgs.ReadConfigFile(gArgs.GetArg("-conf", OMEGACOIN_CONF_FILENAME));
         } catch (const std::exception& e) {
             fprintf(stderr, "Error reading configuration file: %s\n", e.what());
             return false;
@@ -131,7 +131,7 @@ bool AppInit(int argc, char* argv[])
 #ifndef WIN32
         fDaemon = gArgs.GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "PIVX server starting\n");
+            fprintf(stdout, "OMEGACOIN server starting\n");
 
             // Daemonize
             pid_t pid = fork();

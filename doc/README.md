@@ -1,9 +1,9 @@
-PIVX Core
+OMEGACOIN Core
 =============
 
 Setup
 ---------------------
-[OMEGACOIN Core](http://pivx.org/wallet) is the original PIVX client and it builds the backbone of the network. However, it downloads and stores the entire history of PIVX transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[OMEGACOIN Core](http://coin.omega.eco/wallet) is the original OMEGACOIN client and it builds the backbone of the network. However, it downloads and stores the entire history of OMEGACOIN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -16,7 +16,7 @@ Unpack the files into a directory and run:
 - `bin/omegacoin-qt` (GUI) or
 - `bin/omegacoind` (headless)
 
-If this is the first time running OMEGACOIN Core (since v5.0.0), you'll need to install the sapling params by running the included `install-params.sh` script, which copies the two params files to `$HOME/.pivx-params`
+If this is the first time running OMEGACOIN Core (since v5.0.0), you'll need to install the sapling params by running the included `install-params.sh` script, which copies the two params files to `$HOME/.omegacoin-params`
 
 ### Windows
 
@@ -24,14 +24,14 @@ Unpack the files into a directory, and then run omegacoin-qt.exe.
 
 ### macOS
 
-Drag PIVX-Qt to your applications folder, and then run PIVX-Qt.
+Drag OMEGACOIN-Qt to your applications folder, and then run OMEGACOIN-Qt.
 
 ### Need Help?
 
-* See the documentation at the [PIVX Wiki](https://github.com/PIVX-Project/PIVX/wiki)
+* See the documentation at the [OMEGACOIN Wiki](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVX Forum](http://forum.pivx.org/).
-* Join our Discord server [Discord Server](https://discord.pivx.org)
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [OMEGACOIN Forum](http://forum.omega.eco/).
+* Join our Discord server [Discord Server](https://discord.omega.eco)
 
 Building
 ---------------------
@@ -45,21 +45,21 @@ The following are developer notes on how to build OMEGACOIN Core on your native 
 
 Development
 ---------------------
-The PIVX repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The OMEGACOIN repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/pivx/doxygen/)
+- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/omegacoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [PIVX](http://forum.pivx.org/) forum.
-* Join the [PIVX Discord](https://discord.pivx.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [OMEGACOIN](http://forum.omega.eco/) forum.
+* Join the [OMEGACOIN Discord](https://discord.omega.eco).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

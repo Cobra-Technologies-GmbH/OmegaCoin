@@ -4,12 +4,12 @@
 Encoding=UTF-8
 Name=OMEGACOIN Core
 Comment=OMEGACOIN Core QT main network
-GenericName=PIVX Digital Currency QT client main network
-Exec=pivx-core.qt %u
+GenericName=OMEGACOIN Digital Currency QT client main network
+Exec=omegacoin-core.qt %u
 Terminal=false
 Type=Application
-Icon=${SNAP}/share/pixmaps/pivx.png
-MimeType=x-scheme-handler/pivx;
+Icon=${SNAP}/share/pixmaps/omegacoin.png
+MimeType=x-scheme-handler/omegacoin;
 Categories=X-Office;X-Finance;
-Keywords=internet;pivx;zomega;piv;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Keywords=internet;omegacoin;zomega;omega;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
 Version=1.0

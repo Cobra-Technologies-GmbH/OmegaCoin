@@ -454,7 +454,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="text">
-            <string>How to get PIV</string>
+            <string>How to get OMEGA</string>
            </property>
           </widget>
          </item>
@@ -565,9 +565,9 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QLabel" name="labelAmountPiv">
+           <widget class="QLabel" name="labelAmountOmega">
             <property name="text">
-             <string notr="true">0 PIV</string>
+             <string notr="true">0 OMEGA</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -575,9 +575,9 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelAmountZpiv">
+           <widget class="QLabel" name="labelAmountZOmega">
             <property name="text">
-             <string notr="true">0 zPIV</string>
+             <string notr="true">0 zOmega</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -673,7 +673,7 @@
                  </spacer>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelSquarePiv">
+                 <widget class="QLabel" name="labelSquareOmega">
                   <property name="minimumSize">
                    <size>
                     <width>14</width>
@@ -692,9 +692,9 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelPiv">
+                 <widget class="QLabel" name="labelOmega">
                   <property name="text">
-                   <string notr="true">PIV</string>
+                   <string notr="true">OMEGA</string>
                   </property>
                  </widget>
                 </item>
@@ -715,7 +715,7 @@
                  </spacer>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelSquarezPiv">
+                 <widget class="QLabel" name="labelSquarezOmega">
                   <property name="minimumSize">
                    <size>
                     <width>14</width>
@@ -734,9 +734,9 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelZpiv">
+                 <widget class="QLabel" name="labelZOmega">
                   <property name="text">
-                   <string notr="true">zPIV</string>
+                   <string notr="true">zOmega</string>
                   </property>
                  </widget>
                 </item>

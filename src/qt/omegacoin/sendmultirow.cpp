@@ -12,7 +12,7 @@
 #include "qt/omegacoin/sendmemodialog.h"
 #include "qt/omegacoin/qtutils.h"
 
-SendMultiRow::SendMultiRow(PIVXGUI* _window, PWidget *parent) :
+SendMultiRow::SendMultiRow(OMEGACOINGUI* _window, PWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SendMultiRow),
     iconNumber(new QPushButton())

@@ -11,7 +11,7 @@
 #include "qt/omegacoin/qtutils.h"
 #include "guiinterface.h"
 
-SettingsExportCSV::SettingsExportCSV(PIVXGUI* _window, QWidget *parent) :
+SettingsExportCSV::SettingsExportCSV(OMEGACOINGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsExportCSV)
 {
@@ -59,7 +59,7 @@ void SettingsExportCSV::selectFileOutput(const bool& isTxExport)
 {
     QString filename = GUIUtil::getSaveFileName(this,
                                         isTxExport ? tr("Export CSV") : tr("Export Address List"), QString(),
-                                        isTxExport ? tr("PIVX_tx_csv_export(*.csv)") : tr("PIVX_addresses_csv_export(*.csv)"),
+                                        isTxExport ? tr("OMEGACOIN_tx_csv_export(*.csv)") : tr("OMEGACOIN_addresses_csv_export(*.csv)"),
                                         nullptr);
 
     if (isTxExport) {

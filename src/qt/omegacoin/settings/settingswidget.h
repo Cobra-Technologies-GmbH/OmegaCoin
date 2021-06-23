@@ -18,7 +18,7 @@
 #include "qt/omegacoin/settings/settingsinformationwidget.h"
 #include "qt/omegacoin/settings/settingsconsolewidget.h"
 
-class PIVXGUI;
+class OMEGACOINGUI;
 
 QT_BEGIN_NAMESPACE
 class QDataWidgetMapper;
@@ -33,7 +33,7 @@ class SettingsWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsWidget(PIVXGUI* parent);
+    explicit SettingsWidget(OMEGACOINGUI* parent);
     ~SettingsWidget();
 
     void loadClientModel() override;

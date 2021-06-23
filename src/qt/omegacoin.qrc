@@ -91,7 +91,7 @@
         <file alias="ic-clear-purple">omegacoin/res/img/ic-clear-purple.svg</file>
         <file alias="ic-close-white">omegacoin/res/img/ic-close-white.svg</file>
         <file alias="ic-close">omegacoin/res/img/ic-close.svg</file>
-        <file alias="ic-coin-piv">omegacoin/res/img/ic-coin-omega.svg</file>
+        <file alias="ic-coin-omega">omegacoin/res/img/ic-coin-omega.svg</file>
         <file alias="ic-coin-zomega">omegacoin/res/img/ic-coin-zomega.svg</file>
         <file alias="ic-combo-box">omegacoin/res/img/ic-combo-box.svg</file>
         <file alias="ic-connect">omegacoin/res/img/ic-connect.svg</file>

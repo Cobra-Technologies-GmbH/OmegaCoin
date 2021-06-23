@@ -4,12 +4,12 @@
 Encoding=UTF-8
 Name=OMEGACOIN Core
 Comment=OMEGACOIN Core QT test network
-GenericName=PIVX Digital Currency QT client testnet network
-Exec=pivx-core.qt-testnet %u
+GenericName=OMEGACOIN Digital Currency QT client testnet network
+Exec=omegacoin-core.qt-testnet %u
 Terminal=false
 Type=Application
-Icon=${SNAP}/share/pixmaps/pivx_testnet.png
-MimeType=x-scheme-handler/piv;
+Icon=${SNAP}/share/pixmaps/omegacoin_testnet.png
+MimeType=x-scheme-handler/omega;
 Categories=X-Office;X-Finance;
-Keywords=internet;pivx;zomega;tpiv;core;wallet;qt;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Keywords=internet;omegacoin;zomega;tomega;core;wallet;qt;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
 Version=1.0

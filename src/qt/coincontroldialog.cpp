@@ -590,8 +590,8 @@ void CoinControlDialog::updateLabels()
         return;
 
     ui->labelTitle->setText(fSelectTransparent ?
-            "Select PIV Outputs to Spend" :
-            "Select Shielded PIV to Spend");
+            "Select OMEGA Outputs to Spend" :
+            "Select Shielded OMEGA to Spend");
 
     const TotalAmounts& t = getTotals();
 
@@ -601,7 +601,7 @@ void CoinControlDialog::updateLabels()
     updatePushButtonSelectAll(coinControl->QuantitySelected() * 2 > nSelectableInputs);
 
     // actually update labels
-    int nDisplayUnit = BitcoinUnits::PIV;
+    int nDisplayUnit = BitcoinUnits::OMEGA;
     if (model && model->getOptionsModel())
         nDisplayUnit = model->getOptionsModel()->getDisplayUnit();
 
@@ -687,7 +687,7 @@ void CoinControlDialog::loadAvailableCoin(bool treeMode,
     itemOutput->setFlags(flgCheckbox);
     itemOutput->setCheckState(COLUMN_CHECKBOX, Qt::Unchecked);
 
-    // if listMode or change => show PIVX address. In tree mode, address is not shown again for direct wallet address outputs
+    // if listMode or change => show OMEGACOIN address. In tree mode, address is not shown again for direct wallet address outputs
     if (!treeMode) {
         itemOutput->setText(COLUMN_ADDRESS, sWalletAddress);
     }else {

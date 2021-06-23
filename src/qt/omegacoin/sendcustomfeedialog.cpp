@@ -12,7 +12,7 @@
 #include <QListView>
 #include <QComboBox>
 
-SendCustomFeeDialog::SendCustomFeeDialog(PIVXGUI* parent, WalletModel* model) :
+SendCustomFeeDialog::SendCustomFeeDialog(OMEGACOINGUI* parent, WalletModel* model) :
     FocusedDialog(parent),
     ui(new Ui::SendCustomFeeDialog),
     walletModel(model)
@@ -55,7 +55,7 @@ SendCustomFeeDialog::SendCustomFeeDialog(PIVXGUI* parent, WalletModel* model) :
     connect(ui->comboBoxRecommended, static_cast<void (QComboBox::*)(const QString &)>(&QComboBox::currentIndexChanged),
         this, &SendCustomFeeDialog::updateFee);
     if (parent)
-        connect(parent, &PIVXGUI::themeChanged, this, &SendCustomFeeDialog::onChangeTheme);
+        connect(parent, &OMEGACOINGUI::themeChanged, this, &SendCustomFeeDialog::onChangeTheme);
     ui->checkBoxRecommended->setChecked(true);
 }
 

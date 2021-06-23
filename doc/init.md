@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "pivx" user
+All three Linux startup configurations assume the existence of a "omegacoin" user
 and group.  They must be created before attempting to use these scripts.
 The macOS configuration assumes omegacoind will be set up for the current user.
 
@@ -44,7 +44,7 @@ This allows for running omegacoind without having to do any manual configuration
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/pivx.conf.
+see contrib/debian/examples/omegacoin.conf.
 
 Paths
 ---------------------------------
@@ -54,29 +54,29 @@ Paths
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              /usr/bin/omegacoind
-Configuration file:  /etc/pivx/pivx.conf
+Configuration file:  /etc/omegacoin/omegacoin.conf
 Data directory:      /var/lib/omegacoind
 PID file:            `/var/run/omegacoind/omegacoind.pid` (OpenRC and Upstart) or `/run/omegacoind/omegacoind.pid` (systemd)
 Lock file:           `/var/lock/subsys/omegacoind` (CentOS)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the pivx user and group.  It is advised for security
+should all be owned by the omegacoin user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-pivx user and group.  Access to omegacoin-cli and other omegacoind rpc clients
+omegacoin user and group.  Access to omegacoin-cli and other omegacoind rpc clients
 can then be controlled by group membership.
 
 NOTE: When using the systemd .service file, the creation of the aforementioned
 directories and the setting of their permissions is automatically handled by
-systemd. Directories are given a permission of 710, giving the pivx group
+systemd. Directories are given a permission of 710, giving the omegacoin group
 access to files under it _if_ the files themselves give permission to the
-pivx group to do so (e.g. when `-sysperms` is specified). This does not allow
+omegacoin group to do so (e.g. when `-sysperms` is specified). This does not allow
 for the listing of files under the directory.
 
 NOTE: It is not currently possible to override `datadir` in
-`/etc/pivx/pivx.conf` with the current systemd, OpenRC, and Upstart init
+`/etc/omegacoin/omegacoin.conf` with the current systemd, OpenRC, and Upstart init
 files out-of-the-box. This is because the command line options specified in the
 init files take precedence over the configurations in
-`/etc/pivx/pivx.conf`. However, some init systems have their own
+`/etc/omegacoin/omegacoin.conf`. However, some init systems have their own
 configuration mechanisms that would allow for overriding the command line
 options specified in the init files (e.g. setting `BITCOIND_DATADIR` for
 OpenRC).
@@ -84,9 +84,9 @@ OpenRC).
 ### macOS
 
 Binary:              `/usr/local/bin/omegacoind`
-Configuration file:  `~/Library/Application Support/PIVX/pivx.conf`
-Data directory:      `~/Library/Application Support/PIVX`
-Lock file:           `~/Library/Application Support/PIVX/.lock`
+Configuration file:  `~/Library/Application Support/OMEGACOIN/omegacoin.conf`
+Data directory:      `~/Library/Application Support/OMEGACOIN`
+Lock file:           `~/Library/Application Support/OMEGACOIN/.lock`
 
 Installing Service Configuration
 -----------------------------------
@@ -124,19 +124,19 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy omegacoind.init to /etc/init.d/omegacoind. Test by running `service omegacoind start`.
 
 Using this script, you can adjust the path and flags to the omegacoind program by
-setting the PIVXD and FLAGS environment variables in the file
+setting the OMEGACOIND and FLAGS environment variables in the file
 /etc/sysconfig/omegacoind. You can also use the DAEMONOPTS environment variable here.
 
 ### macOS
 
-Copy org.pivx.omegacoind.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.pivx.omegacoind.plist`.
+Copy org.omegacoin.omegacoind.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.omegacoin.omegacoind.plist`.
 
 This Launch Agent will cause omegacoind to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run omegacoind as the current user.
-You will need to modify org.pivx.omegacoind.plist if you intend to use it as a
-Launch Daemon with a dedicated pivx user.
+You will need to modify org.omegacoin.omegacoind.plist if you intend to use it as a
+Launch Daemon with a dedicated omegacoin user.
 
 Auto-respawn
 -----------------------------------

@@ -522,7 +522,7 @@ class CBlockHeader():
         self.calc_sha256()
         return self.sha256
 
-    # PIVX
+    # OMEGACOIN
     def solve_stake(self, stakeInputs, prevModifier):
         target0 = uint256_from_compact(self.nBits)
         loop = True
@@ -1376,7 +1376,7 @@ class msg_witness_blocktxn(msg_blocktxn):
         return r
 
 
-# PIVX Classes
+# OMEGACOIN Classes
 class Masternode(object):
     def __init__(self, idx, owner_addr, operator_addr, voting_addr, ipport, payout_addr, operator_key):
         self.idx = idx

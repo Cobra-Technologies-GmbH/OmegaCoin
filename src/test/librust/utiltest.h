@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php .
 
-#ifndef PIVX_UTIL_TEST_H
-#define PIVX_UTIL_TEST_H
+#ifndef OMEGACOIN_UTIL_TEST_H
+#define OMEGACOIN_UTIL_TEST_H
 
 #include "sapling/address.h"
 #include "sapling/incrementalmerkletree.h"
@@ -74,4 +74,4 @@ CWalletTx GetValidSaplingReceive(const Consensus::Params& consensusParams,
                                  bool genNewKey = false,
                                  const CWallet* pwalletIn = nullptr);
 
-#endif // PIVX_UTIL_TEST_H
+#endif // OMEGACOIN_UTIL_TEST_H

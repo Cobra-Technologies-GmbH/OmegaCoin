@@ -5,12 +5,12 @@
 """Test the blocksdir option.
 """
 
-from test_framework.test_framework import PivxTestFramework, initialize_datadir
+from test_framework.test_framework import OmegacoinTestFramework, initialize_datadir
 
 import shutil
 import os
 
-class BlocksdirTest(PivxTestFramework):
+class BlocksdirTest(OmegacoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 1

@@ -48,8 +48,8 @@ Build OMEGACOIN Core
 
 1. Clone the OMEGACOIN Core source code:
 
-        git clone https://github.com/pivx-project/pivx
-        cd pivx
+        git clone https://github.com/Cobra-Technologies-GmbH/OmegaCoin
+        cd omegacoin
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
@@ -88,22 +88,22 @@ OMEGACOIN Core is now available at `./src/omegacoind`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/PIVX"
+    mkdir -p "/Users/${USER}/Library/Application Support/OMEGACOIN"
 
-    touch "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
+    touch "/Users/${USER}/Library/Application Support/OMEGACOIN/omegacoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/OMEGACOIN/omegacoin.conf"
 
 The first time you run omegacoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/PIVX/debug.log
+    tail -f $HOME/Library/Application\ Support/OMEGACOIN/debug.log
 
 Other commands:
 -------
 
-    ./src/omegacoind -daemon # Starts the pivx daemon.
+    ./src/omegacoind -daemon # Starts the omegacoin daemon.
     ./src/omegacoin-cli --help # Outputs a list of command-line options.
     ./src/omegacoin-cli help # Outputs a list of RPC commands when the daemon is running.
 

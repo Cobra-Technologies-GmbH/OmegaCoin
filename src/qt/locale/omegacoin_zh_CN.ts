@@ -95,11 +95,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>选择发送PIVX coin的地址</translation>
+        <translation>选择发送OMEGACOIN coin的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>选择接收PIVX coin的地址</translation>
+        <translation>选择接收OMEGACOIN coin的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -114,12 +114,12 @@
         <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是用于发送PIVX的地址。在发送PIVX之前，请认真核查发送金额和接收地址。</translation>
+        <source>These are your OMEGACOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这是用于发送OMEGACOIN的地址。在发送OMEGACOIN之前，请认真核查发送金额和接收地址。</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这是用于接收PIVX的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
+        <source>These are your OMEGACOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这是用于接收OMEGACOIN的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -348,8 +348,8 @@ for staking</source>
         <translation>删除</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取PIVs。</translation>
+        <source>OMEGACOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OMEGAs from being stolen by malware infecting your computer.</source>
+        <translation>OMEGACOIN将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取OMEGAs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -425,8 +425,8 @@ for staking</source>
         <translation>存款</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 OMEGA</source>
+        <translation>0,00 OMEGA</translation>
     </message>
     <message>
         <source>address</source>
@@ -467,8 +467,8 @@ for staking</source>
         <translation>币选择</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>选择PIV支出花费</translation>
+        <source>Select OMEGA Outputs to Spend</source>
+        <translation>选择OMEGA支出花费</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -495,8 +495,8 @@ for staking</source>
         <translation>金额</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 OMEGA</source>
+        <translation>0.00 OMEGA</translation>
     </message>
     <message>
         <source>0</source>
@@ -690,9 +690,9 @@ for staking</source>
         <translation>加载委托时出错：%1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your OMEGAs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>您可以委托您的PIV并让一个热节点(24/7在线节点)
+        <translation>您可以委托您的OMEGA并让一个热节点(24/7在线节点)
 代表你加注，而且保持密钥离线安全。</translation>
     </message>
     <message>
@@ -700,8 +700,8 @@ stake on your behalf, while you keep the keys securely offline.</source>
         <translation>输入所有者地址</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>接受PIV委托／委托PIV </translation>
+        <source>Accept OMEGA delegation / Delegate OMEGA</source>
+        <translation>接受OMEGA委托／委托OMEGA </translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -896,8 +896,8 @@ address</source>
         <translation>过滤</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>已加注的PIV 和 zPIV 金额</translation>
+        <source>Amount of OMEGA and zOmega staked.</source>
+        <translation>已加注的OMEGA 和 zOmega 金额</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -992,8 +992,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>编辑发送地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>所输入的地址“%1”不是有效的PIVX地址。</translation>
+        <source>The entered address "%1" is not a valid OMEGACOIN address.</source>
+        <translation>所输入的地址“%1”不是有效的OMEGACOIN地址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1116,8 +1116,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>由于这是该程序第一次启动，您可以选择存储OMEGACOIN Core 数据的位置。</translation>
     </message>
     <message>
-        <source>OMEGACOIN Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>OMEGACOIN Core将下载并存储PIVX区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+        <source>OMEGACOIN Core will download and store a copy of the OMEGACOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>OMEGACOIN Core将下载并存储OMEGACOIN区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1236,8 +1236,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>创建新的主节点控制器</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PIVX Masternode you must dedicate 10,000 PIV (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个PIVX主节点，你必须奉献10,000 PIV（PIVX的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a OMEGACOIN Masternode you must dedicate 10,000 OMEGA (the unit of OMEGACOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个OMEGACOIN主节点，你必须奉献10,000 OMEGA（OMEGACOIN的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1256,8 +1256,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>确保你有这么多币</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;将进行10,000 PIV的交易&lt;/p&gt;&lt;p&gt;到您的钱包空地址&lt;/p&gt;&lt;p&gt;地址被标记在主节点的名称之下&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 OMEGA will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;将进行10,000 OMEGA的交易&lt;/p&gt;&lt;p&gt;到您的钱包空地址&lt;/p&gt;&lt;p&gt;地址被标记在主节点的名称之下&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1439,7 +1439,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the omegacoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1447,7 +1447,7 @@ this controller wallet (select the Masternode in the list and press "start").
 到剪贴板的远程服务器上。
 
 
-您只需将数据粘贴到pivx.conf文件中
+您只需将数据粘贴到omegacoin.conf文件中
 ，然后使用主节点启动它
 这个控制器钱包(在列表中选择主节点并按“开始”)。
 </translation>
@@ -1587,8 +1587,8 @@ Are you sure?</source>
         <translation>解析的数据太大</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivx" prefix</source>
-        <translation>无效的URI，不是以“ pivx”前缀开头</translation>
+        <source>Invalid URI, not starting with "omegacoin" prefix</source>
+        <translation>无效的URI，不是以“ omegacoin”前缀开头</translation>
     </message>
 </context>
 <context>
@@ -1633,8 +1633,8 @@ Are you sure?</source>
         <translation>如果您要禁用未经确认发送，在至少有一个确认之前&lt;br/&gt;不能更改。&lt;br/&gt;这也将影响您的余额计算。</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的PIVX钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <source>Automatically open the OMEGACOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动打开路由器上的OMEGACOIN钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1653,12 +1653,12 @@ Are you sure?</source>
         <translation>专家</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>登录系统后自动启动PIVX。</translation>
+        <source>Automatically start OMEGACOIN after logging in to the system.</source>
+        <translation>登录系统后自动启动OMEGACOIN。</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;开机启动PIVX</translation>
+        <source>&amp;Start OMEGACOIN on system login</source>
+        <translation>&amp;开机启动OMEGACOIN</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1685,58 +1685,58 @@ Are you sure?</source>
         <translation>&amp;网络</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>可以在这里设置用户界面语言。此设置将在重新启动PIVX后生效。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OMEGACOIN.</source>
+        <translation>可以在这里设置用户界面语言。此设置将在重新启动OMEGACOIN后生效。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/omegacoin-project/omegacoin-project-translations</source>
         <translation>语言缺失或翻译不完整?帮助贡献翻译在这里:
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/omegacoin-project/omegacoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>端口使用&amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>启动自动铸造PIV到zPIV</translation>
+        <source>Enable automatic minting of OMEGA units to zOmega</source>
+        <translation>启动自动铸造OMEGA到zOmega</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>启动自动铸造zPIV</translation>
+        <source>Enable zOmega Automint</source>
+        <translation>启动自动铸造zOmega</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>启用从特定地址自动生成zPIV</translation>
+        <source>Enable automatic zOmega minting from specific addresses</source>
+        <translation>启用从特定地址自动生成zOmega</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>启动自动铸造地址</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>通过零币协议自动转换为zPIV的传入PIV的百分比(最小:10%)</translation>
+        <source>Percentage of incoming OMEGA which get automatically converted to zOmega via Zerocoin Protocol (min: 10%)</source>
+        <translation>通过零币协议自动转换为zOmega的传入OMEGA的百分比(最小:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>自动铸造的zPIV百分比</translation>
+        <source>Percentage of autominted zOmega</source>
+        <translation>自动铸造的zOmega百分比</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>等待自动转换为零币，直到足够的PIV为这种面额可用</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough OMEGA for this denomination is available</source>
+        <translation>等待自动转换为零币，直到足够的OMEGA为这种面额可用</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>首选自动铸造zPIV面额</translation>
+        <source>Preferred Automint zOmega Denomination</source>
+        <translation>首选自动铸造zOmega面额</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>股权分割阈值:</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>通过SOCKS5代理连接到PIVX网络。</translation>
+        <source>Connect to the OMEGACOIN network through a SOCKS5 proxy.</source>
+        <translation>通过SOCKS5代理连接到OMEGACOIN网络。</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1792,7 +1792,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择显示发送PIVX的默认单位。</translation>
+        <translation>选择显示发送OMEGACOIN的默认单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1880,7 +1880,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>OMEGACOINGUI</name>
     <message>
         <source>OMEGACOIN Core</source>
         <translation>OMEGACOIN Core</translation>
@@ -1977,12 +1977,12 @@ Address: %4
         <translation>无效支付地址%1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>无法启动pivx:点击支付处理程序</translation>
+        <source>Cannot start omegacoin: click-to-pay handler</source>
+        <translation>无法启动omegacoin:点击支付处理程序</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI不能被解析!这可能是由无效的PIVX地址或格式错误的URI参数造成的。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid OMEGACOIN address or malformed URI parameters.</source>
+        <translation>URI不能被解析!这可能是由无效的OMEGACOIN地址或格式错误的URI参数造成的。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2067,8 +2067,8 @@ Address: %4
         <translation>金额</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>输入PIVX a地址(e.g. %1)</translation>
+        <source>Enter OMEGACOIN address (e.g. %1)</source>
+        <translation>输入OMEGACOIN a地址(e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2111,8 +2111,8 @@ Address: %4
         <translation>%1 毫秒</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>发生了一个致命的错误。PIVX不能继续安全，将退出。</translation>
+        <source>A fatal error occurred. OMEGACOIN can no longer continue safely and will quit.</source>
+        <translation>发生了一个致命的错误。OMEGACOIN不能继续安全，将退出。</translation>
     </message>
     <message>
         <source>OMEGACOIN Core</source>
@@ -2136,7 +2136,7 @@ Address: %4
     </message>
     <message>
         <source>OMEGACOIN Core didn't yet exit safely...</source>
-        <translation>PIVX核心尚未安全退出……</translation>
+        <translation>OMEGACOIN核心尚未安全退出……</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2318,8 +2318,8 @@ Address: %4
         <translation>区块链</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>从当前数据目录打开PIVX调试日志文件。对于大型日志文件，这可能需要几秒钟。</translation>
+        <source>Open the OMEGACOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>从当前数据目录打开OMEGACOIN调试日志文件。对于大型日志文件，这可能需要几秒钟。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2462,8 +2462,8 @@ Address: %4
         <translation>自定义备份路径:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>自定义zPIV备份路径:</translation>
+        <source>Custom zOmega Backup Path:</source>
+        <translation>自定义zOmega备份路径:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2542,8 +2542,8 @@ Address: %4
         <translation>出：</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>欢迎访问PIVX RPC控制台</translation>
+        <source>Welcome to the OMEGACOIN RPC console.</source>
+        <translation>欢迎访问OMEGACOIN RPC控制台</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2782,8 +2782,8 @@ Address: %4
         <translation>金额</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>OMEGA</source>
+        <translation>OMEGA</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -2861,8 +2861,8 @@ Address: %4
         <translation>自定义更改地址</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>输入值减去输出值所得的值的其余部分归为“更改”PIVX地址</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" OMEGACOIN address</source>
+        <translation>输入值减去输出值所得的值的其余部分归为“更改”OMEGACOIN地址</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2888,8 +2888,8 @@ Address: %4
         <translation>已推荐</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/k字节</translation>
+        <source>OMEGA/kilobyte</source>
+        <translation>OMEGA/k字节</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3167,8 +3167,8 @@ These coins will no longer be cold-staked.</source>
         <translation>解密钥匙</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>PIVX地址</translation>
+        <source>OMEGACOIN address</source>
+        <translation>OMEGACOIN地址</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3292,8 +3292,8 @@ Verify that you have installed a predetermined text editor.</source>
 确认您已经安装了预定的文本编辑器</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>欢迎访问PIVX RPC控制台</translation>
+        <source>Welcome to the OMEGACOIN RPC console.</source>
+        <translation>欢迎访问OMEGACOIN RPC控制台</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3402,12 +3402,12 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>导出地址列表</translation>
     </message>
     <message>
-        <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <source>OMEGACOIN_tx_csv_export(*.csv)</source>
+        <translation>OMEGACOIN_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>OMEGACOIN_addresses_csv_export(*.csv)</source>
+        <translation>OMEGACOIN_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3477,45 +3477,45 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>来自</translation>
     </message>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1）什么是PIVX?</translation>
+        <source>1) What is OMEGACOIN?</source>
+        <translation>1）什么是OMEGACOIN?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) 我的PIV为什么不能用？</translation>
+        <source>2) Why are my OMEGA unspendable?</source>
+        <translation>2) 我的OMEGA为什么不能用？</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>PIVX是什么?</translation>
+        <source>What is OMEGACOIN?</source>
+        <translation>OMEGACOIN是什么?</translation>
     </message>
     <message>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>我的PIV为什么不能用？</translation>
+        <source>Why are my OMEGA unspendable?</source>
+        <translation>我的OMEGA为什么不能用？</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received PIVX requires 6 confirmations on the network
+                           Newly received OMEGACOIN requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your PIVX wallet also needs to be completely synchronized
+                           Your OMEGACOIN wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-接收到的PIVX需要网络上的6个确认
+接收到的OMEGACOIN需要网络上的6个确认
 才能成为有资格的花费，可以花~6分钟。
 &lt;/p&gt;&lt;p align="justify"&gt;
-您的PIVX钱包也需要完全同步
+您的OMEGACOIN钱包也需要完全同步
 查看网络收支余额。
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -3549,14 +3549,14 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>什么是主节点控制器？</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 PIV collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;主节点控制器钱包是控制器-远程主节点建立期间10,000 PIV抵押可以驻留的地方。这是一个可以激活远程主节点钱包(s)的钱包，可以让你的抵押币离线但远程主节点保持在线。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 OMEGA collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;主节点控制器钱包是控制器-远程主节点建立期间10,000 OMEGA抵押可以驻留的地方。这是一个可以激活远程主节点钱包(s)的钱包，可以让你的抵押币离线但远程主节点保持在线。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node PIVX core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           A masternode is a computer running a full node OMEGACOIN core wallet with a
+                           requirement of 10,000 OMEGA secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3578,17 +3578,17 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in PIVX Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in OMEGACOIN Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the PIVX network&lt;/li&gt;
+                           &lt;li&gt;Help secure the OMEGACOIN network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 OMEGA per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -3597,8 +3597,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-主节点是运行完整节点PIVX核心钱包的计算机
-需要10,000个PIV作抵押以提供额外服务
+主节点是运行完整节点OMEGACOIN核心钱包的计算机
+需要10,000个OMEGA作抵押以提供额外服务
 到网络，会收到一部分的区块奖励作为定期
 回报
 这些服务包括:
@@ -3620,17 +3620,17 @@ There was an error trying to save the address list to %1. Please try again.</sou
 主节点福利：
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;参与PIVX治理&lt;/li&gt;
+&lt;li&gt;参与OMEGACOIN治理&lt;/li&gt;
 &lt;li&gt;赢取主节点奖励&lt;/li&gt;
 &lt;li&gt;商品期货期权&lt;/li&gt;
-&lt;li&gt;帮助保护PIVX网络&lt;/li&gt;
+&lt;li&gt;帮助保护OMEGACOIN网络&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 
 要求：
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;每个主节点实例有10,000 PIV&lt;/li&gt;
+&lt;li&gt;每个主节点实例有10,000 OMEGA&lt;/li&gt;
 &lt;li&gt;必须存储在核心钱包&lt;/li&gt;
 &lt;li&gt;需要专用IP地址&lt;/li&gt;
 主节点钱包保持在线&lt;li&gt;
@@ -3747,8 +3747,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>无法打开备份文件夹</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>无法使用默认应用程序打开pivx.conf</translation>
+        <source>Unable to open omegacoin.conf with default application</source>
+        <translation>无法使用默认应用程序打开omegacoin.conf</translation>
     </message>
     <message>
         <source>In:</source>
@@ -3798,8 +3798,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>脚本&amp;验证线程数</translation>
     </message>
     <message>
-        <source>Start PIVX on system login</source>
-        <translation>开机启动PIVX</translation>
+        <source>Start OMEGACOIN on system login</source>
+        <translation>开机启动OMEGACOIN</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3886,8 +3886,8 @@ Are you sure?
         <translation>查看列表</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.</source>
-        <translation>成熟以后，多重花费允许您自动发送高达 100% 的股权或主节点奖励到其他PIVX地址列表</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other OMEGACOIN addresses after it matures.</source>
+        <translation>成熟以后，多重花费允许您自动发送高达 100% 的股权或主节点奖励到其他OMEGACOIN地址列表</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4005,8 +4005,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>消息 </translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX 地址或者联系人标签</translation>
+        <source>OMEGACOIN address or contact label</source>
+        <translation>OMEGACOIN 地址或者联系人标签</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4282,8 +4282,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>常见问题</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>关于PIVX </translation>
+        <source>About OMEGACOIN</source>
+        <translation>关于OMEGACOIN </translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4350,7 +4350,7 @@ Are you sure?
     <name>ShutdownWindow</name>
     <message>
         <source>OMEGACOIN Core is shutting down...</source>
-        <translation>PIVX 核心正在关闭...</translation>
+        <translation>OMEGACOIN 核心正在关闭...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4776,8 +4776,8 @@ backup will be created.
         <translation>来自</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 OMEGA</source>
+        <translation>+0.000585 OMEGA</translation>
     </message>
     </context>
 <context>
@@ -4827,25 +4827,25 @@ backup will be created.
     </message>
     <message>
         <source>Welcome to
-PIVX Core Wallet</source>
+OMEGACOIN Core Wallet</source>
         <translation>欢迎
-PIVX核心钱包</translation>
+OMEGACOIN核心钱包</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX是世界上最先进的隐私保护技术，由经验丰富的开发人员和密码专家开发。</translation>
+        <source>OMEGACOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>OMEGACOIN是世界上最先进的隐私保护技术，由经验丰富的开发人员和密码专家开发。</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——PIVX相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - OMEGACOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——OMEGACOIN相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>主节点网络是PIVX在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
+        <source>The masternode network is OMEGACOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>主节点网络是OMEGACOIN在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>PIVX 到底是怎么尊重你的隐私的？</translation>
+        <source>How OMEGACOIN respects your privacy?</source>
+        <translation>OMEGACOIN 到底是怎么尊重你的隐私的？</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -4857,7 +4857,7 @@ PIVX核心钱包</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>omegacoin-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>允许来自指定源的JSON-RPC连接。适用于&lt;ip&gt;单一IP(如1.2.3.4)、网络/网掩码(如1.2.3.4/255.255.255.0)或网络/CIDR(如1.2.3.4/24)。可以多次指定此选项</translation>
@@ -4876,7 +4876,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. OMEGACOIN Core is probably already running.</source>
-        <translation>无法获取数据目录%s锁。PIVX核心可能已经在运行了。</translation>
+        <translation>无法获取数据目录%s锁。OMEGACOIN核心可能已经在运行了。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5024,7 +5024,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. OMEGACOIN Core is probably already running.</source>
-        <translation>无法绑定到此计算机上的%s。PIVX核心可能已经在运行了。</translation>
+        <translation>无法绑定到此计算机上的%s。OMEGACOIN核心可能已经在运行了。</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5236,7 +5236,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. OMEGACOIN Core is shutting down.</source>
-        <translation>初始化完整性检查失败。PIVX核心快要关闭了。</translation>
+        <translation>初始化完整性检查失败。OMEGACOIN核心快要关闭了。</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5708,7 +5708,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart OMEGACOIN Core to complete</source>
-        <translation>钱包需要重写:重新启动PIVX核心完成</translation>
+        <translation>钱包需要重写:重新启动OMEGACOIN核心完成</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5762,8 +5762,8 @@ PIVX核心钱包</translation>
         <translation>发送</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX 地址或者联系人标签</translation>
+        <source>OMEGACOIN address or contact label</source>
+        <translation>OMEGACOIN 地址或者联系人标签</translation>
     </message>
     <message>
         <source>Amount</source>

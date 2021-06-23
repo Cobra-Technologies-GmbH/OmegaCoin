@@ -14,7 +14,7 @@
 #include <QProgressBar>
 
 class BalanceBubble;
-class PIVXGUI;
+class OMEGACOINGUI;
 class WalletModel;
 class ClientModel;
 
@@ -27,7 +27,7 @@ class TopBar : public PWidget
     Q_OBJECT
 
 public:
-    explicit TopBar(PIVXGUI* _mainWindow, QWidget *parent = nullptr);
+    explicit TopBar(OMEGACOINGUI* _mainWindow, QWidget *parent = nullptr);
     ~TopBar();
 
     void showTop();

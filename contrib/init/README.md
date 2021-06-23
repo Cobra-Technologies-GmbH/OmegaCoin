@@ -5,7 +5,7 @@ Upstart: omegacoind.conf
 OpenRC:  omegacoind.openrc
          omegacoind.openrcconf
 CentOS:  omegacoind.init
-macOS:    org.pivx.omegacoind.plist
+macOS:    org.omegacoin.omegacoind.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

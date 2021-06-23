@@ -155,7 +155,7 @@ private:
     void operator=(const CZerocoinDB&);
 
 public:
-    /** Write zPIV spends to the zerocoinDB in a batch */
+    /** Write zOmega spends to the zerocoinDB in a batch */
     bool WriteCoinSpendBatch(const std::vector<std::pair<libzerocoin::CoinSpend, uint256> >& spendInfo);
     bool ReadCoinSpend(const CBigNum& bnSerial, uint256& txHash);
     bool EraseCoinSpend(const CBigNum& bnSerial);

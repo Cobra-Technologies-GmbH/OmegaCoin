@@ -11,7 +11,7 @@
 #include <QAbstractListModel>
 #include <QSettings>
 
-/** Interface from Qt to configuration data structure for PIVX client.
+/** Interface from Qt to configuration data structure for OMEGACOIN client.
    To Qt, the options are presented as a list with the different options
    laid out vertically.
    This can be changed to a tree once the settings become sufficiently
@@ -48,7 +48,7 @@ public:
         HideCharts,          // bool
         HideZeroBalances,    // bool
         HideOrphans,    // bool
-        AnonymizePivxAmount, //int
+        AnonymizeOmegacoinAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         ShowColdStakingScreen,  // bool

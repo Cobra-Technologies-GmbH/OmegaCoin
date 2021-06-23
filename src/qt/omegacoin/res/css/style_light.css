@@ -1771,7 +1771,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="img-splash-logo"] {
-    qproperty-icon: url("://img-logo-pivx");
+    qproperty-icon: url("://img-logo-omegacoin");
     qproperty-iconSize: 300px 100px;
     border:0;
     background-color:transparent;
@@ -1825,14 +1825,14 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-size:20px;
 }
 
-*[cssClass="text-stake-piv"] {
+*[cssClass="text-stake-omega"] {
     color:#5c4b7d;
     font-size:16px;
     padding:10px;
     border-bottom: 5px solid #5c4b7d;
 }
 
-*[cssClass="text-stake-piv-disable"] {
+*[cssClass="text-stake-omega-disable"] {
     color:#d7d5da;
     font-size:16px;
     padding:10px;
@@ -1864,7 +1864,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     padding-left:4px;
 }
 
-*[cssClass="text-chart-piv"] {
+*[cssClass="text-chart-omega"] {
     color:#5c4b7d;
     font-size:16px;
     padding-left:4px;
@@ -1875,7 +1875,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border:none;
 }
 
-*[cssClass="square-chart-piv"] {
+*[cssClass="square-chart-omega"] {
     background-color:#5c4b7d;
     border:none;
 }
@@ -2458,9 +2458,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 
-*[cssClass="coin-icon-piv"] {
-    qproperty-icon: url("://ic-coin-piv") off,
-    url("://ic-coin-piv") on ;
+*[cssClass="coin-icon-omega"] {
+    qproperty-icon: url("://ic-coin-omega") off,
+    url("://ic-coin-omega") on ;
     qproperty-iconSize: 24px 24px;
     background-color: #FFFFFF;
     border:  2px solid #FFFFFF;

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_SPECIALTX_H
-#define PIVX_SPECIALTX_H
+#ifndef OMEGACOIN_SPECIALTX_H
+#define OMEGACOIN_SPECIALTX_H
 
 #include "streams.h"
 #include "version.h"
@@ -63,4 +63,4 @@ void SetTxPayload(CMutableTransaction& tx, const T& payload)
 
 uint256 CalcTxInputsHash(const CTransaction& tx);
 
-#endif // PIVX_SPECIALTX_H
+#endif // OMEGACOIN_SPECIALTX_H

@@ -9,7 +9,7 @@
 #include "qt/omegacoin/focuseddialog.h"
 #include "qt/omegacoin/snackbar.h"
 
-class PIVXGUI;
+class OMEGACOINGUI;
 class WalletModel;
 
 namespace Ui {
@@ -21,7 +21,7 @@ class SendCustomFeeDialog : public FocusedDialog
     Q_OBJECT
 
 public:
-    explicit SendCustomFeeDialog(PIVXGUI* parent, WalletModel* model);
+    explicit SendCustomFeeDialog(OMEGACOINGUI* parent, WalletModel* model);
     ~SendCustomFeeDialog();
 
     void showEvent(QShowEvent* event) override;

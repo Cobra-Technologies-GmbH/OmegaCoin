@@ -45,12 +45,12 @@ public:
     boost::signals2::signal<std::string (const char* psz)> Translate;
 };
 
-extern const char * const PIVX_CONF_FILENAME;
-extern const char * const PIVX_PID_FILENAME;
-extern const char * const PIVX_MASTERNODE_CONF_FILENAME;
+extern const char * const OMEGACOIN_CONF_FILENAME;
+extern const char * const OMEGACOIN_PID_FILENAME;
+extern const char * const OMEGACOIN_MASTERNODE_CONF_FILENAME;
 extern const char * const DEFAULT_DEBUGLOGFILE;
 
-//PIVX only features
+//OMEGACOIN only features
 
 extern std::atomic<bool> fMasterNode;
 extern bool fLiteMode;
@@ -264,7 +264,7 @@ void SetThreadPriority(int nPriority);
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("pivx-%s", name);
+    std::string s = strprintf("omegacoin-%s", name);
     util::ThreadRename(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

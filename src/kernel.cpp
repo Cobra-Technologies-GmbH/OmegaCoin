@@ -98,8 +98,8 @@ static bool LoadStakeInput(const CBlock& block, std::unique_ptr<CStakeInput>& st
     // Construct the stakeinput object
     const CTxIn& txin = block.vtx[1]->vin[0];
     stake = txin.IsZerocoinSpend() ?
-            std::unique_ptr<CStakeInput>(new CLegacyZPivStake()) :
-            std::unique_ptr<CStakeInput>(CPivStake::NewPivStake(txin));
+            std::unique_ptr<CStakeInput>(new CLegacyZOmegaStake()) :
+            std::unique_ptr<CStakeInput>(COmegaStake::NewOmegaStake(txin));
 
     return stake && stake->InitFromTxIn(txin);
 }
@@ -163,7 +163,7 @@ bool CheckProofOfStake(const CBlock& block, std::string& strError, const CBlockI
     }
 
     // zPoS disabled (ContextCheck) before blocks V7, and the tx input signature is in CoinSpend
-    if (stakeInput->IsZPIV()) return true;
+    if (stakeInput->IsZOmega()) return true;
 
     // Verify tx input signature
     CTxOut stakePrevout;

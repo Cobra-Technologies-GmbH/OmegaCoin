@@ -1,6 +1,6 @@
 [Protocol]
 exec=omegacoin-qt '%u'
-protocol=pivx
+protocol=omegacoin
 input=none
 output=none
 helper=true

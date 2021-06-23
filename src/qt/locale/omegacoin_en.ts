@@ -4,7 +4,7 @@
 <context>
     <name>AddNewAddressDialog</name>
     <message>
-        <location filename="../pivx/forms/addnewaddressdialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/addnewaddressdialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -37,7 +37,7 @@
 <context>
     <name>AddNewContactDialog</name>
     <message>
-        <location filename="../pivx/forms/addnewcontactdialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/addnewcontactdialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -67,7 +67,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/addnewcontactdialog.cpp" line="+48"/>
+        <location filename="../omegacoin/addnewcontactdialog.cpp" line="+48"/>
         <source>Edit label for the selected address:
 %1</source>
         <translation type="unfinished"></translation>
@@ -152,12 +152,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your OMEGACOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your OMEGACOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -199,7 +199,7 @@
 <context>
     <name>AddressLabelRow</name>
     <message>
-        <location filename="../pivx/forms/addresslabelrow.ui" line="+20"/>
+        <location filename="../omegacoin/forms/addresslabelrow.ui" line="+20"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -245,7 +245,7 @@
 <context>
     <name>AddressesWidget</name>
     <message>
-        <location filename="../pivx/forms/addresseswidget.ui" line="+14"/>
+        <location filename="../omegacoin/forms/addresseswidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -280,7 +280,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/addresseswidget.cpp" line="+90"/>
+        <location filename="../omegacoin/addresseswidget.cpp" line="+90"/>
         <source>Add new contact</source>
         <translation type="unfinished"></translation>
     </message>
@@ -448,7 +448,7 @@ for staking</source>
     </message>
     <message>
         <location line="+161"/>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>OMEGACOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OMEGAs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -537,7 +537,7 @@ for staking</source>
 <context>
     <name>BalanceBubble</name>
     <message>
-        <location filename="../pivx/forms/balancebubble.ui" line="+26"/>
+        <location filename="../omegacoin/forms/balancebubble.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -549,7 +549,7 @@ for staking</source>
     <message>
         <location line="+15"/>
         <location line="+26"/>
-        <source>0.00 pivx</source>
+        <source>0.00 omegacoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -574,7 +574,7 @@ for staking</source>
 <context>
     <name>CSRow</name>
     <message>
-        <location filename="../pivx/forms/csrow.ui" line="+14"/>
+        <location filename="../omegacoin/forms/csrow.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -585,7 +585,7 @@ for staking</source>
     </message>
     <message>
         <location line="+20"/>
-        <source>0,00 PIV</source>
+        <source>0,00 OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -599,7 +599,7 @@ for staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/csrow.cpp" line="+27"/>
+        <location filename="../omegacoin/csrow.cpp" line="+27"/>
         <source>Own delegation</source>
         <translation type="unfinished"></translation>
     </message>
@@ -636,7 +636,7 @@ for staking</source>
     </message>
     <message>
         <location line="+81"/>
-        <source>Select PIV Outputs to Spend</source>
+        <source>Select OMEGA Outputs to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -674,7 +674,7 @@ for staking</source>
         <location line="-393"/>
         <location line="+124"/>
         <location line="+461"/>
-        <source>0.00 PIV</source>
+        <source>0.00 OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -876,7 +876,7 @@ for staking</source>
 <context>
     <name>ColdStakingWidget</name>
     <message>
-        <location filename="../pivx/forms/coldstakingwidget.ui" line="+14"/>
+        <location filename="../omegacoin/forms/coldstakingwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -926,7 +926,7 @@ for staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/coldstakingwidget.cpp" line="+797"/>
+        <location filename="../omegacoin/coldstakingwidget.cpp" line="+797"/>
         <source>Total Staking: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -936,8 +936,8 @@ for staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/forms/coldstakingwidget.ui" line="-603"/>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <location filename="../omegacoin/forms/coldstakingwidget.ui" line="-603"/>
+        <source>You can delegate your OMEGAs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -948,7 +948,7 @@ stake on your behalf, while you keep the keys securely offline.</source>
     </message>
     <message>
         <location line="-139"/>
-        <source>Accept PIV delegation / Delegate PIV</source>
+        <source>Accept OMEGA delegation / Delegate OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -957,7 +957,7 @@ stake on your behalf, while you keep the keys securely offline.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/coldstakingwidget.cpp" line="+18"/>
+        <location filename="../omegacoin/coldstakingwidget.cpp" line="+18"/>
         <source>No receive addresses available, you can go to the receive screen and create some there!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1158,7 +1158,7 @@ address</source>
 <context>
     <name>ContactDropdownRow</name>
     <message>
-        <location filename="../pivx/forms/contactdropdownrow.ui" line="+20"/>
+        <location filename="../omegacoin/forms/contactdropdownrow.ui" line="+20"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1166,7 +1166,7 @@ address</source>
 <context>
     <name>DashboardWidget</name>
     <message>
-        <location filename="../pivx/forms/dashboardwidget.ui" line="+14"/>
+        <location filename="../omegacoin/forms/dashboardwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1192,7 +1192,7 @@ address</source>
     </message>
     <message>
         <location line="+357"/>
-        <source>How to get PIV</source>
+        <source>How to get OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1226,12 +1226,12 @@ address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/dashboardwidget.cpp" line="+115"/>
+        <location filename="../omegacoin/dashboardwidget.cpp" line="+115"/>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/forms/dashboardwidget.ui" line="-658"/>
+        <location filename="../omegacoin/forms/dashboardwidget.ui" line="-658"/>
         <source>No transactions yet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1242,7 +1242,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/dashboardwidget.cpp" line="+36"/>
+        <location filename="../omegacoin/dashboardwidget.cpp" line="+36"/>
         <location line="+278"/>
         <source>You have no staking rewards</source>
         <translation type="unfinished"></translation>
@@ -1278,7 +1278,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>DefaultDialog</name>
     <message>
-        <location filename="../pivx/forms/defaultdialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/defaultdialog.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1342,7 +1342,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid PIVX address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid OMEGACOIN address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1364,7 +1364,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>ExpandableButton</name>
     <message>
-        <location filename="../pivx/forms/expandablebutton.ui" line="+26"/>
+        <location filename="../omegacoin/forms/expandablebutton.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1495,7 +1495,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+18"/>
-        <source>OMEGACOIN Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>OMEGACOIN Core will download and store a copy of the OMEGACOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1547,7 +1547,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>LoadingDialog</name>
     <message>
-        <location filename="../pivx/forms/loadingdialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/loadingdialog.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1570,7 +1570,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>LockUnlock</name>
     <message>
-        <location filename="../pivx/forms/lockunlock.ui" line="+14"/>
+        <location filename="../omegacoin/forms/lockunlock.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1593,12 +1593,12 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>MNRow</name>
     <message>
-        <location filename="../pivx/forms/mnrow.ui" line="+14"/>
+        <location filename="../omegacoin/forms/mnrow.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="../pivx/mnrow.cpp" line="+24"/>
+        <location filename="../omegacoin/mnrow.cpp" line="+24"/>
         <source>Collateral tx not found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1611,7 +1611,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>MasterNodeWizardDialog</name>
     <message>
-        <location filename="../pivx/forms/masternodewizarddialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/masternodewizarddialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1652,7 +1652,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+23"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PIVX Masternode you must dedicate 10,000 PIV (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a OMEGACOIN Masternode you must dedicate 10,000 OMEGA (the unit of OMEGACOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1677,7 +1677,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+97"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node&apos;s name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 OMEGA will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node&apos;s name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1701,7 +1701,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/masternodewizarddialog.cpp" line="+171"/>
+        <location filename="../omegacoin/masternodewizarddialog.cpp" line="+171"/>
         <source>address label cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1769,7 +1769,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>MasterNodesWidget</name>
     <message>
-        <location filename="../pivx/forms/masternodeswidget.ui" line="+14"/>
+        <location filename="../omegacoin/forms/masternodeswidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -1805,7 +1805,7 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/masternodeswidget.cpp" line="+174"/>
+        <location filename="../omegacoin/masternodeswidget.cpp" line="+174"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1922,7 +1922,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the omegacoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press &quot;start&quot;).
 </source>
@@ -1970,7 +1970,7 @@ Are you sure?</source>
 <context>
     <name>MnInfoDialog</name>
     <message>
-        <location filename="../pivx/forms/mninfodialog.ui" line="+20"/>
+        <location filename="../omegacoin/forms/mninfodialog.ui" line="+20"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -2015,7 +2015,7 @@ Are you sure?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/mninfodialog.cpp" line="+27"/>
+        <location filename="../omegacoin/mninfodialog.cpp" line="+27"/>
         <source>Masternode public key copied</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2028,7 +2028,7 @@ Are you sure?</source>
 <context>
     <name>MyAddressRow</name>
     <message>
-        <location filename="../pivx/forms/myaddressrow.ui" line="+14"/>
+        <location filename="../omegacoin/forms/myaddressrow.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -2036,7 +2036,7 @@ Are you sure?</source>
 <context>
     <name>NavMenuWidget</name>
     <message>
-        <location filename="../pivx/forms/navmenuwidget.ui" line="+14"/>
+        <location filename="../omegacoin/forms/navmenuwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -2088,7 +2088,7 @@ STAKING</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/navmenuwidget.cpp" line="+23"/>
+        <location filename="../omegacoin/navmenuwidget.cpp" line="+23"/>
         <source>v%1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2142,14 +2142,14 @@ STAKING</source>
     </message>
     <message>
         <location line="+6"/>
-        <source>Invalid URI, not starting with &quot;pivx&quot; prefix</source>
+        <source>Invalid URI, not starting with &quot;omegacoin&quot; prefix</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>OptionButton</name>
     <message>
-        <location filename="../pivx/forms/optionbutton.ui" line="+14"/>
+        <location filename="../omegacoin/forms/optionbutton.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -2198,7 +2198,7 @@ STAKING</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the OMEGACOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2223,12 +2223,12 @@ STAKING</source>
     </message>
     <message>
         <location line="-236"/>
-        <source>Automatically start PIVX after logging in to the system.</source>
+        <source>Automatically start OMEGACOIN after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start PIVX on system login</source>
+        <source>&amp;Start OMEGACOIN on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2263,13 +2263,13 @@ STAKING</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting OMEGACOIN.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/omegacoin-project/omegacoin-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2279,17 +2279,17 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
     <message>
         <location line="-187"/>
-        <source>Enable automatic minting of PIV units to zPIV</source>
+        <source>Enable automatic minting of OMEGA units to zOmega</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zPIV Automint</source>
+        <source>Enable zOmega Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Enable automatic zPIV minting from specific addresses</source>
+        <source>Enable automatic zOmega minting from specific addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2299,23 +2299,23 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming OMEGA which get automatically converted to zOmega via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zPIV</source>
+        <source>Percentage of autominted zOmega</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough OMEGA for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zPIV Denomination</source>
+        <source>Preferred Automint zOmega Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2325,7 +2325,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
     <message>
         <location line="+98"/>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
+        <source>Connect to the OMEGACOIN network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2508,9 +2508,9 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>OMEGACOINGUI</name>
     <message>
-        <location filename="../pivx/pivxgui.cpp" line="+69"/>
+        <location filename="../omegacoin/omegacoingui.cpp" line="+69"/>
         <location line="+301"/>
         <location line="+69"/>
         <source>OMEGACOIN Core</source>
@@ -2641,12 +2641,12 @@ Address: %4
     </message>
     <message>
         <location line="-101"/>
-        <source>Cannot start pivx: click-to-pay handler</source>
+        <source>Cannot start omegacoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+107"/>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid OMEGACOIN address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2759,7 +2759,7 @@ Address: %4
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+141"/>
-        <source>Enter PIVX address (e.g. %1)</source>
+        <source>Enter OMEGACOIN address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2815,7 +2815,7 @@ Address: %4
     </message>
     <message>
         <location filename="../omegacoin.cpp" line="+530"/>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. OMEGACOIN can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2858,25 +2858,25 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../pivx/qtutils.cpp" line="+136"/>
+        <location filename="../omegacoin/qtutils.cpp" line="+136"/>
         <source>Receiving</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../pivx/qtutils.cpp" line="+3"/>
+        <location filename="../omegacoin/qtutils.cpp" line="+3"/>
         <source>Delegator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../pivx/qtutils.cpp" line="+1"/>
+        <location filename="../omegacoin/qtutils.cpp" line="+1"/>
         <source>Delegable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../pivx/qtutils.cpp" line="-2"/>
+        <location filename="../omegacoin/qtutils.cpp" line="-2"/>
         <source>Cold Staking</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2906,7 +2906,7 @@ Address: %4
         <translation type="unfinished">Unknown</translation>
     </message>
     <message>
-        <location filename="../pivx/qtutils.cpp" line="-3"/>
+        <location filename="../omegacoin/qtutils.cpp" line="-3"/>
         <location line="+24"/>
         <source>All</source>
         <translation type="unfinished">All</translation>
@@ -3022,7 +3022,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/dashboardwidget.cpp" line="-507"/>
+        <location filename="../omegacoin/dashboardwidget.cpp" line="-507"/>
         <source>Jan</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3082,7 +3082,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/coldstakingwidget.cpp" line="-707"/>
+        <location filename="../omegacoin/coldstakingwidget.cpp" line="-707"/>
         <source>Address with no label</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3208,7 +3208,7 @@ Address: %4
     </message>
     <message>
         <location line="+93"/>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the OMEGACOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3390,7 +3390,7 @@ Address: %4
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zPIV Backup Path:</source>
+        <source>Custom zOmega Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3490,7 +3490,7 @@ Address: %4
     </message>
     <message>
         <location line="-39"/>
-        <source>Welcome to the PIVX RPC console.</source>
+        <source>Welcome to the OMEGACOIN RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3637,7 +3637,7 @@ Address: %4
 <context>
     <name>ReceiveDialog</name>
     <message>
-        <location filename="../pivx/forms/receivedialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/receivedialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3660,13 +3660,13 @@ Address: %4
 <context>
     <name>ReceiveWidget</name>
     <message>
-        <location filename="../pivx/forms/receivewidget.ui" line="+20"/>
+        <location filename="../omegacoin/forms/receivewidget.ui" line="+20"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Scan the QR code or copy the address to receive PIV</source>
+        <source>Scan the QR code or copy the address to receive OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3681,12 +3681,12 @@ Address: %4
     </message>
     <message>
         <location line="+19"/>
-        <source>Accept transparent or shielded PIV</source>
+        <source>Accept transparent or shielded OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+179"/>
-        <location filename="../pivx/receivewidget.cpp" line="+183"/>
+        <location filename="../omegacoin/receivewidget.cpp" line="+183"/>
         <source>Add Label</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3706,7 +3706,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/receivewidget.cpp" line="-123"/>
+        <location filename="../omegacoin/receivewidget.cpp" line="-123"/>
         <source>My Addresses</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3835,7 +3835,7 @@ try unlocking the wallet</source>
 <context>
     <name>RequestDialog</name>
     <message>
-        <location filename="../pivx/forms/requestdialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/requestdialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3846,12 +3846,12 @@ try unlocking the wallet</source>
     </message>
     <message>
         <location line="+74"/>
-        <source>PIV</source>
+        <source>OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-117"/>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
+        <source>Instead of sharing only a OMEGACOIN address, you can create a payment request, bundling up more information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3900,17 +3900,17 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/requestdialog.cpp" line="+49"/>
+        <location filename="../omegacoin/requestdialog.cpp" line="+49"/>
         <source>Error</source>
         <translation type="unfinished">Error</translation>
     </message>
     <message>
-        <location filename="../pivx/forms/requestdialog.ui" line="+222"/>
+        <location filename="../omegacoin/forms/requestdialog.ui" line="+222"/>
         <source>GENERATE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/requestdialog.cpp" line="+27"/>
+        <location filename="../omegacoin/requestdialog.cpp" line="+27"/>
         <source>Creates an address to receive coin delegations and be able to stake them.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3948,13 +3948,13 @@ try unlocking the wallet</source>
 <context>
     <name>SendChangeAddressDialog</name>
     <message>
-        <location filename="../pivx/forms/sendchangeaddressdialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/sendchangeaddressdialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+238"/>
-        <location filename="../pivx/sendchangeaddressdialog.cpp" line="+64"/>
+        <location filename="../omegacoin/sendchangeaddressdialog.cpp" line="+64"/>
         <source>CANCEL</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3965,7 +3965,7 @@ try unlocking the wallet</source>
     </message>
     <message>
         <location line="+72"/>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the &quot;change&quot; PIVX address</source>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the &quot;change&quot; OMEGACOIN address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3974,7 +3974,7 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/sendchangeaddressdialog.cpp" line="-17"/>
+        <location filename="../omegacoin/sendchangeaddressdialog.cpp" line="-17"/>
         <source>RESET</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3992,7 +3992,7 @@ try unlocking the wallet</source>
 <context>
     <name>SendCustomFeeDialog</name>
     <message>
-        <location filename="../pivx/forms/sendcustomfeedialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/sendcustomfeedialog.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4003,7 +4003,7 @@ try unlocking the wallet</source>
     </message>
     <message>
         <location line="+86"/>
-        <source>PIV/kilobyte</source>
+        <source>OMEGA/kilobyte</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4032,7 +4032,7 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/sendcustomfeedialog.cpp" line="+35"/>
+        <location filename="../omegacoin/sendcustomfeedialog.cpp" line="+35"/>
         <source>Normal</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4047,12 +4047,12 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/forms/sendcustomfeedialog.ui" line="+260"/>
+        <location filename="../omegacoin/forms/sendcustomfeedialog.ui" line="+260"/>
         <source>SAVE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/sendcustomfeedialog.cpp" line="+89"/>
+        <location filename="../omegacoin/sendcustomfeedialog.cpp" line="+89"/>
         <source>Fee too high. Must be below: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4065,7 +4065,7 @@ try unlocking the wallet</source>
 <context>
     <name>SendMemoDialog</name>
     <message>
-        <location filename="../pivx/forms/sendmemodialog.ui" line="+14"/>
+        <location filename="../omegacoin/forms/sendmemodialog.ui" line="+14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4089,7 +4089,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/sendmemodialog.cpp" line="+49"/>
+        <location filename="../omegacoin/sendmemodialog.cpp" line="+49"/>
         <source>RESET</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4102,7 +4102,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>SendMultiRow</name>
     <message>
-        <location filename="../pivx/forms/sendmultirow.ui" line="+26"/>
+        <location filename="../omegacoin/forms/sendmultirow.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4122,7 +4122,7 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/sendmultirow.cpp" line="+92"/>
+        <location filename="../omegacoin/sendmultirow.cpp" line="+92"/>
         <source>Update memo</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4140,7 +4140,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>SendWidget</name>
     <message>
-        <location filename="../pivx/send.cpp" line="+157"/>
+        <location filename="../omegacoin/send.cpp" line="+157"/>
         <source>Total remaining from the selected UTXO</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4328,12 +4328,12 @@ Do you want to continue?
     </message>
     <message>
         <location line="+14"/>
-        <source>Error generating address to shield PIVs</source>
+        <source>Error generating address to shield OMEGAs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>You don&apos;t have any transparent PIVs to shield.</source>
+        <source>You don&apos;t have any transparent OMEGAs to shield.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4390,7 +4390,7 @@ Do you want to continue?
 <context>
     <name>SettingsBackupWallet</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsbackupwallet.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsbackupwallet.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4412,7 +4412,7 @@ This option creates a wallet.dat file that can be used to recover your whole bal
     </message>
     <message>
         <location line="+53"/>
-        <location filename="../pivx/settings/settingsbackupwallet.cpp" line="+57"/>
+        <location filename="../omegacoin/settings/settingsbackupwallet.cpp" line="+57"/>
         <source>Select folder...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4429,12 +4429,12 @@ Remember to write it down and store it safely, otherwise you might lose access t
     </message>
     <message>
         <location line="-172"/>
-        <location filename="../pivx/settings/settingsbackupwallet.cpp" line="-7"/>
+        <location filename="../omegacoin/settings/settingsbackupwallet.cpp" line="-7"/>
         <source>Backup Wallet</source>
         <translation type="unfinished">Backup Wallet</translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsbackupwallet.cpp" line="+1"/>
+        <location filename="../omegacoin/settings/settingsbackupwallet.cpp" line="+1"/>
         <source>Wallet Data (*.dat)</source>
         <translation type="unfinished">Wallet Data (*.dat)</translation>
     </message>
@@ -4457,7 +4457,7 @@ Remember to write it down and store it safely, otherwise you might lose access t
 <context>
     <name>SettingsBitToolWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsbittoolwidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsbittoolwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4473,7 +4473,7 @@ Remember to write it down and store it safely, otherwise you might lose access t
     </message>
     <message>
         <location line="+7"/>
-        <source>Encrypt your PIVX addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your OMEGACOIN addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4520,7 +4520,7 @@ Using this mechanism you can share your keys without middle-man risk, only need 
     </message>
     <message>
         <location line="+77"/>
-        <source>PIVX address</source>
+        <source>OMEGACOIN address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4560,7 +4560,7 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsbittoolwidget.cpp" line="+142"/>
+        <location filename="../omegacoin/settings/settingsbittoolwidget.cpp" line="+142"/>
         <source>The entered passphrase is invalid. </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4650,7 +4650,7 @@ Using this mechanism you can share your keys without middle-man risk, only need 
 <context>
     <name>SettingsConsoleWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsconsolewidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsconsolewidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4660,12 +4660,12 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsconsolewidget.cpp" line="+264"/>
+        <location filename="../omegacoin/settings/settingsconsolewidget.cpp" line="+264"/>
         <source>Console input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/forms/settingsconsolewidget.ui" line="+29"/>
+        <location filename="../omegacoin/settings/forms/settingsconsolewidget.ui" line="+29"/>
         <source>Open Debug File</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4680,14 +4680,14 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsconsolewidget.cpp" line="+13"/>
+        <location filename="../omegacoin/settings/settingsconsolewidget.cpp" line="+13"/>
         <source>Cannot open debug file.
 Verify that you have installed a predetermined text editor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+151"/>
-        <source>Welcome to the PIVX RPC console.</source>
+        <source>Welcome to the OMEGACOIN RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4709,7 +4709,7 @@ Verify that you have installed a predetermined text editor.</source>
 <context>
     <name>SettingsDisplayOptionsWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsdisplayoptionswidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsdisplayoptionswidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4720,7 +4720,7 @@ Verify that you have installed a predetermined text editor.</source>
     </message>
     <message>
         <location line="+91"/>
-        <location filename="../pivx/settings/settingsdisplayoptionswidget.cpp" line="+92"/>
+        <location filename="../omegacoin/settings/settingsdisplayoptionswidget.cpp" line="+92"/>
         <source>Reset to default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4765,7 +4765,7 @@ Verify that you have installed a predetermined text editor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsdisplayoptionswidget.cpp" line="-1"/>
+        <location filename="../omegacoin/settings/settingsdisplayoptionswidget.cpp" line="-1"/>
         <source>SAVE</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4783,7 +4783,7 @@ Verify that you have installed a predetermined text editor.</source>
 <context>
     <name>SettingsExportCSV</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsexportcsv.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsexportcsv.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -4805,7 +4805,7 @@ Verify that you have installed a predetermined text editor.</source>
     <message>
         <location line="+58"/>
         <location line="+115"/>
-        <location filename="../pivx/settings/settingsexportcsv.cpp" line="+70"/>
+        <location filename="../omegacoin/settings/settingsexportcsv.cpp" line="+70"/>
         <location line="+7"/>
         <source>Select folder...</source>
         <translation type="unfinished"></translation>
@@ -4816,7 +4816,7 @@ Verify that you have installed a predetermined text editor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsexportcsv.cpp" line="-16"/>
+        <location filename="../omegacoin/settings/settingsexportcsv.cpp" line="-16"/>
         <source>Export CSV</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4827,12 +4827,12 @@ Verify that you have installed a predetermined text editor.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>PIVX_tx_csv_export(*.csv)</source>
+        <source>OMEGACOIN_tx_csv_export(*.csv)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
+        <source>OMEGACOIN_addresses_csv_export(*.csv)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4909,23 +4909,23 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsFaqWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsfaqwidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsfaqwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location line="+152"/>
-        <source>1) What is PIVX?</source>
+        <source>1) What is OMEGACOIN?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>2) Why are my PIV unspendable?</source>
+        <source>2) Why are my OMEGA unspendable?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+148"/>
-        <source>https://PIVX.org/</source>
+        <source>https://coin.omega.eco/</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,7 +4935,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+18"/>
-        <source>What is PIVX?</source>
+        <source>What is OMEGACOIN?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4945,17 +4945,17 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+21"/>
-        <source>Why are my PIV unspendable?</source>
+        <source>Why are my OMEGA unspendable?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
-                           Newly received PIVX requires 6 confirmations on the network
+                           Newly received OMEGACOIN requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
-                           Your PIVX wallet also needs to be completely synchronized
+                           Your OMEGACOIN wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -4968,12 +4968,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+18"/>
-        <source>How do I stake PIV?</source>
+        <source>How do I stake OMEGA?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You must have a balance of PIVX with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (omegacoin-cli); the command &lt;span style=&quot; font-style:italic;&quot;&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You must have a balance of OMEGACOIN with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (omegacoin-cli); the command &lt;span style=&quot; font-style:italic;&quot;&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4986,7 +4986,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style=&apos;color: #b088ff&apos; href=&apos;https://discord.PIVX.org&apos;&gt;
+                           &lt;a style=&apos;color: #b088ff&apos; href=&apos;https://discord.omega.eco&apos;&gt;
                            #support in our Discord&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -5001,8 +5001,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <location line="+44"/>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
-                           A masternode is a computer running a full node PIVX core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           A masternode is a computer running a full node OMEGACOIN core wallet with a
+                           requirement of 10,000 OMEGA secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
@@ -5023,17 +5023,17 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in PIVX Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in OMEGACOIN Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the PIVX network&lt;/li&gt;
+                           &lt;li&gt;Help secure the OMEGACOIN network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
 
                            Requirements:
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 OMEGA per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -5056,14 +5056,14 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <location line="-268"/>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
-                           PIVX is a form of digital online money using blockchain technology
+                           OMEGACOIN is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  PIVX incorporates market leading security &amp;
+                           zero fees.  OMEGACOIN incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
-                           PIVX utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of PIVX to participate in earning block rewards
+                           OMEGACOIN utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of OMEGACOIN to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -5082,7 +5082,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+26"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;A Masternode Controller wallet is where the 10,000 PIV collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;A Masternode Controller wallet is where the 10,000 OMEGA collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5097,7 +5097,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+138"/>
-        <source>3) How do I stake PIV?</source>
+        <source>3) How do I stake OMEGA?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5124,7 +5124,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsInformationWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsinformationwidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsinformationwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5219,12 +5219,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsinformationwidget.cpp" line="+74"/>
+        <location filename="../omegacoin/settings/settingsinformationwidget.cpp" line="+74"/>
         <source>Main</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/forms/settingsinformationwidget.ui" line="-587"/>
+        <location filename="../omegacoin/settings/forms/settingsinformationwidget.ui" line="-587"/>
         <source>Wallet Conf</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5234,7 +5234,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsinformationwidget.cpp" line="+22"/>
+        <location filename="../omegacoin/settings/settingsinformationwidget.cpp" line="+22"/>
         <source>No information</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5245,7 +5245,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+4"/>
-        <source>Unable to open pivx.conf with default application</source>
+        <source>Unable to open omegacoin.conf with default application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5267,7 +5267,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsMainOptionsWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsmainoptionswidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsmainoptionswidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5317,12 +5317,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsmainoptionswidget.cpp" line="+54"/>
-        <source>Start PIVX on system login</source>
+        <location filename="../omegacoin/settings/settingsmainoptionswidget.cpp" line="+54"/>
+        <source>Start OMEGACOIN on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/forms/settingsmainoptionswidget.ui" line="+130"/>
+        <location filename="../omegacoin/settings/forms/settingsmainoptionswidget.ui" line="+130"/>
         <source>Minimize to the tray instead of the taskbar</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5332,7 +5332,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsmainoptionswidget.cpp" line="+30"/>
+        <location filename="../omegacoin/settings/settingsmainoptionswidget.cpp" line="+30"/>
         <source>Reset Options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5353,7 +5353,7 @@ Are you sure?
 <context>
     <name>SettingsMultisendDialog</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsmultisenddialog.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsmultisenddialog.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5380,7 +5380,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsmultisenddialog.cpp" line="+24"/>
+        <location filename="../omegacoin/settings/settingsmultisenddialog.cpp" line="+24"/>
         <source>New recipient for multisend</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5403,7 +5403,7 @@ Are you sure?
 <context>
     <name>SettingsMultisendWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingsmultisendwidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingsmultisendwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5425,8 +5425,8 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingsmultisendwidget.cpp" line="+164"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.</source>
+        <location filename="../omegacoin/settings/settingsmultisendwidget.cpp" line="+164"/>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other OMEGACOIN addresses after it matures.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5545,7 +5545,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
 <context>
     <name>SettingsSignMessageWidgets</name>
     <message>
-        <location filename="../pivx/settings/forms/settingssignmessagewidgets.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingssignmessagewidgets.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5570,18 +5570,18 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingssignmessagewidgets.cpp" line="+47"/>
+        <location filename="../omegacoin/settings/settingssignmessagewidgets.cpp" line="+47"/>
         <source>Select mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/forms/settingssignmessagewidgets.ui" line="-19"/>
+        <location filename="../omegacoin/settings/forms/settingssignmessagewidgets.ui" line="-19"/>
         <source>Message</source>
         <translation type="unfinished">Message</translation>
     </message>
     <message>
         <location line="-62"/>
-        <source>PIVX address or contact label</source>
+        <source>OMEGACOIN address or contact label</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5597,7 +5597,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
     </message>
     <message>
         <location line="+88"/>
-        <location filename="../pivx/settings/settingssignmessagewidgets.cpp" line="+64"/>
+        <location filename="../omegacoin/settings/settingssignmessagewidgets.cpp" line="+64"/>
         <source>SIGN</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5607,7 +5607,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingssignmessagewidgets.cpp" line="-1"/>
+        <location filename="../omegacoin/settings/settingssignmessagewidgets.cpp" line="-1"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
@@ -5696,7 +5696,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
 <context>
     <name>SettingsWalletOptionsWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingswalletoptionswidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingswalletoptionswidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5732,7 +5732,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
     </message>
     <message>
         <location line="+71"/>
-        <location filename="../pivx/settings/settingswalletoptionswidget.cpp" line="+38"/>
+        <location filename="../omegacoin/settings/settingswalletoptionswidget.cpp" line="+38"/>
         <source>Network</source>
         <translation type="unfinished">Network</translation>
     </message>
@@ -5782,7 +5782,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingswalletoptionswidget.cpp" line="+28"/>
+        <location filename="../omegacoin/settings/settingswalletoptionswidget.cpp" line="+28"/>
         <source>Options reset succeed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5790,13 +5790,13 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
 <context>
     <name>SettingsWalletRepairWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingswalletrepairwidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingswalletrepairwidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location line="+94"/>
-        <location filename="../pivx/settings/settingswalletrepairwidget.cpp" line="+22"/>
+        <location filename="../omegacoin/settings/settingswalletrepairwidget.cpp" line="+22"/>
         <source>Wallet Repair</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5876,7 +5876,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingswalletrepairwidget.cpp" line="+63"/>
+        <location filename="../omegacoin/settings/settingswalletrepairwidget.cpp" line="+63"/>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5904,7 +5904,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
 <context>
     <name>SettingsWidget</name>
     <message>
-        <location filename="../pivx/settings/forms/settingswidget.ui" line="+14"/>
+        <location filename="../omegacoin/settings/forms/settingswidget.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -5991,7 +5991,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
     </message>
     <message>
         <location line="+31"/>
-        <source>About PIVX</source>
+        <source>About OMEGACOIN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6000,7 +6000,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/settings/settingswidget.cpp" line="+222"/>
+        <location filename="../omegacoin/settings/settingswidget.cpp" line="+222"/>
         <source>Confirm options reset</source>
         <translation type="unfinished">Confirm options reset</translation>
     </message>
@@ -6085,7 +6085,7 @@ Are you sure?
 <context>
     <name>SnackBar</name>
     <message>
-        <location filename="../pivx/forms/snackbar.ui" line="+26"/>
+        <location filename="../omegacoin/forms/snackbar.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -6098,7 +6098,7 @@ Are you sure?
 <context>
     <name>Splash</name>
     <message>
-        <location filename="../pivx/forms/splash.ui" line="+26"/>
+        <location filename="../omegacoin/forms/splash.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -6108,7 +6108,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/splash.cpp" line="+31"/>
+        <location filename="../omegacoin/splash.cpp" line="+31"/>
         <source>OMEGACOIN Core</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6124,7 +6124,7 @@ Are you sure?
 <context>
     <name>TooltipMenu</name>
     <message>
-        <location filename="../pivx/forms/tooltipmenu.ui" line="+26"/>
+        <location filename="../omegacoin/forms/tooltipmenu.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -6152,7 +6152,7 @@ Are you sure?
 <context>
     <name>TopBar</name>
     <message>
-        <location filename="../pivx/forms/topbar.ui" line="+26"/>
+        <location filename="../omegacoin/forms/topbar.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -6168,7 +6168,7 @@ Are you sure?
     </message>
     <message>
         <location line="+213"/>
-        <location filename="../pivx/topbar.cpp" line="+689"/>
+        <location filename="../omegacoin/topbar.cpp" line="+689"/>
         <source>Available</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6183,7 +6183,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/topbar.cpp" line="-388"/>
+        <location filename="../omegacoin/topbar.cpp" line="-388"/>
         <location line="+360"/>
         <source>Wallet Unlocked for staking</source>
         <translation type="unfinished"></translation>
@@ -6619,7 +6619,7 @@ backup will be created.
     </message>
     <message>
         <location line="+2"/>
-        <source>Burned PIVs</source>
+        <source>Burned OMEGAs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6676,13 +6676,13 @@ backup will be created.
 <context>
     <name>TxDetailDialog</name>
     <message>
-        <location filename="../pivx/forms/sendconfirmdialog.ui" line="+26"/>
+        <location filename="../omegacoin/forms/sendconfirmdialog.ui" line="+26"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location line="+90"/>
-        <location filename="../pivx/sendconfirmdialog.cpp" line="+75"/>
+        <location filename="../omegacoin/sendconfirmdialog.cpp" line="+75"/>
         <source>Transaction Details</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6693,13 +6693,13 @@ backup will be created.
     </message>
     <message>
         <location line="+117"/>
-        <location filename="../pivx/sendconfirmdialog.cpp" line="+12"/>
+        <location filename="../omegacoin/sendconfirmdialog.cpp" line="+12"/>
         <source>Previous Transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-16"/>
-        <location filename="../pivx/sendconfirmdialog.cpp" line="+1"/>
+        <location filename="../omegacoin/sendconfirmdialog.cpp" line="+1"/>
         <source>Output Index</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6784,7 +6784,7 @@ backup will be created.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/sendconfirmdialog.cpp" line="-34"/>
+        <location filename="../omegacoin/sendconfirmdialog.cpp" line="-34"/>
         <source>Confirm Your Transaction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6832,18 +6832,18 @@ backup will be created.
 <context>
     <name>TxRow</name>
     <message>
-        <location filename="../pivx/forms/txrow.ui" line="+20"/>
+        <location filename="../omegacoin/forms/txrow.ui" line="+20"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
     <message>
         <location line="+142"/>
-        <source>+0.000585 PIV</source>
+        <source>+0.000585 OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>-0.000585 PIV</source>
+        <source>-0.000585 OMEGA</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6870,7 +6870,7 @@ Select fewer inputs with coin control.</source>
 <context>
     <name>WelcomeContentWidget</name>
     <message>
-        <location filename="../pivx/forms/welcomecontentwidget.ui" line="+244"/>
+        <location filename="../omegacoin/forms/welcomecontentwidget.ui" line="+244"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6917,27 +6917,27 @@ Select fewer inputs with coin control.</source>
     <message>
         <location line="+89"/>
         <source>Welcome to
-PIVX Core Wallet</source>
+OMEGACOIN Core Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <source>OMEGACOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - OMEGACOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+83"/>
-        <source>The masternode network is PIVX&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>The masternode network is OMEGACOIN&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-103"/>
-        <source>How PIVX respects your privacy?</source>
+        <source>How OMEGACOIN respects your privacy?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6946,15 +6946,15 @@ PIVX Core Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pivx/welcomecontentwidget.cpp" line="+178"/>
+        <location filename="../omegacoin/welcomecontentwidget.cpp" line="+178"/>
         <source>default</source>
         <translation type="unfinished">default</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>omegacoin-core</name>
     <message>
-        <location filename="../pivxstrings.cpp" line="+18"/>
+        <location filename="../omegacoinstrings.cpp" line="+18"/>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation type="unfinished">Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</translation>
     </message>
@@ -7527,7 +7527,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+18"/>
-        <source>Disable all PIVX specific functionality (Masternodes, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all OMEGACOIN specific functionality (Masternodes, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7833,7 +7833,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+28"/>
-        <source>Minimum positive amount (in PIV) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
+        <source>Minimum positive amount (in OMEGA) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8366,7 +8366,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
 <context>
     <name>send</name>
     <message>
-        <location filename="../pivx/forms/send.ui" line="+14"/>
+        <location filename="../omegacoin/forms/send.ui" line="+14"/>
         <source>Form</source>
         <translation type="unfinished">Form</translation>
     </message>
@@ -8398,7 +8398,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+53"/>
-        <source>PIVX address or contact label</source>
+        <source>OMEGACOIN address or contact label</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -4,7 +4,7 @@ Debian
 This directory contains files used to package omegacoind/omegacoin-qt
 for Debian-based Linux systems. If you compile omegacoind/omegacoin-qt yourself, there are some useful files here.
 
-## pivx: URI support ##
+## omegacoin: URI support ##
 
 
 omegacoin-qt.desktop  (Gnome / Open Desktop)

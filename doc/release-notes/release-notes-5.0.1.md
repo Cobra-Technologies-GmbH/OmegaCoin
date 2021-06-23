@@ -1,5 +1,5 @@
-PIVX Core version v5.0.1 is now available from: https://github.com/pivx-project/pivx/releases
-Please report bugs using the issue tracker at github: https://github.com/pivx-project/pivx/issues
+OMEGACOIN Core version v5.0.1 is now available from: https://github.com/Cobra-Technologies-GmbH/OmegaCoin/releases
+Please report bugs using the issue tracker at github: https://github.com/Cobra-Technologies-GmbH/OmegaCoin/issues
 
 Mandatory Update
 ----

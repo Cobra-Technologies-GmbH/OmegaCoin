@@ -22,7 +22,7 @@ Developer Notes
     - [Threads](#threads)
     - [Ignoring IDE/editor files](#ignoring-ideeditor-files)
 - [Development guidelines](#development-guidelines)
-    - [General OMEGACOIN Core](#general-pivx-core)
+    - [General OMEGACOIN Core](#general-omegacoin-core)
     - [Wallet](#wallet)
     - [General C++](#general-c)
     - [C++ data structures](#c-data-structures)
@@ -215,7 +215,7 @@ to see it.
 
 ### Testnet and Regtest modes
 
-Run with the `-testnet` option to run with "play PIVs (tPIV)" on the test network, if you
+Run with the `-testnet` option to run with "play OMEGAs (tOMEGA)" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the `-regtest` option.
@@ -234,7 +234,7 @@ debug.log file if inconsistencies are detected.
 
 Valgrind is a programming tool for memory debugging, memory leak detection, and
 profiling. The repo contains a Valgrind suppressions file
-([`valgrind.supp`](https://github.com/pivx-project/pivx/blob/master/contrib/valgrind.supp))
+([`valgrind.supp`](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/blob/master/contrib/valgrind.supp))
 which includes known Valgrind warnings in our dependencies that cannot be fixed
 in-tree. Example use:
 
@@ -262,7 +262,7 @@ make cov
 ```
 
 **Sanitizers**
-PIVX can be compiled with various "sanitizers" enabled, which add
+OMEGACOIN can be compiled with various "sanitizers" enabled, which add
 instrumentation for issues regarding things like memory safety, thread race
 conditions, or undefined behavior. This is controlled with the
 `--with-sanitizers` configure flag, which should be a comma separated list of
@@ -345,7 +345,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 8332 for connections and services them.
 
-- BitcoinMiner : Generates PIVs (if wallet is enabled).
+- BitcoinMiner : Generates OMEGAs (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 
@@ -733,7 +733,7 @@ you must be aware of.
 
 In most configurations we use the default LevelDB value for `max_open_files`,
 which is 1000 at the time of this writing. If LevelDB actually uses this many
-file descriptors it will cause problems with PIVX's `select()` loop, because
+file descriptors it will cause problems with OMEGACOIN's `select()` loop, because
 it may cause new sockets to be created where the fd value is >= 1024. For this
 reason, on 64-bit Unix systems we rely on an internal LevelDB optimization that
 uses `mmap()` + `close()` to open table files without actually retaining
@@ -841,7 +841,7 @@ Git and GitHub tips
 
         [remote "upstream-pull"]
                 fetch = +refs/pull/*:refs/remotes/upstream-pull/*
-                url = git@github.com:PIVX-Project/PIVX.git
+                url = git@github.com:OMEGACOIN-Project/OMEGACOIN.git
 
   This will add an `upstream-pull` remote to your git repository, which can be fetched using `git fetch --all`
   or `git fetch upstream-pull`. Afterwards, you can use `upstream-pull/NUMBER/head` in arguments to `git show`,

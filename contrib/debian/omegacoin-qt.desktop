@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
 Name=OMEGACOIN Core
-Comment=PIVX P2P Cryptocurrency
-Comment[fr]=PIVX, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=PIVX, eşten eşe kriptografik sanal para birimi
+Comment=OMEGACOIN P2P Cryptocurrency
+Comment[fr]=OMEGACOIN, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=OMEGACOIN, eşten eşe kriptografik sanal para birimi
 Exec=omegacoin-qt %u
 Terminal=false
 Type=Application
-Icon=pivx128
-MimeType=x-scheme-handler/pivx;
+Icon=omegacoin128
+MimeType=x-scheme-handler/omegacoin;
 Categories=Office;Finance;
-StartupWMClass=Pivx-qt
+StartupWMClass=Omegacoin-qt

@@ -22,7 +22,7 @@
 #define REQUEST_PREPARE_TX 1
 #define REQUEST_REFRESH_BALANCE 2
 
-SendWidget::SendWidget(PIVXGUI* parent) :
+SendWidget::SendWidget(OMEGACOINGUI* parent) :
     PWidget(parent),
     ui(new Ui::send),
     coinIcon(new QPushButton())
@@ -73,7 +73,7 @@ SendWidget::SendWidget(PIVXGUI* parent) :
 
     // Uri
     ui->btnUri->setTitleClassAndText("btn-title-grey", tr("Open URI"));
-    ui->btnUri->setSubTitleClassAndText("text-subtitle", tr("Parse a PIVX URI"));
+    ui->btnUri->setSubTitleClassAndText("text-subtitle", tr("Parse a OMEGACOIN URI"));
 
     // Shield coins
     ui->btnShieldCoins->setTitleClassAndText("btn-title-grey", tr("Shield Coins"));
@@ -105,7 +105,7 @@ SendWidget::SendWidget(PIVXGUI* parent) :
     coinIcon->show();
     coinIcon->raise();
 
-    setCssProperty(coinIcon, "coin-icon-piv");
+    setCssProperty(coinIcon, "coin-icon-omega");
 
     QSize BUTTON_SIZE = QSize(24, 24);
     coinIcon->setMinimumSize(BUTTON_SIZE);
@@ -122,8 +122,8 @@ SendWidget::SendWidget(PIVXGUI* parent) :
     setCustomFeeSelected(false);
 
     // Connect
-    connect(ui->pushLeft, &QPushButton::clicked, [this](){onPIVSelected(true);});
-    connect(ui->pushRight,  &QPushButton::clicked, [this](){onPIVSelected(false);});
+    connect(ui->pushLeft, &QPushButton::clicked, [this](){onOMEGASelected(true);});
+    connect(ui->pushRight,  &QPushButton::clicked, [this](){onOMEGASelected(false);});
     connect(ui->pushButtonSave, &QPushButton::clicked, this, &SendWidget::onSendClicked);
     connect(ui->pushButtonAddRecipient, &QPushButton::clicked, this, &SendWidget::onAddEntryClicked);
     connect(ui->pushButtonClear, &QPushButton::clicked, [this](){clearAll(true);});
@@ -354,7 +354,7 @@ void SendWidget::setFocusOnLastEntry()
 void SendWidget::showHideCheckBoxDelegations(CAmount delegationBalance)
 {
     // Show checkbox only when there is any available owned delegation and
-    // coincontrol is not selected, and we are trying to spend transparent PIVs.
+    // coincontrol is not selected, and we are trying to spend transparent OMEGAs.
     const bool isCControl = coinControlDialog ? coinControlDialog->coinControl->HasSelected() : false;
     const bool hasDel = delegationBalance > 0;
 
@@ -747,7 +747,7 @@ void SendWidget::onShieldCoinsClicked()
             auto res = walletModel->getNewShieldedAddress(strAddress, "");
             // Check for generation errors
             if (!res.result) {
-                inform(tr("Error generating address to shield PIVs"));
+                inform(tr("Error generating address to shield OMEGAs"));
                 return false;
             }
             recipients.back().address = strAddress;
@@ -755,7 +755,7 @@ void SendWidget::onShieldCoinsClicked()
             return true;
         });
     } else {
-        inform(tr("You don't have any transparent PIVs to shield."));
+        inform(tr("You don't have any transparent OMEGAs to shield."));
     }
 }
 
@@ -784,7 +784,7 @@ void SendWidget::onCheckBoxChanged()
     }
 }
 
-void SendWidget::onPIVSelected(bool _isTransparent)
+void SendWidget::onOMEGASelected(bool _isTransparent)
 {
     isTransparent = _isTransparent;
     resetChangeAddress();
@@ -885,14 +885,14 @@ void SendWidget::onContactMultiClicked()
         }
 
         bool isStakingAddr = false;
-        auto pivAdd = Standard::DecodeDestination(address.toStdString(), isStakingAddr);
+        auto omegaAdd = Standard::DecodeDestination(address.toStdString(), isStakingAddr);
 
-        if (!Standard::IsValidDestination(pivAdd) || isStakingAddr) {
+        if (!Standard::IsValidDestination(omegaAdd) || isStakingAddr) {
             inform(tr("Invalid address"));
             return;
         }
 
-        if (walletModel->isMine(pivAdd)) {
+        if (walletModel->isMine(omegaAdd)) {
             inform(tr("Cannot store your own address as contact"));
             return;
         }
@@ -912,7 +912,7 @@ void SendWidget::onContactMultiClicked()
             if (label == dialog->getLabel()) {
                 return;
             }
-            if (walletModel->updateAddressBookLabels(pivAdd, dialog->getLabel().toStdString(),
+            if (walletModel->updateAddressBookLabels(omegaAdd, dialog->getLabel().toStdString(),
                     AddressBook::AddressBookPurpose::SEND)) {
                 inform(tr("New Contact Stored"));
             } else {

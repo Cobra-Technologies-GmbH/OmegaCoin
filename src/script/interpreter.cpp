@@ -1090,6 +1090,7 @@ public:
     }
 };
 
+// TODO: Hash anpassen
 const unsigned char PIVX_PREVOUTS_HASH_PERSONALIZATION[crypto_generichash_blake2b_PERSONALBYTES] =
         {'P','I','V','X','P','r','e','v','o','u','t','H','a','s','h'};
 const unsigned char PIVX_SEQUENCE_HASH_PERSONALIZATION[crypto_generichash_blake2b_PERSONALBYTES] =

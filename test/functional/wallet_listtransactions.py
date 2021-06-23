@@ -7,7 +7,7 @@ from decimal import Decimal
 from io import BytesIO
 
 from test_framework.mininode import CTransaction
-from test_framework.test_framework import PivxTestFramework
+from test_framework.test_framework import OmegacoinTestFramework
 from test_framework.util import (
     assert_array_result,
     assert_equal,
@@ -20,7 +20,7 @@ def txFromHex(hexstring):
     tx.deserialize(f)
     return tx
 
-class ListTransactionsTest(PivxTestFramework):
+class ListTransactionsTest(OmegacoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
         self.enable_mocktime()
@@ -95,7 +95,7 @@ class ListTransactionsTest(PivxTestFramework):
         txs = [tx for tx in self.nodes[0].listtransactions("*", 100, 0, True) if "label" in tx and tx['label'] == 'watchonly']
         assert_array_result(txs, {"category": "receive", "amount": Decimal("0.1")}, {"txid": txid})
 
-        # Send 10 PIV with subtract fee from amount
+        # Send 10 OMEGA with subtract fee from amount
         node_0_bal = self.nodes[0].getbalance()
         node_1_bal = self.nodes[1].getbalance()
         self.log.info("test sendtoaddress with subtract-fee-from-amt")
@@ -114,7 +114,7 @@ class ListTransactionsTest(PivxTestFramework):
                            {"txid": txid},
                            {"category": "receive", "amount": + Decimal('10') + fee, "confirmations": 1})
 
-        # Sendmany 10 PIV with subtract fee from amount
+        # Sendmany 10 OMEGA with subtract fee from amount
         node_0_bal = self.nodes[0].getbalance()
         node_1_bal = self.nodes[1].getbalance()
         self.log.info("test sendmany with subtract-fee-from-amt")

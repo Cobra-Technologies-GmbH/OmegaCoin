@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PIVX"
-            VALUE "FileDescription",    "omegacoind (OSS daemon/client for PIVX)"
+            VALUE "CompanyName",        "OMEGACOIN"
+            VALUE "FileDescription",    "omegacoind (OSS daemon/client for OMEGACOIN)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "omegacoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR

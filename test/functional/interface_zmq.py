@@ -8,7 +8,7 @@ import os
 import struct
 import time
 
-from test_framework.test_framework import PivxTestFramework, SkipTest
+from test_framework.test_framework import OmegacoinTestFramework, SkipTest
 from test_framework.mininode import CTransaction
 from test_framework.util import (assert_equal,
                                  bytes_to_hex_str,
@@ -35,7 +35,7 @@ class ZMQSubscriber:
         return body
 
 
-class ZMQTest (PivxTestFramework):
+class ZMQTest (OmegacoinTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
 
@@ -46,7 +46,7 @@ class ZMQTest (PivxTestFramework):
         except ImportError:
             raise SkipTest("python3-zmq module not available.")
 
-        # Check that pivx has been built with ZMQ enabled.
+        # Check that omegacoin has been built with ZMQ enabled.
         config = configparser.ConfigParser()
         if not self.options.configfile:
             self.options.configfile = os.path.abspath(os.path.join(os.path.dirname(__file__), "../config.ini"))

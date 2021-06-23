@@ -77,12 +77,12 @@
 #include <CoreFoundation/CoreFoundation.h>
 #endif
 
-const char * const PIVX_CONF_FILENAME = "pivx.conf";
-const char * const PIVX_PID_FILENAME = "pivx.pid";
-const char * const PIVX_MASTERNODE_CONF_FILENAME = "masternode.conf";
+const char * const OMEGACOIN_CONF_FILENAME = "omegacoin.conf";
+const char * const OMEGACOIN_PID_FILENAME = "omegacoin.pid";
+const char * const OMEGACOIN_MASTERNODE_CONF_FILENAME = "masternode.conf";
 
 
-// PIVX only features
+// OMEGACOIN only features
 // Masternode
 std::atomic<bool> fMasterNode{false};
 std::string strMasterNodeAddr = "";
@@ -466,7 +466,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "pivx";
+    const char* pszModule = "omegacoin";
 #endif
     if (pex)
         return strprintf(
@@ -485,13 +485,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\PIVX
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\PIVX
-// Mac: ~/Library/Application Support/PIVX
-// Unix: ~/.pivx
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\OMEGACOIN
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\OMEGACOIN
+// Mac: ~/Library/Application Support/OMEGACOIN
+// Unix: ~/.omegacoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "PIVX";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "OMEGACOIN";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -503,10 +503,10 @@ fs::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectories(pathRet);
-    return pathRet / "PIVX";
+    return pathRet / "OMEGACOIN";
 #else
     // Unix
-    return pathRet / ".pivx";
+    return pathRet / ".omegacoin";
 #endif
 #endif
 }
@@ -520,13 +520,13 @@ static RecursiveMutex csPathCached;
 static fs::path ZC_GetBaseParamsDir()
 {
     // Copied from GetDefaultDataDir and adapter for zcash params.
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PIVXParams
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PIVXParams
-    // Mac: ~/Library/Application Support/PIVXParams
-    // Unix: ~/.pivx-params
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\OMEGACOINParams
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\OMEGACOINParams
+    // Mac: ~/Library/Application Support/OMEGACOINParams
+    // Unix: ~/.omegacoin-params
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "PIVXParams";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "OMEGACOINParams";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -538,10 +538,10 @@ static fs::path ZC_GetBaseParamsDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectories(pathRet);
-    return pathRet / "PIVXParams";
+    return pathRet / "OMEGACOINParams";
 #else
     // Unix
-    return pathRet / ".pivx-params";
+    return pathRet / ".omegacoin-params";
 #endif
 #endif
 }
@@ -607,14 +607,14 @@ void initZKSNARKS()
         CFRelease(mainBundle);
 #else
         // Linux fallback path for debuild/ppa based installs
-        sapling_spend = "/usr/share/pivx/sapling-spend.params";
-        sapling_output = "/usr/share/pivx/sapling-output.params";
+        sapling_spend = "/usr/share/omegacoin/sapling-spend.params";
+        sapling_output = "/usr/share/omegacoin/sapling-output.params";
         if (fs::exists(sapling_spend) && fs::exists(sapling_output)) {
             fParamsFound = true;
         } else {
             // Linux fallback for local installs
-            sapling_spend = "/usr/local/share/pivx/sapling-spend.params";
-            sapling_output = "/usr/local/share/pivx/sapling-output.params";
+            sapling_spend = "/usr/local/share/omegacoin/sapling-spend.params";
+            sapling_output = "/usr/local/share/omegacoin/sapling-output.params";
         }
 #endif
         if (fs::exists(sapling_spend) && fs::exists(sapling_output))
@@ -719,7 +719,7 @@ fs::path GetConfigFile(const std::string& confPath)
 
 fs::path GetMasternodeConfigFile()
 {
-    fs::path pathConfigFile(gArgs.GetArg("-mnconf", PIVX_MASTERNODE_CONF_FILENAME));
+    fs::path pathConfigFile(gArgs.GetArg("-mnconf", OMEGACOIN_MASTERNODE_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile);
 }
 
@@ -819,7 +819,7 @@ std::string ArgsManager::GetChainName() const
 #ifndef WIN32
 fs::path GetPidFile()
 {
-    fs::path pathPidFile(gArgs.GetArg("-pid", PIVX_PID_FILENAME));
+    fs::path pathPidFile(gArgs.GetArg("-pid", OMEGACOIN_PID_FILENAME));
     return AbsPathForConfigVal(pathPidFile);
 }
 

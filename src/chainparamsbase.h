@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_CHAINPARAMSBASE_H
-#define PIVX_CHAINPARAMSBASE_H
+#ifndef OMEGACOIN_CHAINPARAMSBASE_H
+#define OMEGACOIN_CHAINPARAMSBASE_H
 
 #include <memory>
 #include <string>
@@ -12,7 +12,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between omegacoin-cli and omegacoind)
- * of a given instance of the Pivx system.
+ * of a given instance of the Omegacoin system.
  */
 class CBaseChainParams
 {
@@ -63,4 +63,4 @@ void SelectBaseParams(const std::string& chain);
  */
 std::string ChainNameFromCommandLine();
 
-#endif // PIVX_CHAINPARAMSBASE_H
+#endif // OMEGACOIN_CHAINPARAMSBASE_H

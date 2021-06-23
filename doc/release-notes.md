@@ -1,16 +1,16 @@
 (note: this is a temporary file, to be added-to by anybody, and moved to release-notes at release time)
 
-PIVX Core version *version* is now available from:  <https://github.com/pivx-project/pivx/releases>
+OMEGACOIN Core version *version* is now available from:  <https://github.com/Cobra-Technologies-GmbH/OmegaCoin/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/Cobra-Technologies-GmbH/OmegaCoin/issues>
 
 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or omegacoind/omegacoin-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/OMEGACOIN-Qt (on Mac) or omegacoind/omegacoin-qt (on Linux).
 
 Sapling Parameters
 ==================
@@ -22,21 +22,21 @@ For the following packages, no action is required by the user:
 - Windows installer `.exe` will automatically copy the files in the proper location.
 - Linux `PPA/Snap` installs will automatically copy the files in the proper location.
 
-For the other packages, the user must save the param files in the proper location, before being able to run PIVX v5.0.0:
+For the other packages, the user must save the param files in the proper location, before being able to run OMEGACOIN v5.0.0:
 - macOS/Linux `tar.gz` tarballs include a bash script (`install-params.sh`) to copy the parameters in the appropriate location.
-- Windows `.zip` users need to manually copy the files from the `share/pivx` folder to the `%APPDATA%\PIVXParams` directory.
+- Windows `.zip` users need to manually copy the files from the `share/omegacoin` folder to the `%APPDATA%\OMEGACOINParams` directory.
 - self compilers can run the script from the repository sources (`params/install-params.sh`), or copy the files directly from the `params` subdirectory.
 
 Compatibility
 ==============
 
-PIVX Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.12+, and Windows 7 and later.
+OMEGACOIN Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.12+, and Windows 7 and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
 From OMEGACOIN Core 6.0 onwards, macOS versions earlier than 10.12 are no longer supported.
 
-PIVX Core should also work on most other Unix-like systems but is not frequently tested on them.
+OMEGACOIN Core should also work on most other Unix-like systems but is not frequently tested on them.
 
 
 Notable Changes
@@ -47,12 +47,12 @@ Notable Changes
 
 Cold-Staking Re-Activation
 --------------------------
-PIVX Core v6.0.0 includes a fix for the vulnerability identified within the cold-staking protocol (see PR [#2258](https://github.com/PIVX-Project/PIVX/pull/2258)).
+OMEGACOIN Core v6.0.0 includes a fix for the vulnerability identified within the cold-staking protocol (see PR [#2258](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/pull/2258)).
 Therefore the feature will be re-enabled on the network, via `SPORK_19`, shortly after the upgrade enforcement.
 
 ### Protocol changes
 
-A new opcode (`0xd2`) is introduced (see PR [#2275](https://github.com/PIVX-Project/PIVX/pull/2275)). It enforces the same rules as the legacy cold-staking opcode, but without allowing a "free" script for the last output of the transaction.
+A new opcode (`0xd2`) is introduced (see PR [#2275](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/pull/2275)). It enforces the same rules as the legacy cold-staking opcode, but without allowing a "free" script for the last output of the transaction.
 This is in accord with the consensus change introduced with the "Deterministic Masternodes" update, as masternode/budget payments are now outputs of the *coinbase* transaction (rather than the *coinstake*), therefore a "free" output for the coinstake is no longer needed.
 The new opcode takes the name of `OP_CHECKCOLDSTAKEVERIFY`, and the legacy opcode (`0xd1`) is renamed to `OP_CHECKCOLDSTAKEVERIFY_LOF` (last-output-free).
 Scripts with the old opcode are still accepted on the network (the restriction on the last-output is enforced after the script validation in this case), but the client creates new delegations with the new opcode, by default, after the upgrade enforcement.
@@ -61,13 +61,13 @@ Scripts with the old opcode are still accepted on the network (the restriction o
 Multi-wallet support
 --------------------
 
-PIVX Core now supports loading multiple, separate wallets (See [PR #2337](https://github.com/PIVX-Project/PIVX/pull/2337)). The wallets are completely separated, with individual balances, keys and received transactions.
+OMEGACOIN Core now supports loading multiple, separate wallets (See [PR #2337](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/pull/2337)). The wallets are completely separated, with individual balances, keys and received transactions.
 
-Multi-wallet is enabled by using more than one `-wallet` argument when starting PIVX client, either on the command line or in the pivx.conf config file.
+Multi-wallet is enabled by using more than one `-wallet` argument when starting OMEGACOIN client, either on the command line or in the omegacoin.conf config file.
 
 **In omegacoin-qt, only the first wallet will be displayed and accessible for creating and signing transactions.** GUI selectable multiple wallets will be supported in a future version. However, even in 6.0 other loaded wallets will remain synchronized to the node's current tip in the background.
 
-PIVX Core 6.0.0 contains the following changes to the RPC interface and omegacoin-cli for multi-wallet:
+OMEGACOIN Core 6.0.0 contains the following changes to the RPC interface and omegacoin-cli for multi-wallet:
 
 * When running OMEGACOIN Core with a single wallet, there are **no** changes to the RPC interface or `omegacoin-cli`. All RPC calls and `omegacoin-cli` commands continue to work as before.
 * When running OMEGACOIN Core with multi-wallet, all *node-level* RPC methods continue to work as before. HTTP RPC requests should be send to the normal `<RPC IP address>:<RPC port>` endpoint, and `omegacoin-cli` commands should be run as before. A *node-level* RPC method is any method which does not require access to the wallet.
@@ -85,7 +85,7 @@ GUI changes
 
 ### RPC-Console
 
-The GUI RPC-Console now accepts "parenthesized syntax", nested commands, and simple queries (see [PR #2282](https://github.com/PIVX-Project/PIVX/pull/2282).
+The GUI RPC-Console now accepts "parenthesized syntax", nested commands, and simple queries (see [PR #2282](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/pull/2282).
 A new command `help-console` (available only on the GUI console) documents how to use it:
 
 ```
@@ -134,7 +134,7 @@ Low-level RPC changes
 
 ### Query options for listunspent RPC
 
-- The `listunspent` RPC now takes a `query_options` argument (see [PR #2317](https://github.com/PIVX-Project/PIVX/pull/2317)), which is a JSON object
+- The `listunspent` RPC now takes a `query_options` argument (see [PR #2317](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/pull/2317)), which is a JSON object
   containing one or more of the following members:
   - `minimumAmount` - a number specifying the minimum value of each UTXO
   - `maximumAmount` - a number specifying the maximum value of each UTXO
@@ -142,7 +142,7 @@ Low-level RPC changes
   - `minimumSumAmount` - a number specifying the minimum sum value of all UTXOs
 
 - The `listunspent` RPC also takes an additional boolean argument `include_unsafe` (true by default) to optionally exclude "unsafe" utxos.
-  An unconfirmed output from outside keys is considered unsafe (see [PR #2351](https://github.com/PIVX-Project/PIVX/pull/2351)).
+  An unconfirmed output from outside keys is considered unsafe (see [PR #2351](https://github.com/Cobra-Technologies-GmbH/OmegaCoin/pull/2351)).
 
 - The `listunspent` output also shows whether the utxo is considered safe to spend or not.
 
@@ -171,7 +171,7 @@ The outputs are specified by their zero-based index, before any change output is
 
 For `sendtoaddress`, the new parameter is called `subtract_fee` and it is a simple boolean.
 
-In all cases those recipients will receive less PIV than you enter in their corresponding amount field.
+In all cases those recipients will receive less OMEGA than you enter in their corresponding amount field.
 If no outputs/addresses are specified, the sender pays the fee as usual.
 
 ### Show wallet's auto-combine settings in getwalletinfo
@@ -186,7 +186,7 @@ The `autocombine` RPC command has been replaced with specific set/get commands (
     ```  
     setautocombinethreshold enable ( value )
     This will set the auto-combine threshold value.
-    Wallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same PIVX address
+    Wallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same OMEGACOIN address
     When auto-combine runs it will create a transaction, and therefore will be subject to transaction fees.
     
     Arguments:
@@ -196,7 +196,7 @@ The `autocombine` RPC command has been replaced with specific set/get commands (
     Result:
     {
       "enabled": true|false,     (boolean) true if auto-combine is enabled, otherwise false
-      "threshold": n.nnn,        (numeric) auto-combine threshold in PIV
+      "threshold": n.nnn,        (numeric) auto-combine threshold in OMEGA
       "saved": true|false        (boolean) true if setting was saved to the database, otherwise false
     }
     ```
@@ -209,7 +209,7 @@ The `autocombine` RPC command has been replaced with specific set/get commands (
     Result:
     {
       "enabled": true|false,    (boolean) true if auto-combine is enabled, otherwise false
-      "threshold": n.nnn         (numeric) the auto-combine threshold amount in PIV
+      "threshold": n.nnn         (numeric) the auto-combine threshold amount in OMEGA
     }
     ```
 
@@ -228,8 +228,8 @@ Configuration changes
 
 It is now possible for a single configuration file to set different options for different networks. This is done by using sections or by prefixing the option with the network, such as:
 
-    main.uacomment=pivx
-    test.uacomment=pivx-testnet
+    main.uacomment=omegacoin
+    test.uacomment=omegacoin-testnet
     regtest.uacomment=regtest
     [main]
     mempoolsize=300
@@ -291,4 +291,4 @@ Detailed release notes follow. This overview includes changes that affect behavi
 Thanks to everyone who directly contributed to this release:
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivx-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/omegacoin-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

@@ -2,8 +2,8 @@
 // Copyright (c) 2021 The PIVX Core developers
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_PROVIDERTX_H
-#define PIVX_PROVIDERTX_H
+#ifndef OMEGACOIN_PROVIDERTX_H
+#define OMEGACOIN_PROVIDERTX_H
 
 #include "primitives/transaction.h"
 #include "consensus/validation.h"
@@ -74,4 +74,4 @@ bool CheckProRegTx(const CTransaction& tx, const CBlockIndex* pindexPrev, CValid
 bool GetProRegCollateral(const CTransactionRef& tx, COutPoint& outRet);
 
 
-#endif  //PIVX_PROVIDERTX_H
+#endif  //OMEGACOIN_PROVIDERTX_H
