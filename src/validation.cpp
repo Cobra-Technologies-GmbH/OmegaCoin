@@ -3227,7 +3227,7 @@ bool AcceptBlock(const CBlock& block, CValidationState& state, CBlockIndex** ppi
                     }
                 }
                 if(tx.IsCoinStake()) continue;
-                if(hasOMEGAGAInputs) {
+                if(hasOMEGAInputs) {
                     // Check if coinstake input is double spent inside the same block
                     for (const CTxIn& omegaIn : omegaInputs)
                         if(omegaIn.prevout == in.prevout)

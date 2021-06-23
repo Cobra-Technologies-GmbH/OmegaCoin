@@ -45,7 +45,7 @@ uint256 ovkForShieldingFromTaddr(HDSeed& seed) {
             NULL, 0, // No key.
             64,
             NULL,    // No salt.
-            OMEGACOIN_TADDR_OVK_PERSONAL) == 0);
+            PIVX_TADDR_OVK_PERSONAL) == 0);
     crypto_generichash_blake2b_update(&state, rawSeed.data(), rawSeed.size());
     auto intermediate = std::array<unsigned char, 64>();
     crypto_generichash_blake2b_final(&state, intermediate.data(), 64);
