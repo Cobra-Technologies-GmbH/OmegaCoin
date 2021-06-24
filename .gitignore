@@ -172,3 +172,5 @@ ui_*
 omegacoind-new-gui.*
 /cov-int/
 null.d
+gmon.out
+src/wallet_test.dat

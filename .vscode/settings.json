@@ -1,5 +1,12 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
     "makefile.preConfigureScript": ".vscode/preMakefileDebugScript.sh",
-    "makefile.alwaysPreConfigure": true
+    "makefile.alwaysPreConfigure": true,
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/swtrse/OmegaCoin/src/test",
+            "binaryPath": "/home/swtrse/OmegaCoin/src/test/test_omegacoin",
+            "binaryArgs": []
+        }
+    ]
 }
