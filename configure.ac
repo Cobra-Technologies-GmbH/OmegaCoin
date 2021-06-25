@@ -559,7 +559,7 @@ case $host in
          dnl It's safe to add these paths even if the functionality is disabled by
          dnl the user (--without-wallet or --without-gui for example).
 
-         bdb_prefix=`$BREW --prefix berkeley-db4 2>/dev/null`
+         bdb_prefix=`$BREW --prefix berkeley-db5 2>/dev/null`
          qt5_prefix=`$BREW --prefix qt5 2>/dev/null`
          gmp_prefix=`$BREW --prefix gmp 2>/dev/null`
          if test x$bdb_prefix != x; then
@@ -1026,7 +1026,7 @@ fi
 
 if test x$enable_wallet != xno; then
     dnl Check for libdb_cxx only if wallet enabled
-    BITCOIN_FIND_BDB48
+    BITCOIN_FIND_BDB53
 fi
 
 dnl Check for libminiupnpc (optional)

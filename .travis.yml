@@ -266,7 +266,7 @@ jobs:
             - ccache
             - autoconf
             - automake
-            - berkeley-db4
+            - berkeley-db5
             - libtool
             - boost
             - miniupnpc

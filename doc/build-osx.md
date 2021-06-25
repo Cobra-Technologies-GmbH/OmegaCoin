@@ -16,7 +16,7 @@ Then install [Homebrew](https://brew.sh).
 Dependencies
 ----------------------
 
-    brew install autoconf automake berkeley-db4 libtool boost miniupnpc pkg-config python3 qt5 zmq libevent qrencode gmp libsodium rust
+    brew install autoconf automake berkeley-db5 libtool boost miniupnpc pkg-config python3 qt5 zmq libevent qrencode gmp libsodium rust
 
 See [dependencies.md](dependencies.md) for a complete overview.
 
@@ -32,11 +32,11 @@ pip3 install ds_store mac_alias
 Berkeley DB
 -----------
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself,
-you can use [the installation script included in contrib/](/contrib/install_db4.sh)
+you can use [the installation script included in contrib/](/contrib/install_db5.sh)
 like so:
 
 ```shell
-./contrib/install_db4.sh .
+./contrib/install_db5.sh .
 ```
 
 from the root of the repository.

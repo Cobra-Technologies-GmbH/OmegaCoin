@@ -41,7 +41,7 @@ Optional dependencies:
  Library     | Purpose          | Description
  ------------|------------------|----------------------
  miniupnpc   | UPnP Support     | Firewall-jumping support
- libdb4.8    | Berkeley DB      | Wallet storage (only needed when wallet enabled)
+ libdb5.3    | Berkeley DB      | Wallet storage (only needed when wallet enabled)
  qt          | GUI              | GUI toolkit (only needed when GUI enabled)
  univalue    | Utility          | JSON parsing and encoding (bundled version will be used unless --with-system-univalue passed to configure)
  libzmq3     | ZMQ notification | Optional, allows generating ZMQ notifications (requires ZMQ version >= 4.0.0)
@@ -73,19 +73,11 @@ Now, you can either build from self-compiled [depends](/depends/README.md) or in
 
     sudo apt-get install libgmp-dev libevent-dev libboost-all-dev libsodium-dev cargo
 
-BerkeleyDB is required for the wallet.
-
- **For Ubuntu only:** db4.8 packages are available [here](https://launchpad.net/~omegacoin/+archive/omegacoin).
- You can add the repository using the following command:
-
-    sudo apt-get install software-properties-common
-    sudo add-apt-repository ppa:omegacoin/omegacoin
-    sudo apt-get update
-    sudo apt-get install libdb4.8-dev libdb4.8++-dev
+BerkeleyDB 5.3 is required for the wallet.
 
 Ubuntu and Debian have their own libdb-dev and libdb++-dev packages, but these will install
-BerkeleyDB 5.1 or later. This will break binary wallet compatibility with the distributed executables, which
-are based on BerkeleyDB 4.8. If you do not care about wallet compatibility,
+BerkeleyDB 5.3 or later. This will break binary wallet compatibility with the distributed executables, which
+are based on BerkeleyDB 5.3. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
 Otherwise, you can build from self-compiled `depends` (see above).
@@ -123,7 +115,7 @@ built by default.
 
 Build requirements:
 
-    sudo dnf install which gcc-c++ libtool make autoconf automake libevent-devel boost-devel libdb4-devel libdb4-cxx-devel gmp-devel libsodium-devel cargo python3
+    sudo dnf install which gcc-c++ libtool make autoconf automake libevent-devel boost-devel libdb5-devel libdb5-cxx-devel gmp-devel libsodium-devel cargo python3
 
 Optional:
 
@@ -162,11 +154,11 @@ To build:
 Berkeley DB
 -----------
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself,
-you can use [the installation script included in contrib/](/contrib/install_db4.sh)
+you can use [the installation script included in contrib/](/contrib/install_db5.sh)
 like so:
 
 ```shell
-./contrib/install_db4.sh `pwd`
+./contrib/install_db5.sh `pwd`
 ```
 
 from the root of the repository.
